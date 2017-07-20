@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cd49be11-7bca-4d4a-9266-f35f16e9e239" name="promate.loc" url="http://bc254240.ftp.ukraine.com.ua">
+        <fileTransfer host="bc254240.ftp.ukraine.com.ua" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
