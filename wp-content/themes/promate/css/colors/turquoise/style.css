@@ -1,0 +1,372 @@
+#less-content-separator {
+  content: "separator";
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1bbc9b;
+}
+.progress-bar::before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9px 0 0 9px;
+  border-color: transparent transparent transparent #18a689;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #117964 !important;
+  border-color: #0e6351 !important;
+}
+.jv-module.logo span::before,
+.responsive-layout--logo span::before {
+  border-color: transparent transparent #19af90 transparent;
+}
+.jv-module.logo span::after,
+.responsive-layout--logo span::after {
+  border-color: #1ed2ad transparent transparent transparent;
+}
+.jv-module.logo span span::before,
+.responsive-layout--logo span span::before {
+  border-color: #179d81 transparent transparent transparent;
+}
+.jv-module.logo span span::after,
+.responsive-layout--logo span span::after {
+  background-color: #1bbc9b;
+}
+.brand-primary-color,
+body.page-404 h1.titlePage,
+.input-group .input-group-addon,
+.breadcrumb-wrapper .titlePage span:first-child,
+ul.jvlatestnews-pagination > li a:hover,
+.testimonials-list-item-author-name,
+.jv-ajax-cart--item-title a:hover,
+.jv-ajax-cart--item-remove:hover,
+.jv-ajax-cart--item-remove:focus,
+.jv-ajax-cart--item-remove:active,
+.jv-login--wrapper .input-group-addon,
+.jv-login--toolbar,
+.jv-login--status-logout input[type="submit"],
+.jvcontact-form .input-group .input-group-addon,
+.jv-module.vm-brand ul li a:hover,
+.jv-module.vm-brand ul li a:active,
+.jv-module.box-lastest-news .jvlastestnews-items-item-title a:hover,
+.jv-module.vertical-menu ul.fxmenu li.level1 > a:hover,
+.jv-module.vertical-menu ul.fxmenu li.level1 > a:focus,
+.k2 .ul li .tcLink:hover,
+.k2TopCommentersBlock ul li .tcLink:hover,
+.k2LatestCommentsBlock ul li .tcLink:hover,
+.k2ItemsBlock .k2item-title:hover,
+.k2CategoriesListBlock > ul > li > a:hover,
+.k2CategoriesListBlock > ul > li > ul > li a:hover,
+.k2TagCloudBlock a:hover,
+.k2ArchivesBlock li a:hover,
+.k2AuthorsListBlock li .abAuthorLatestItem:hover,
+.k2BreadcrumbsBlock.light a:hover,
+.k2BreadcrumbsBlock.transparent > a:hover,
+.k2LoginBlock form .input-group-addon,
+.k2UsersBlock .ubUserName:hover,
+.k2item-title-link:hover,
+.k2item-meta-item,
+.k2item-readmore:hover,
+.k2item-author-name a:hover,
+.k2item-author-latest li a:hover,
+.k2item-comment-name,
+.k2item-comment-toolbar a:hover,
+.k2item-commentsform .input-group-addon,
+.k2item-link-title a:hover,
+.jv-module .k2CategoriesListBlock > ul > li .accordion-icon:hover,
+.jv-module.jv-module-homepage2 .k2CategoriesListBlock > ul > li .accordion-icon:hover,
+.itemContainer ul.catItemToolbar,
+html .registration .red,
+html .registration .star,
+.popup-added .productdetails-view .product-related .product-field .product-field-display a:hover,
+.cart-view .vm-div-pricelist .cart-product-name a:hover,
+.vm-single-info-review a:hover,
+.vm-single-related-product .related-products .product-related-content .product-related-item a:hover,
+.vm-single-reviews-list .reviews-item .name,
+.vm-product-name a:hover,
+.vm-view-user-edit .shipto-list > ul > li > a:last-child:hover,
+.vmgroupsingle .vmproduct-item-content h3 a:hover,
+ul.vm-menu-category li.active > a,
+ul.vm-menu-category li a:hover,
+.product-list-vertical .vm-product:hover .vm-product-name a,
+.product-list-vertical .vm-product:focus .vm-product-name a,
+.jv-module.right-vm-brand a:focus,
+.jv-module.right-vm-brand a:hover,
+.category .vmcate-name a:hover,
+.jv-module.panel-shop a:hover,
+.jv-module.panel-shop a:active,
+.jv-module.panel-shop a.active,
+.jv-module.panel-extra-info .extra-info--block span i,
+.footer-group a:hover,
+.jv-module.footer-jvtwitter a:hover,
+#block-panel .panel-shop-2 a:hover,
+.jv-module.logo-center .jv-ajaxsearchpro .jv-ajaxsearchpro--form input,
+.jv-module.logo-center .jv-ajaxsearchpro .jv-ajaxsearchpro--form button,
+.jv-module.logo-center .jv-ajax-cart--dropdown-toolbar .jv-ajax-cart--toolbar-icon,
+.welcome-to-venedor .feature-item:hover .fa,
+.welcome-to-venedor .feature-item:focus .fa,
+.person-name:hover,
+.person-control-name:hover,
+html .jv-ajax-cart--item-price_main,
+html .jv-ajax-cart--footer-bill,
+.jv-module.panel-shop a::before,
+.jv-module.panel-extra-info-2 div.extra-info--block.music-icon::before,
+.jv-module.panel-extra-info .extra-info--block.music-icon-1::before,
+.jv-instagram-custom .jvins-item--tool,
+a,
+#block-mainnav .jv-module ul.fxmenu li.level1.active,
+#block-mainnav .jv-module ul.fxmenu li.level1:hover,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem li.fxsubmenu.active,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem li.fxsubmenu:hover,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem li.fxsubmenu.fxcolumn:not(.hasChild):hover li:hover,
+.jv-module.lookbook.lookbook-homepage1 h2,
+.ourteam-layout-2 .person-control-position,
+.ourteam-layout-2 .person-position {
+  color: #1bbc9b;
+}
+.brand-primary-background,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem a.levelsub::before,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem span.levelsub::before,
+.progress-bar,
+div.slider-track .slider-selection,
+div.slider-track .slider-handle,
+.owl-controls .owl-buttons > div:hover,
+.owl-controls .owl-buttons > div:focus,
+.owl-controls .owl-buttons > div:active,
+.owl-page.active span,
+#switcher .show-switcher-icon,
+#switcher #demo-list-box li a.active::before,
+.jv-module-left-title .title-module span::after,
+.jv-module-center-bottom-title .title-module span::after,
+.jv-line::after,
+ul.default a::before,
+#toTop,
+.pagination li.active a.current,
+.chzn-container.chzn-container-single .chzn-drop .chzn-results li:hover,
+.chzn-container.chzn-container-active .chzn-drop .chzn-results li:hover,
+.chzn-container.chzn-container-single .chzn-drop .chzn-results li.result-selected,
+.chzn-container.chzn-container-active .chzn-drop .chzn-results li.result-selected,
+.btn.jmodedit .icon-edit::before,
+.panel-why-choose-us.active .panel-title i,
+.jvlastestnews-intro .jvlastestnews-items-item-thumbnail::after,
+.jv-ajax-cart--dropdown-toolbar,
+.jv-ajax-cart--footer-toolbar button,
+.jv-ajaxsearchpro--form button,
+.jv-module.vm-recommended .vm-product .btn:hover,
+.jv-module.vm-recommended .vm-product .btn:focus.jv-module.vm-recommended .vm-product .btn.active,
+.sidebar .jv-module.vm-filter .custom h3.title-module:hover::after,
+.sidebar .jv-module.vm-filter .custom h3.title-module:focus::after,
+.k2CategoriesListBlock .arrow:hover,
+.k2BreadcrumbsBlock,
+.k2list h1 span::after,
+.k2item-author-latest li:before,
+.itemListView-Default .catItemWrapper .catItemQuickInfo .catItemMediaType,
+.cart-view .accordion-header .accordion-btn:hover,
+#arrow .hover,
+.vm-view .vm-listing .vm-tools-order .orderlistcontainer .orderlist > div a:hover,
+.vm-product-media-badges > div.b-new,
+.orderDetail #ui-tabs #tabs li.current,
+.orderDetail #ui-tabs #tabs li:hover,
+.vm-view-user-edit #ui-tabs #tabs li.current,
+.vm-view-user-edit #ui-tabs #tabs li:hover,
+ul.vm-menu-category li.active > i,
+.vm-product .jv-custom--product-quickview .fa:hover,
+.vm-product .jv-custom--product-quickview .fa:focus,
+div.project-sort .portfolioFilter .filter-link a.current,
+.portfolio-custom .project-item-content .btn,
+.jv-module.panel-language li,
+.jv-module.panel-language li > div ul li:hover,
+.jv-module.panel-language li > div ul li .active,
+.jv-module.footer-jvtwitter,
+.jv-module.our-product ul.nav-tabs > li.active a,
+.masonry .grid-item-wrapper,
+.masonry .owl-carousel .owl-pagination .owl-page.active span,
+.jvlatestnews.jvlatestnews--theme_accordion .jvlastestnews-items-item .panel-heading i,
+.jv-ajaxsearchpro .jv-ajaxsearchpro--form .jv-ajaxsearchpro--icon,
+.jv-ajaxsearchpro.active .jv-ajaxsearchpro--form .jv-ajaxsearchpro--icon,
+div.jv-ajax-cart--dropdown.open .jv-ajax-cart--dropdown-toolbar,
+.slideshow-list::before,
+#block-mainnav .jv-module.shop-category-megamenu ul.vm-menu-category ul a::before,
+div.k2TagCloudBlock a:hover,
+div.k2TagCloudBlock a:focus,
+.jv-module.currency-top .chzn-container .chzn-single,
+.jv-module.currency-top .chzn-results .highlighted,
+a.flexMenuToggle,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem a.levelsub::before,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem span.levelsub::before,
+.cf_wrapp_all .cf_slider_gutter_m .slider_bkg_img,
+.cf_wrapp_all .knob_wrapper .cf_filtering_knob,
+.jv-module.welcome-homepage2 .jvlastestnews-items-intro .jvlastestnews-items-item-title::after,
+.jv-breadcrumb.jv-module,
+.titlePage::after,
+.jv-module .title-module span::after,
+.pagination-list > div > a:hover,
+.pagination-list > div > span:hover,
+.chzn-with-drop.chzn-container.chzn-container-single .chzn-single div,
+.chzn-with-drop.chzn-container.chzn-container-active .chzn-single div,
+.chzn-container.chzn-container-single .chzn-single:hover div,
+.chzn-container.chzn-container-active .chzn-single:hover div,
+.vm-single-info-cart .addtocart-bar .quantity-box button.quantity-controls:hover,
+.elastislide-vertical nav span:hover,
+.vm-view .vm-listing .vm-tools-order .orderlistcontainer:hover .activeOrder:before,
+.vm-view .vm-listing .vm-tools-layout a.active,
+.vm-view .vm-listing .vm-tools-layout a:hover,
+.vm-product-addcart input.addtocart-button:hover,
+.vm-product-addcart-inner .btn,
+.simple-pagination li.active a.current,
+.footer-group #block-bottomb ul a::before,
+.jv-module.page-aboutus.testimonials .title-module span::after,
+.welcome-to-venedor .jvlastestnews-items-item-title .title-module span::after,
+.jv-module.testimonials-homepage-2 .title-module span::after,
+.jv-module.subscription.subscription-homepage2 .title-module span::after {
+  background-color: #1bbc9b;
+}
+#toTop,
+.brand-primary-border,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.btn-default:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+.btn-default:focus,
+.owl-controls .owl-buttons > div:hover,
+.owl-controls .owl-buttons > div:focus,
+.owl-controls .owl-buttons > div:active,
+.pagination li.active a.current,
+.jv-ajax-cart--dropdown-content,
+.jv-module.vm-recommended .vm-product:hover,
+.jv-module.vertical-menu ul.fxmenu li.level1.hasChild > div > div,
+.jv-module.vertical-menu ul.fxmenu li.level1.hasChild > div > ul,
+.k2CategoriesListBlock .arrow:hover,
+.categories-list-item .categories-list-item-content,
+.cart-view .accordion-header .accordion-btn:hover,
+.page-checkout-done .vm-button-correct:hover,
+.page-checkout-done .vm-button-correct:focus,
+#arrow .hover,
+.vendor-details-view-link a:hover,
+.vendor-details-view-link a:focus,
+.orderDetail #ui-tabs #tabs li.current,
+.orderDetail #ui-tabs #tabs li:hover,
+.vm-view-user-edit #ui-tabs #tabs li.current,
+.vm-view-user-edit #ui-tabs #tabs li:hover,
+.vm-view-user-edit .shipto-list > a:hover,
+.vm-view-user-edit .shipto-list > a:focus,
+.jv-module.panel-shop::before,
+.welcome-to-venedor .feature-item:hover .fa,
+.welcome-to-venedor .feature-item:focus .fa,
+#block-mainnav .jv-module ul.fxmenu li.level1.hasChild .fx-subitem,
+.pagination-list > div > a:hover,
+.pagination-list > div > span:hover,
+.chzn-with-drop.vm-chzn-select .select2-choice div,
+.vm-chzn-select .select2-choice:hover div,
+.chzn-with-drop.chzn-container.chzn-container-single .chzn-single div,
+.chzn-container.chzn-container-single .chzn-single:hover div,
+.vm-single-info-cart .addtocart-bar .quantity-box button.quantity-controls:hover,
+.elastislide-vertical nav span:hover,
+.vm-view .vm-listing .vm-tools-order .orderlistcontainer:hover .activeOrder:before,
+.vm-view .vm-listing .vm-tools-layout a.active,
+.vm-view .vm-listing .vm-tools-layout a:hover,
+.vm-product-addcart input.addtocart-button:hover,
+.vm-product-addcart-inner .btn,
+.simple-pagination li.active a.current {
+  border-color: #1bbc9b;
+}
+.brand-primary-color-i,
+.project-sort .portfolioFilter .filter-link a.current,
+.project-sort .portfolioFilter .filter-link a:hover {
+  color: #1bbc9b !important;
+}
+.brand-primary-background-i,
+.btn-primary,
+.tp-bullets.preview1 .bullet:hover,
+.tp-bullets.preview1 .bullet.selected,
+.tp-bullets.preview1 .bullet.active,
+.jv-ajaxsearchpro--form input {
+  background-color: #1bbc9b !important;
+}
+.brand-primary-border-i,
+.btn-primary {
+  border-color: #1bbc9b !important;
+}
+.brand-primary-color-darken-8,
+.masonry .grid-item-block .customlink:hover,
+.masonry .grid-item-block a.customlink:hover {
+  color: #16987e;
+}
+.brand-primary-color-darken-15,
+a:hover,
+a:focus {
+  color: #117964;
+}
+.brand-primary-color-darken-30,
+.masonry-menu-category .grid-item-content:hover h3 a,
+.masonry-menu-category .grid-item-content:focus h3 a {
+  color: #08362d;
+}
+.brand-primary-color-darken-50,
+.project-item a:hover {
+  color: #000000;
+}
+.brand-primary-background-darken-10,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.btn-default:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+.btn-default:focus,
+.page-checkout-done .vm-button-correct:hover,
+.page-checkout-done .vm-button-correct:focus,
+.vendor-details-view-link a:hover,
+.vendor-details-view-link a:focus,
+.vm-view-user-edit .shipto-list > a:hover,
+.vm-view-user-edit .shipto-list > a:focus {
+  background-color: #158f76;
+}
+.brand-primary-border-lighten-7,
+.jvcontact-information ul li i {
+  border-color: #1fdbb5;
+}
+.brand-primary-background-lighten-7,
+.jvcontact-information ul li i,
+.vm-product-media-price {
+  background-color: #1fdbb5;
+}
+.brand-primary-background-lighten-13,
+.vm-product-media-price {
+  background-color: #37e2bf;
+}
+.brand-primary-color-lighten-30,
+.jv-module.footer-jvtwitter a,
+.jv-module.footer-jvtwitter .jvTweetCreated {
+  color: #83edd7;
+}
+.brand-primary-background-fadeout-10,
+.masonry-menu-category .grid-item-content:hover,
+.masonry-menu-category .grid-item-content:focus {
+  background-color: rgba(27, 188, 155, 0.9);
+}
+.brand-primary-background-fadeout-25,
+.project-item-content-wrapper::before {
+  background-color: rgba(27, 188, 155, 0.75);
+}
+.brand-primary-background-fadeout-90,
+.manufacturer-view-default .vmManufacturerItem a span {
+  background-color: rgba(27, 188, 155, 0.1);
+}
+body #mainsite .jv-module.jv-filter-vm .jv-customfields_vm h3:hover::after,
+body #mainsite .jv-module.jv-filter-vm .jv-customfields_vm h3:focus::after,
+body #mainsite .jv-module.jv-filter-vm .jv-customfields_vm h3:active::after {
+  background-color: #1bbc9b;
+}
+body #mainsite .currency-top select {
+  border-top: 4px solid #1bbc9b;
+  background: #1bbc9b;
+}

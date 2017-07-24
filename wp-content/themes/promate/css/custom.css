@@ -1,0 +1,114 @@
+@media (max-width: 992px) {
+    .position-search, #block-header, .position-panel-full-site {
+        display: none;
+    }
+
+    .jv-module.logo {
+        top: 5px;
+        left: calc(50% - 124px);
+        position: relative;
+    }
+
+    .responsive-headinfo {
+        display: none;
+    }
+
+    .headroom--not-top {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+    .shop-category-megamenu li.no-product {
+        display: block !important;
+    }
+
+    .shop-category-megamenu ul ul li {
+        padding-left: 30px;
+    }
+
+    .shop-category-megamenu .no-product > a {
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: 993px) {
+    .responsive-layout {
+        display: none;
+    }
+
+    .headroom--not-top #block-mainnav ul.fxmenu, .headroom--not-top .jv-module.logo, .headroom--not-top .block-menu-search .position-search {
+        line-height: 50px;
+    }
+
+    .headroom--not-top #block-mainnav::before, .headroom--not-top #block-mainnav ul.fxmenu, .headroom--not-top #block-mainnav .jv-module.menu-homepage-1::before {
+        /*height: 50px;*/
+    }
+
+    .headroom--not-top .jv-ajaxsearchpro--result {
+        top: 50px;
+    }
+}
+
+.slideshow-title {
+    text-transform: uppercase;
+    color: #444645;
+    font-size: 35px;
+}
+
+.slideshow-description {
+    color: #444645;
+    font-size: 22px;
+    line-height: 11px;
+}
+
+.slideshow-link {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.slideshow-link a {
+    font-size: inherit;
+}
+
+.break-line {
+    line-height: normal;
+}
+
+.slideshow-link .btn {
+    font-size: 15px;
+}
+
+#block-mainnav .jv-module ul.fxmenu li.level1 .level1, .sidebar .jv-module .jvlastestnews-items-item-title, .testimonials-list-item-text h4, .testimonials-list-item-author-name, .vm-product-media-badges > div, .vm-single h1, .vm-product-name, .product-related-item a, .categories-related-item a, .product-field-display a, .k2item-date, .k2item-title, .person-control-name, .welcome-to-venedor .feature-content .jv-line, .welcome-to-venedor label, .vmheader, .vmproduct-item-content h3, .title-module small, .k2CategoriesListBlock > ul > li > a, .k2ArchivesBlock a, .abAuthorName, .tcLink, th, #tabs li, .vm-brand, .sidebar .jv-module-homepage2.jv-module h3.title-module, .vertical-menu .fx-title, .jv-module.lookbook h2, .grid-item-block h3, .masonry-col-2 h3.title-module, .panel-title, .project-item-title, .category .vmcate-name, .titlePage-desc, .vm-menu-category, .reponsive-menu, .catItemMediaType-Date, .catItemTitle, body.page-404 .des, .project-detail .jv-module .title-module, .project-detail .portfolio-related .jv-module .title-module small, .jv-ajax-cart--item-title, .jv-ajax-cart--footer-bill, .compare-title, .module-description, .box-lastest-news-block1 .jvlastestnews-items-item-title, .ourteam-layout-2 .title-module.person-name, .jv-module.slideshow2 .slideshow-title, .cart-total-bill {
+    font-family: 'PT Sans', serif;
+}
+
+h1, h2, h3, h4, h5, h6, .breadcrumb-wrapper, .slideshow-title, .project-detail .portfolio-related .jv-module .title-module {
+    font-family: 'Oswald', serif;
+}
+
+.vm-product-media-price, .footer-group #block-bottomb, .product-related-item .PricesalesPrice, .vm-single-tabs .nav-tabs li a, .product-field-display .PricesalesPrice, .vmproduct-item-content .product-price, .jv-module.our-product ul.nav-tabs > li a, .slideshow-description, .price-value, .accordion-title, .vertical-menu .fxmenu h3.title-module, .jv-module.lookbook h3, .grid-item-block .des, body.page-404 h1.titlePage, .filter-link, .vm-filter .title-module, .slideshow-list, .fx-subitem li.level2 .level2, .jv-module .k2CategoriesListBlock > ul > li ul a, .desc-custom, #block-mainnav .jv-module.shop-category-megamenu ul.vm-menu-category > li > a, .cf_wrapp_all, .tab-container-left .nav-tabs, .jv-filter-vm {
+    font-family: 'Gudea', serif;
+}
+
+.customlink span {
+    font-family: 'Ro/kkitt', serif;
+}
+
+.woocommerce-checkout ul li label {
+    font-weight: 400 !important;
+}
+
+.vm-product .vm-product-name ._ffn_textNode {
+    font-weight: 400 !important;
+}
+
+.front_page_content h3 ._ffn_textNode, .front_page_partner_slider h3 ._ffn_textNode, #subscribe-wrapper ._ffn_textNode {
+    font-weight: 400 !important;
+}
+
+.footer-group .block h3 ._ffn_textNode {
+    font-weight: 400 !important;
+}

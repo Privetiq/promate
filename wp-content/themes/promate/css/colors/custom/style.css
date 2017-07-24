@@ -1,0 +1,56 @@
+.button-green,.hikashop_products_pagination ul.pagination-list span.pagenav,.hikashop_cart_input_button,div#k2Frontend table.k2FrontendToolbar td.button,.k2AdminTableFiltersSearch #k2SubmitButton,.k2AdminTableFiltersSearch #k2ResetButton,.tab-pane .hikashop_product_vote_listing .pagination .list-footer span,.table .pagination .list-footer .pagination .page-number .pagination-list span,		#hikashop_add_to_cart_checkout_div .btn,#helpsite-refresh,.category-list .btn-primary {
+  box-shadow: 0 2px 0 0 #97aa1c !important;
+  text-shadow: 1px 1px 1px #aabd17 !important;	
+	
+	background: #b2d231;
+	/* Old browsers */
+  background: -moz-linear-gradient(bottom, #d1e62d 0%, #becf32 100%);
+	/* FF3.6+ */
+  background: -webkit-linear-gradient(bottom, #d1e62d 0%, #becf32 100%);
+	/* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(bottom, #d1e62d 0%, #becf32 100%);
+	/* Opera 11.10+ */
+  background: -ms-linear-gradient(bottom, #d1e62d 0%, #becf32 100%);
+	/* IE10+ */
+  background: linear-gradient(to bottom, #d1e62d 0%, #becf32 100%);/* W3C */
+}
+
+.button-green:hover,.hikashop_products_pagination ul.pagination-list span.pagenav:hover,.hikashop_cart_input_button:hover,div#k2Frontend table.k2FrontendToolbar td.button:hover,.k2AdminTableFiltersSearch #k2SubmitButton:hover,.k2AdminTableFiltersSearch #k2ResetButton:hover,.tab-pane .hikashop_product_vote_listing .pagination .list-footer span:hover,		.table .pagination .list-footer .pagination .page-number .pagination-list span:hover,	#hikashop_add_to_cart_checkout_div .btn:hover,#helpsite-refresh:hover,.category-list .btn-primary:hover {
+  text-shadow: 1px 1px 1px #8b9700 !important;
+  box-shadow: 0 2px 0 0 #809112 !important;	
+	
+	/* Old browsers */
+  background: -moz-linear-gradient(bottom, #c7dc25 0%, #afc122 100%);
+	/* FF3.6+ */
+  background: -webkit-linear-gradient(bottom, #c7dc25 0%, #afc122 100%);
+	/* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(bottom, #c7dc25 0%, #afc122 100%);
+	/* Opera 11.10+ */
+  background: -ms-linear-gradient(bottom, #c7dc25 0%, #afc122 100%);
+	/* IE10+ */
+  background: linear-gradient(to bottom, #c7dc25 0%, #afc122 100%);/* W3C */
+}
+
+.overaly,#searchtop {
+      background-color: rgba(178, 210, 49, 0.85);
+}
+
+.our-banners-description:hover > .our-banners-border {
+    border-color: rgba(178, 210, 49, 0.56);
+}
+
+.tp-rightarrow, .tp-leftarrow {    background-image: url(po-slider.png) !important ;}
+.owl-carousel .owl-controls .owl-buttons > div{  background-image: url(po-2.png);}
+
+.shop-item-detail,.shop-item-grid {
+  background-image: url('shop-ico.png');
+}
+[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked):hover + label:before, [type="checkbox"]:checked:hover + label:before,
+[type="checkbox"]:checked + label:after {
+	background-image: url('box.png');
+}
+.k2CalendarBlock .calendar td.calendarDayName {
+	border-color: #809112
+}
+a:hover, a:focus, .bc-f, .bc-f-h:hover, .selectbox .selectify .option.hover, .selectbox .selectify:hover .header-f .icon::before, .product-popular-custom .hikashop_products_listing .item:hover h3 a, .button-dark:hover, .top-bar a:hover, .social-small li:hover i, .cart-subtotal span.price, .shop-card-products-description > .price, #owl-demo-6 .owl-prev, #owl-demo-6 .shop-content-item-container .price a, .shop-mega-menu a.read i, .price .last-price, .gridItem .dateItem, .contact .contact-address .fa, .tab-pane .hikashop_product_vote_listing .hika_vote_listing_username, .hikashop_option_price_value, .categories ul li a:before, .userAdditionalInfo div .fa, .itemHeader .post-date, .product-popular-custom .hikashop_products_listing .item:hover h3 a, .selectbox .selectify:hover .header-f .icon::before, .selectbox .selectify .option.hover, #block-footer .copyright a, .jvTwitterTweets .jvTweetCreated, .latest-posts .intro-detail span, .animate h3, .avatar li:hover h3, .avatar li:hover p, .portfolioFilter > .filter-link > a:hover, .features-list i, .revievs, .item-new, .shop .clear-selection, .shop-content-item a:hover, .shop-content-header a:hover, .pop-products-price, .pop-products:hover .pop-products-description, .checkbox-container label:hover, .toggles1 h4:hover, .tweet span, .tweet i, .categories li a i, .page-title-address > i, .toggle  h4.opened i, .toggle  h4 i:hover,.toggle h4 a:hover,.tab-pane .hikashop_product_vote_listing  .hika_vote_listing_username,.hikashop_option_price_value,.categories ul li a:before,.tab-pane .hikashop_product_vote_listing  .hika_vote_listing_username,.categories ul li a:before,#quantity-block a:hover, .btl-panel .active, .bg-ico:hover::before, .service-2 [class^=ico-]:hover, .service-2 [class*=" ico-"]:hover, .calculator .fa, .hikashop_category_name a:hover, .categories-menu-list-custom:hover .hikashop_category_name a, .jv_ajax_content_hikashop .item .price , .blog .blog-item .post-meta .date h2 span, .blog-item-description .post-date, .categories li:hover ul li a i, .categories li:hover ul li:hover a, #hikashop_cart_product_listing a:hover, .recaptchatable a, .recaptchatable a:hover, .page-404 h1, .shop-content-item > .shop-content-item-description > a.option:hover, .shop-content-item-description > h3 > a:hover, .our-banners-description:hover > .our-banners-border > a, .our-banners-description:hover > .our-banners-border > .banners-header, .toggles1 .features-list a:hover, .page-title-address > a:hover, .gridItem .item .innerItem a:hover, #lang:hover > ul.lang > li > a:hover, #lang:hover > a:hover,.categories li:hover ul li a i ,.categories li:hover ul li:hover a,#hikashop_cart_product_listing a:hover,.toggle .current.active a, .toggle .current.active a *{color:#0e4b91}.bc-b, .social-small li:hover, .contact .contact-address .fa, .contact-page .share a:hover, .numbers-ico, .our-servise-content .nav-tabs, .features-list i, .icon-scale-border,  .share li a:hover, .ralaited-products .active span,  .page-title-address > i, .userAdditionalInfo div .fa,.bxslider-paging .active,.active .avatar-corner,.contact-page .share a:hover,.contact  .contact-address .fa,.hikashop_cart_step_work:before,.k2CalendarBlock .calendar td.calendarDateLinked:hover a,.userAdditionalInfo div .fa, .k2UserBlockActions li a:before, .green-line, .service-block .service-ico:before, .categories-menu-list-custom .hikashop_category_image > a:before , .shop-slider-pager a:hover img, .shop-slider-pager a.active img{border-color:#0e4b91}.bc-bg, .shop-mega-menu .hot, .cols_list_1 .item:before, .hikashop_cart_step_finished:before, .hikashop_cart_bar_work:before,.k2CalendarBlock .calendar td.calendarDateLinked:hover a,.k2CalendarBlock .calendar td.calendarNavMonthPrev,.k2CalendarBlock .calendar td.calendarCurrentMonth,.k2CalendarBlock .calendar td.calendarNavMonthNext, .k2CalendarBlock .calendar td.calendarDayName, .k2CalendarBlock .calendar td.calendarNavMonthPrev, .k2CalendarBlock .calendar td.calendarCurrentMonth, .k2CalendarBlock .calendar td.calendarNavMonthNext, .k2CalendarBlock .calendar td.calendarDayName, .hikashop_products_pagination ul.pagination-list span.pagenav, .portfolioFilter > .filter-link > a.current, .shipping span.number, .testimonials-autor, .pop-products-number, .tag-cloud a:hover, .categories li:hover a,.hikashop_cart_step_finished:before,.hikashop_cart_bar_work:before,.k2CalendarBlock .calendar td.calendarDateLinked:hover a,.k2CalendarBlock .calendar td.calendarNavMonthPrev,.k2CalendarBlock .calendar td.calendarCurrentMonth,.k2CalendarBlock .calendar td.calendarNavMonthNext, .k2CalendarBlock .calendar td.calendarDayName , .our-servise-content ul.nav li.active, .our-servise-content ul.nav li:hover {background-color:#0e4b91}

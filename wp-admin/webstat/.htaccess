@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/promate.crowdmarketing.click/webstat"
+AuthUserFile /var/www/web/data/etc/136721.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
