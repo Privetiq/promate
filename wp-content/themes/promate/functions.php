@@ -378,13 +378,15 @@ function bartag_func( $atts ) {
    }
 	
    $output .= '<div role="tabpanel">';
-   
+
    if($cat){
 	 
 	   $output .= '<ul class="nav nav-tabs">';
 	   
 		$cats = explode(',', $cat);
-			
+
+        $output .= var_dump($cats);
+
 			foreach($cats as $key => $term_slug){
 				$term = get_term_by('slug', $term_slug, 'product_cat');				
 				

@@ -1,0 +1,510 @@
+# Translation of Themes - Storefront in Danish
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-05 08:39:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Theme Name of the plugin/theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. Description of the plugin/theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customise and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront er det perfekte tema til dit næste WooCommerce projekt. Da det er designet og udviklet af WooThemes er der en dyb integration til plugin'et WooCommerce, flere layouts og farvemuligheder så du kan personalisere din butik, flere widget områder, et responsivt design og meget mere. Udviklere vil elske temaets slanke kode og mulige udvidelser, som vil gøre det sjovt at tilpasse og udvide. Leder du efter et WooCommerce tema? Fundet!"
+
+#: inc/class-storefront.php:145
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Widgets føjet til dette område vil blive vist under overskriften og over hovedindhold.."
+
+#: inc/admin/welcome-screen/component-contribute.php:15
+msgid "Download Theme Customisations"
+msgstr "Hent tema tilpasninger"
+
+#: inc/admin/welcome-screen/component-contribute.php:11
+msgid "We highly encourage you to make %s all yours. If you need to make a CSS tweak or add some custom JS or PHP, please use our Theme Customisations Plugin. Simply Click the button below, install as normal, and start Customizing today!"
+msgstr "Vi opfordrer dig på det kraftigste til at gøre %s til dit. Hvis du har brug for at lave et CSS tweak eller tilføje nogle brugerdefinerede JS eller PHP , skal du bruge vores tematilpasnings Plugin. Du skal blot klikke på knappen nedenfor, installere som normalt, og begynde Tilpasning i dag !"
+
+#: inc/admin/welcome-screen/component-contribute.php:10
+msgid "Customise Storefront"
+msgstr "Tilpas Storefront"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:327
+msgid "My Account"
+msgstr "Min konto"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:300
+msgid "Search"
+msgstr "Søg"
+
+#: inc/storefront-template-functions.php:738
+msgid "Best Sellers"
+msgstr "Best sælgende"
+
+#: inc/storefront-template-functions.php:662
+msgid "Fan Favorites"
+msgstr "Fan favoritter"
+
+#: inc/storefront-template-functions.php:621
+msgid "We Recommend"
+msgstr "Vi anbefaler"
+
+#: inc/storefront-template-functions.php:580
+msgid "New In"
+msgstr "Ny under"
+
+#: inc/storefront-template-functions.php:539
+msgid "Shop by Category"
+msgstr "Shop efter kategori"
+
+#: inc/storefront-template-functions.php:443
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: inc/storefront-template-functions.php:433
+msgid "Tagged"
+msgstr "Tagged"
+
+#: inc/storefront-template-functions.php:420
+msgid "Posted in"
+msgstr "Slået op under"
+
+#: inc/storefront-template-functions.php:409
+msgid "Written by"
+msgstr "Skrevet af"
+
+#: inc/storefront-template-functions.php:231
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/admin/welcome-screen/component-intro.php:66
+msgid "Stay up to date with Storefront developments on the %sdev blog%s."
+msgstr "Vær opdateret på udviklingen af Storefront på %sdev blog%s."
+
+#: inc/admin/welcome-screen/component-enhance.php:39
+#: inc/admin/welcome-screen/component-enhance.php:81
+#: inc/admin/welcome-screen/component-enhance.php:111
+msgid "We're currently unable to retrieve these products. Please double check your internet connection or try back later."
+msgstr "Vi kan i øjeblikket ikke modtage data om disse produkter. Dobbelttjek venligst din internetforbindelse eller prøv igen senere ."
+
+#: inc/admin/welcome-screen/component-contribute.php:32
+msgid "You can find a wide range of information on how to use and customise %s in our %sdocumentation%s. If you're a customer you can get support in our %sHelpdesk%3$s. Otherwise you can try posting on the WordPress.org %ssupport forums%3$s."
+msgstr "Du finder et bredt udvalg af informationer omkring hvordan du bruger og indstiller %s i vores %sdocumentation%s. Hvis du er kunde kan du få hjælp af vores %sHelpdesk%3$s. Ellers kan du prøve at skrive på WordPress.org %ssupport forums%3$s."
+
+#: inc/admin/welcome-screen/component-contribute.php:31
+msgid "Get support"
+msgstr "Få hjælp"
+
+#: inc/class-storefront.php:143
+msgid "Below Header"
+msgstr "Under Sidehoved"
+
+#: inc/admin/welcome-screen/component-intro.php:58
+msgid "Customizer settings"
+msgstr "Customizer indstillinger"
+
+#: inc/customizer/class-storefront-customizer-control-more.php:31
+msgid "Enjoying %s?"
+msgstr "Nyder du %s?"
+
+#: inc/admin/welcome-screen/component-intro.php:57
+msgid "FAQ"
+msgstr "<span title=\"Ofte stillede spørgsmål\">FAQ</span>"
+
+#: inc/admin/welcome-screen/component-intro.php:56
+msgid "Installation &amp; configuration"
+msgstr "Installation &amp; konfiguration"
+
+#: inc/admin/welcome-screen/component-intro.php:54
+msgid "Featured Docs"
+msgstr "Udvalgte Dokumenter"
+
+#: inc/admin/welcome-screen/component-intro.php:34
+msgid "Recent News"
+msgstr "Seneste Nyheder"
+
+#: inc/admin/welcome-screen/component-intro.php:31
+msgid "Latest %s news"
+msgstr "Seneste %s nyheder"
+
+#: inc/admin/welcome-screen/component-intro.php:26
+msgid "Install %s"
+msgstr "Installer %s"
+
+#: inc/admin/welcome-screen/component-intro.php:19
+msgid "Built to enrich your %s store"
+msgstr "Udviklet til at berige din %s butik"
+
+#: inc/admin/welcome-screen/component-intro.php:14
+msgid "%sEnjoying %s?%s Why not %sleave a review%s on WordPress.org? We'd really appreciate it!"
+msgstr "%sNyder du %s?%s Hvorfor ikke %sanmelde os%s på WordPress.org? Vi sætter pris på det!"
+
+#: inc/admin/welcome-screen/component-enhance.php:86
+msgid "View all %s child themes &rarr;"
+msgstr "Se alle %s undertemaer &rarr;"
+
+#: inc/admin/welcome-screen/component-enhance.php:53
+msgid "Take a look at our range of child themes for %s that allow you to easily change the look of your store to suit a specific industry."
+msgstr "Tag et kig på vores sortiment af undertemaer for %s, der giver dig mulighed for nemt at ændre udseendet af din butik, for at  tilpasse den til en bestemt branche."
+
+#: inc/admin/welcome-screen/component-enhance.php:52
+msgid "Child themes"
+msgstr "Undertemaer"
+
+#: inc/admin/welcome-screen/component-enhance.php:94
+msgid "There are a number of free plugins available for %s on the WordPress.org %splugin repository%s. Here's a few we made earlier:"
+msgstr "Der er en række gratis plugins til rådighed for %s på WordPress.org %s plugin repository%s. Her er blot nogle få:"
+
+#: inc/admin/welcome-screen/component-enhance.php:46
+msgid "View all %s extensions &rarr;"
+msgstr "Se alle %s udvidelser &rarr;"
+
+#: inc/admin/welcome-screen/component-enhance.php:22
+msgid "Take a look at our range of extensions that extend and enhance %s functionality."
+msgstr "Tag et kig på vores udvidelser, som komplimenterer og udvider %s funktionalitet."
+
+#: inc/admin/welcome-screen/component-enhance.php:20
+msgid "Enhance %s"
+msgstr "Gør %s bedre"
+
+#: inc/admin/welcome-screen/component-contribute.php:38
+msgid "An %s project"
+msgstr "Et %s projekt"
+
+#: inc/admin/welcome-screen/component-contribute.php:27
+msgid "Please suggest and vote on ideas at the %s%s Ideas board%s. The most popular ideas will see prioritised development."
+msgstr "Foreslå og stem på idéer på %s%s idetavle%s. De mest populære ideer vil blive prioriteret til udvikling."
+
+#: inc/admin/welcome-screen/component-contribute.php:26
+msgid "Suggest a feature"
+msgstr "Foreslå en funktion"
+
+#: inc/admin/welcome-screen/component-contribute.php:21
+msgid "Contribute to Storefront"
+msgstr "Bidrag til Storefront"
+
+#: inc/admin/welcome-screen/component-intro.php:24
+msgid "%s is activated"
+msgstr "%s er aktiveret"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:225
+msgid "On Sale Now"
+msgstr "På udsalg nu"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:233
+msgid "New In Store"
+msgstr "Nyt i butikken"
+
+#: inc/admin/welcome-screen/component-enhance.php:62
+#: inc/admin/welcome-screen/component-enhance.php:106
+msgid "Free!"
+msgstr "Gratis!"
+
+#: inc/admin/welcome-screen/component-enhance.php:92
+msgid "Install free plugins"
+msgstr "Installér gratis plugins"
+
+#: inc/customizer/class-storefront-customizer.php:234
+msgid "Header background image"
+msgstr "Sidehovedets baggrundsbillede"
+
+#: inc/storefront-template-functions.php:461
+msgctxt "Next post"
+msgid "Next"
+msgstr "Næste"
+
+#: inc/storefront-template-functions.php:462
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Forrige"
+
+#: 404.php:58
+msgid "Popular Products"
+msgstr "Populære Produkter"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Intet blev fundet på denne placering. Prøv at søge, eller tjek nedenstående links."
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Startside"
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "fuld bredde"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:75
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d vare"
+msgstr[1] "%d varer"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: 404.php:47
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:217
+msgid "Featured Products"
+msgstr "Fremhævede Produkter"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:74
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:313
+msgid "View your shopping cart"
+msgstr "Vis indkøbskurv"
+
+#: inc/storefront-template-functions.php:701
+msgid "On Sale"
+msgstr "På Udsalg"
+
+#: inc/storefront-template-functions.php:500
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Slået op d. %s"
+
+#: inc/storefront-template-functions.php:444
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/storefront-template-functions.php:444
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/storefront-template-functions.php:444
+msgid "Leave a comment"
+msgstr "Skriv en kommentar"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:415
+#: inc/storefront-template-functions.php:428
+msgid ", "
+msgstr ", "
+
+#: inc/storefront-template-functions.php:377
+msgid "Continue reading %s"
+msgstr "Læs mere %s"
+
+#: inc/storefront-template-functions.php:322
+#: inc/storefront-template-functions.php:385
+msgid "Pages:"
+msgstr "Sider:"
+
+#: inc/storefront-template-functions.php:286
+msgid "Skip to navigation"
+msgstr "Spring til navigation"
+
+#: inc/storefront-template-functions.php:262
+msgid "Secondary Navigation"
+msgstr "Sekundær navigation"
+
+#: inc/storefront-template-functions.php:287
+msgid "Skip to content"
+msgstr "Hop til indhold"
+
+#: inc/storefront-template-functions.php:128
+msgid "%1$s designed by %2$s."
+msgstr "%1$s designet af %2$s."
+
+#: inc/storefront-template-functions.php:230
+msgid "Primary Navigation"
+msgstr "Primær navigation"
+
+#: inc/storefront-template-functions.php:64
+msgid "Edit"
+msgstr "Rediger"
+
+#: inc/class-storefront.php:154
+msgid "Footer %d"
+msgstr "Sidefod %d"
+
+#: inc/class-storefront.php:156
+msgid "Widgetized Footer Region %d."
+msgstr "Widgetområde i sidefod %d."
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: inc/class-storefront.php:88
+msgid "Handheld Menu"
+msgstr "Mobilmenu"
+
+#: inc/class-storefront.php:137
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/class-storefront.php:87
+msgid "Secondary Menu"
+msgstr "Sekundær menu"
+
+#: inc/customizer/class-storefront-customizer.php:460
+msgid "Looking for more options?"
+msgstr "Leder du efter flere muligheder?"
+
+#: inc/class-storefront.php:86
+msgid "Primary Menu"
+msgstr "Primær menu"
+
+#: inc/customizer/class-storefront-customizer.php:437
+msgid "General Layout"
+msgstr "Overordnet Layout"
+
+#: inc/customizer/class-storefront-customizer.php:450
+msgid "More"
+msgstr "Mere"
+
+#: inc/customizer/class-storefront-customizer.php:289
+msgid "Customise the look & feel of your web site footer."
+msgstr "Tilpas udseendet af dit websteds sidefod."
+
+#: inc/customizer/class-storefront-customizer.php:358
+msgid "Customise the look & feel of your web site buttons."
+msgstr "Tilpas udseendet af dit websteds knapper."
+
+#: inc/customizer/class-storefront-customizer.php:356
+msgid "Buttons"
+msgstr "Knapper"
+
+#: inc/customizer/class-storefront-customizer.php:415
+msgid "Alternate button text color"
+msgstr "Alternativ knap tekstfarve"
+
+#: inc/customizer/class-storefront-customizer.php:400
+msgid "Alternate button background color"
+msgstr "Alternativ knap baggrundsfarve"
+
+#: inc/customizer/class-storefront-customizer.php:425
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer/class-storefront-customizer.php:287
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer/class-storefront-customizer.php:277
+#: inc/customizer/class-storefront-customizer.php:346
+msgid "Link color"
+msgstr "Linkfarve"
+
+#: inc/customizer/class-storefront-customizer.php:247
+#: inc/customizer/class-storefront-customizer.php:301
+#: inc/customizer/class-storefront-customizer.php:370
+msgid "Background color"
+msgstr "Baggrundsfarve"
+
+#: inc/customizer/class-storefront-customizer.php:195
+#: inc/customizer/class-storefront-customizer.php:316
+msgid "Heading color"
+msgstr "Overskrift farve"
+
+#: inc/customizer/class-storefront-customizer.php:225
+msgid "Link / accent color"
+msgstr "Link / accent farve"
+
+#: inc/customizer/class-storefront-customizer.php:210
+#: inc/customizer/class-storefront-customizer.php:262
+#: inc/customizer/class-storefront-customizer.php:331
+#: inc/customizer/class-storefront-customizer.php:385
+msgid "Text color"
+msgstr "Tekstfarve"
+
+#: inc/customizer/class-storefront-customizer.php:182
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/customizer/class-storefront-customizer.php:144
+msgid "Header"
+msgstr "Header"
+
+#: inc/admin/welcome-screen/component-contribute.php:22
+msgid "Found a bug? Want to contribute a patch or create a new feature? %sGitHub is the place to go!%s Or would you like to translate %s into your language? %sGet involved on WordPress.org%s."
+msgstr "Fundet en fejl? Ønsker du at bidrage med et rettelse eller oprette en ny funktion? %sGitHub er stedet at gøre det!%s Eller vil du gerne oversætte %s til dit sprog? %sBliv involveret på WordPress.org%s."
+
+#: inc/admin/class-storefront-admin.php:57
+msgid "Get started with Storefront"
+msgstr "Sådan kommer du igang med Storefront"
+
+#: inc/admin/class-storefront-admin.php:56
+msgid "Thanks for choosing Storefront! You can read hints and tips on how get the most out of your new theme on the %swelcome screen%s."
+msgstr "Tak fordi du valgte Storefront! Du kan læse tips om, hvordan du får mest muligt ud af dit nye tema på %svelkomstsiden%s. "
+
+#: inc/customizer/class-storefront-customizer-control-more.php:28
+msgid "There's a range of %s extensions available to put additional power in your hands. Check out the %s%s%s page in your dashboard for more information."
+msgstr "Der er en række %s udvidelser til rådighed som giver dig ekstra kræfter. Tjek %s%s%s siden ud i dit betjeningspanel for mere information."
+
+#: inc/customizer/class-storefront-customizer-control-more.php:34
+msgid "Why not leave us a review on %sWordPress.org%s?  We'd really appreciate it!"
+msgstr "Vil du ikke give os en anmeldelse på %sWordPress.org%s? Vi ville virkelig sætte pris på det!"
+
+#: inc/customizer/class-storefront-customizer.php:140
+msgid "Background"
+msgstr "Baggrund"
+
+#: inc/admin/welcome-screen/component-intro.php:21
+msgid "Although %s works fine as a regular WordPress theme, it really shines when used for an online store. Install %s and start selling now."
+msgstr "Selvom %s fungerer fint som en almindelig WordPress tema, brillerer det virkelig, når det anvendes til en online butik. Installer %s og begynd at sælge nu."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det ser ud til, at vi ikke kan finde det, du leder efter. Måske vil en søgning hjælpe."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Beklager, men din søgning gav ingen resultater. Prøv igen med nogle andre søgeord."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar til at udgive dit første indlæg? <a href=\"%1$s\">Start her</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Intet fundet"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: comments.php:39 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+#: comments.php:38 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Ældre kommentarer"
+
+#: comments.php:37 comments.php:55
+msgid "Comment navigation"
+msgstr "Kommentar navigation"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En tanke om &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tanker om &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hov! Den side findes ikke."
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the plugin/theme
+msgid "https://woocommerce.com/storefront"
+msgstr "https://woocommerce.com/storefront"
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"

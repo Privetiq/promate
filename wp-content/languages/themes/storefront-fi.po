@@ -1,0 +1,510 @@
+# Translation of Themes - Storefront in Finnish
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-10 18:08:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: fi\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Theme Name of the plugin/theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. Description of the plugin/theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customise and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront on täydellinen teema seuraavalle WooCommerce projektillesi. Sen on suunnitellut ja kehittänyt WooCommercen ytimen tekijät.WooThemes, Sen ominaisuuksiin kuuluu mm. täydellinen yhteensopivuus markkinajohtaja WooCommerce verkkokauppalisäosan kanssa ja monia suosituimpia julkisen puolen WooCommerce lisäosia. Saatavilla on useita asettelu- ja värivaihtoehtoja joilla kaupan voi yksilödä, useita vimpainalueita, mukautuva ulkoasu ja paljon muuta. Kehittäjät rakastavat sen niukkaa ja laajennettavaa koodia joten sitä on ilo mukauttaa ja laajentaa. Etsitkö WooCommerce teemaa? Löysit etsimäsi!"
+
+#: inc/class-storefront.php:145
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Tähän alueeseen liitetyt vimpaimet näkyvät otsakkeen alla ja pääsisällön yläpuolella."
+
+#: inc/admin/welcome-screen/component-contribute.php:15
+msgid "Download Theme Customisations"
+msgstr "Lataa teeman mukautuksia"
+
+#: inc/admin/welcome-screen/component-contribute.php:11
+msgid "We highly encourage you to make %s all yours. If you need to make a CSS tweak or add some custom JS or PHP, please use our Theme Customisations Plugin. Simply Click the button below, install as normal, and start Customizing today!"
+msgstr "Suosittelemme painokkaasti, että teet %s oman. Jos tarvitset tehdä CSS muutoksia tai lisätä mukautettua JS tai PHP-koodia, ole hyvä ja käytä Teeman mukautus -lisäosaa (Theme Customisations Plugin). Paina alla olevaa painiketta, asenna tavalliseen tapaan ja aloita mukautus tänään!"
+
+#: inc/admin/welcome-screen/component-contribute.php:10
+msgid "Customise Storefront"
+msgstr "Mukauta Storefront-teemaa"
+
+#: inc/storefront-template-functions.php:231
+msgid "Menu"
+msgstr "Valikko"
+
+#: inc/storefront-template-functions.php:409
+msgid "Written by"
+msgstr "Kirjoittanut"
+
+#: inc/storefront-template-functions.php:420
+msgid "Posted in"
+msgstr "Lähetetty"
+
+#: inc/storefront-template-functions.php:443
+msgid "Comments"
+msgstr "Kommentit"
+
+#: inc/storefront-template-functions.php:580
+msgid "New In"
+msgstr "Uutta"
+
+#: inc/storefront-template-functions.php:621
+msgid "We Recommend"
+msgstr "Suosittelemme"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:300
+msgid "Search"
+msgstr "Haku"
+
+#: inc/storefront-template-functions.php:433
+msgid "Tagged"
+msgstr "Merkitty"
+
+#: inc/storefront-template-functions.php:738
+msgid "Best Sellers"
+msgstr "Eniten myydyt"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:327
+msgid "My Account"
+msgstr "Oma tili"
+
+#: inc/storefront-template-functions.php:662
+msgid "Fan Favorites"
+msgstr "Seuraajien suosikit"
+
+#: inc/storefront-template-functions.php:539
+msgid "Shop by Category"
+msgstr "Käytä tuoteosastoja"
+
+#: inc/admin/welcome-screen/component-enhance.php:39
+#: inc/admin/welcome-screen/component-enhance.php:81
+#: inc/admin/welcome-screen/component-enhance.php:111
+msgid "We're currently unable to retrieve these products. Please double check your internet connection or try back later."
+msgstr "Näiden tuotteiden hakeminen ei tällä hetkellä onnistu. Tarkasta internetyhteys tai yritä myöhemmin uudelleen."
+
+#: inc/admin/welcome-screen/component-intro.php:66
+msgid "Stay up to date with Storefront developments on the %sdev blog%s."
+msgstr "Pysy ajan tasalla Storefront-kehityksen kanssa %skehittäjien blogi%s."
+
+#: inc/admin/welcome-screen/component-contribute.php:32
+msgid "You can find a wide range of information on how to use and customise %s in our %sdocumentation%s. If you're a customer you can get support in our %sHelpdesk%3$s. Otherwise you can try posting on the WordPress.org %ssupport forums%3$s."
+msgstr "Löydät paljon tietoja kuinka käyttää ja mukauttaa %s meidän %sohjeista%s. Jos olet asiakas, saat tukea %sHelpdesk-tukipalvelusta%3$s. Muussa tapauksessa voit yrittää kirjoittaa  WordPress.org %stukifoorumille%3$s."
+
+#: inc/admin/welcome-screen/component-contribute.php:31
+msgid "Get support"
+msgstr "Ota yhteys tukeen"
+
+#: inc/class-storefront.php:143
+msgid "Below Header"
+msgstr "Otsakkeen alla"
+
+#: inc/customizer/class-storefront-customizer-control-more.php:31
+msgid "Enjoying %s?"
+msgstr "Nautitko %s?"
+
+#: inc/admin/welcome-screen/component-intro.php:58
+msgid "Customizer settings"
+msgstr "Ulkoasun mukautin asetukset"
+
+#: inc/admin/welcome-screen/component-intro.php:57
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/admin/welcome-screen/component-intro.php:31
+msgid "Latest %s news"
+msgstr "Uusimmat %s uutiset"
+
+#: inc/admin/welcome-screen/component-intro.php:34
+msgid "Recent News"
+msgstr "Viimeaikaiset uutiset"
+
+#: inc/admin/welcome-screen/component-intro.php:54
+msgid "Featured Docs"
+msgstr "Esittelyssä olevat ohjeet"
+
+#: inc/admin/welcome-screen/component-intro.php:56
+msgid "Installation &amp; configuration"
+msgstr "Asennus & asetukset"
+
+#: inc/admin/welcome-screen/component-intro.php:26
+msgid "Install %s"
+msgstr "Asenna %s"
+
+#: inc/admin/welcome-screen/component-enhance.php:46
+msgid "View all %s extensions &rarr;"
+msgstr "Näytä kaikki %s laajennukset &rarr;"
+
+#: inc/admin/welcome-screen/component-intro.php:14
+msgid "%sEnjoying %s?%s Why not %sleave a review%s on WordPress.org? We'd really appreciate it!"
+msgstr "%sNautitko %s?%s Mitä jos %santaisit tuotearvion%s WordPress.org-sivustolla? Arvostaisimme sitä!"
+
+#: inc/admin/welcome-screen/component-intro.php:19
+msgid "Built to enrich your %s store"
+msgstr "Tehty rikastuttamaan %s kauppaasi"
+
+#: inc/admin/welcome-screen/component-intro.php:24
+msgid "%s is activated"
+msgstr "%s on käytössä"
+
+#: inc/admin/welcome-screen/component-contribute.php:21
+msgid "Contribute to Storefront"
+msgstr "Osallistu Storefront kehittämiseen"
+
+#: inc/admin/welcome-screen/component-contribute.php:26
+msgid "Suggest a feature"
+msgstr "Ehdota toimintoa"
+
+#: inc/admin/welcome-screen/component-contribute.php:27
+msgid "Please suggest and vote on ideas at the %s%s Ideas board%s. The most popular ideas will see prioritised development."
+msgstr "Ehdota ja äänestä ehdotusten välillä %s%s Ideasboard%s. Suosituimmat ehdotukset toteutetaan muita aiemmin."
+
+#: inc/admin/welcome-screen/component-contribute.php:38
+msgid "An %s project"
+msgstr "%s projekti"
+
+#: inc/admin/welcome-screen/component-enhance.php:20
+msgid "Enhance %s"
+msgstr "Täydennä %s"
+
+#: inc/admin/welcome-screen/component-enhance.php:52
+msgid "Child themes"
+msgstr "Alateemat"
+
+#: inc/admin/welcome-screen/component-enhance.php:86
+msgid "View all %s child themes &rarr;"
+msgstr "Näytä kaikki %s alateemat &rarr;"
+
+#: inc/admin/welcome-screen/component-enhance.php:53
+msgid "Take a look at our range of child themes for %s that allow you to easily change the look of your store to suit a specific industry."
+msgstr "Tutustu %s alateemojemme valikoimaan - niillä voit helposti vaihtaa kaupan ulkoasun jotta se  mukautuu toimialan tarpeisiin."
+
+#: inc/admin/welcome-screen/component-enhance.php:22
+msgid "Take a look at our range of extensions that extend and enhance %s functionality."
+msgstr "Tutustu lisäosiemme valikoimaan - ne laajentavat ja korostavatt %s toimivuutta."
+
+#: inc/admin/welcome-screen/component-enhance.php:94
+msgid "There are a number of free plugins available for %s on the WordPress.org %splugin repository%s. Here's a few we made earlier:"
+msgstr "Lukuisia maksuttomia %s lisäosia on saatavilla WordPress.org sivuston %sLisäosat (Plugins) sivulla%s. Tässä niistä muutamia jotka teimme aiemmin:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:233
+msgid "New In Store"
+msgstr "Uutta"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:225
+msgid "On Sale Now"
+msgstr "Alennuksessa"
+
+#: inc/storefront-template-functions.php:462
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Edellinen"
+
+#: inc/storefront-template-functions.php:461
+msgctxt "Next post"
+msgid "Next"
+msgstr "Seuraava"
+
+#: inc/customizer/class-storefront-customizer.php:234
+msgid "Header background image"
+msgstr "Otsakkeen taustakuva"
+
+#: inc/admin/welcome-screen/component-enhance.php:92
+msgid "Install free plugins"
+msgstr "Asenna maksuttomia lisäosia"
+
+#: inc/admin/welcome-screen/component-enhance.php:62
+#: inc/admin/welcome-screen/component-enhance.php:106
+msgid "Free!"
+msgstr "Maksuton!"
+
+#: 404.php:58
+msgid "Popular Products"
+msgstr "Suosittuja tuotteita"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Mitään ei löytynyt tässä sijainnissa. Kokeile hakutoimintoa tai tutustu alla oleviin linkkeihin."
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Etusivu"
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "Täysi leveys"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Hakutulokset kohteelle: %s"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:75
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d tuote"
+msgstr[1] "%d tuotetta"
+
+#: 404.php:47
+msgid "Product Categories"
+msgstr "Tuoteosastot"
+
+#: inc/storefront-template-functions.php:701
+msgid "On Sale"
+msgstr "Alennettu hinta"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:74
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:313
+msgid "View your shopping cart"
+msgstr "Katso ostoskori"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:217
+msgid "Featured Products"
+msgstr "Esittelyssä olevat tuotteet"
+
+#: inc/storefront-template-functions.php:500
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Kirjoitettu %s"
+
+#: inc/storefront-template-functions.php:444
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: inc/storefront-template-functions.php:444
+msgid "1 Comment"
+msgstr "1 kommentti"
+
+#: inc/storefront-template-functions.php:444
+msgid "Leave a comment"
+msgstr "Jätä kommentti"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:415
+#: inc/storefront-template-functions.php:428
+msgid ", "
+msgstr ", "
+
+#: inc/storefront-template-functions.php:377
+msgid "Continue reading %s"
+msgstr "Jatka artikkeliin %s"
+
+#: inc/storefront-template-functions.php:322
+#: inc/storefront-template-functions.php:385
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: inc/storefront-template-functions.php:287
+msgid "Skip to content"
+msgstr "Siirry sisältöön"
+
+#: inc/storefront-template-functions.php:262
+msgid "Secondary Navigation"
+msgstr "Toissijainen navigointi"
+
+#: inc/storefront-template-functions.php:286
+msgid "Skip to navigation"
+msgstr "Siirry navigointiin"
+
+#: inc/storefront-template-functions.php:230
+msgid "Primary Navigation"
+msgstr "Ensisijainen navigointi"
+
+#: inc/storefront-template-functions.php:128
+msgid "%1$s designed by %2$s."
+msgstr "%2$s on suunnitellut: %1$s"
+
+#: inc/storefront-template-functions.php:64
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi on arvioitavana."
+
+#: inc/class-storefront.php:154
+msgid "Footer %d"
+msgstr "Alapalkki %d"
+
+#: inc/class-storefront.php:156
+msgid "Widgetized Footer Region %d."
+msgstr "Alapalkin vimpainalue %d."
+
+#: inc/class-storefront.php:137
+msgid "Sidebar"
+msgstr "Sivupalkki"
+
+#: inc/class-storefront.php:88
+msgid "Handheld Menu"
+msgstr "Valikko mobiililaitteille "
+
+#: inc/class-storefront.php:87
+msgid "Secondary Menu"
+msgstr "Toissijainen valikko"
+
+#: inc/class-storefront.php:86
+msgid "Primary Menu"
+msgstr "Ensisijainen valikko"
+
+#: inc/customizer/class-storefront-customizer.php:460
+msgid "Looking for more options?"
+msgstr "Etsitkö lisää muokkausvaihtoehtoja?"
+
+#: inc/customizer/class-storefront-customizer.php:450
+msgid "More"
+msgstr "Lisää"
+
+#: inc/customizer/class-storefront-customizer.php:437
+msgid "General Layout"
+msgstr "Asettelu"
+
+#: inc/customizer/class-storefront-customizer.php:425
+msgid "Layout"
+msgstr "Asettelu"
+
+#: inc/customizer/class-storefront-customizer.php:289
+msgid "Customise the look & feel of your web site footer."
+msgstr "Muokkaa verkkokaupan alapalkin ulkoasua."
+
+#: inc/customizer/class-storefront-customizer.php:356
+msgid "Buttons"
+msgstr "Painikkeet"
+
+#: inc/customizer/class-storefront-customizer.php:358
+msgid "Customise the look & feel of your web site buttons."
+msgstr "Muokkaa painikkeiden ulkoasua"
+
+#: inc/customizer/class-storefront-customizer.php:400
+msgid "Alternate button background color"
+msgstr "Vaihtuva painikkeen taustaväri"
+
+#: inc/customizer/class-storefront-customizer.php:415
+msgid "Alternate button text color"
+msgstr "Vaihtuva painikkeen tekstin väri"
+
+#: inc/customizer/class-storefront-customizer.php:287
+msgid "Footer"
+msgstr "Alapalkki"
+
+#: inc/customizer/class-storefront-customizer.php:277
+#: inc/customizer/class-storefront-customizer.php:346
+msgid "Link color"
+msgstr "Linkin väri"
+
+#: inc/customizer/class-storefront-customizer.php:247
+#: inc/customizer/class-storefront-customizer.php:301
+#: inc/customizer/class-storefront-customizer.php:370
+msgid "Background color"
+msgstr "Taustaväri"
+
+#: inc/customizer/class-storefront-customizer.php:195
+#: inc/customizer/class-storefront-customizer.php:316
+msgid "Heading color"
+msgstr "Otsakkeen väri"
+
+#: inc/customizer/class-storefront-customizer.php:210
+#: inc/customizer/class-storefront-customizer.php:262
+#: inc/customizer/class-storefront-customizer.php:331
+#: inc/customizer/class-storefront-customizer.php:385
+msgid "Text color"
+msgstr "Tekstin väri"
+
+#: inc/customizer/class-storefront-customizer.php:225
+msgid "Link / accent color"
+msgstr "Linkin / korostuksen väri"
+
+#: inc/customizer/class-storefront-customizer.php:182
+msgid "Typography"
+msgstr "Tekstin muotoilu"
+
+#: inc/customizer/class-storefront-customizer.php:144
+msgid "Header"
+msgstr "Otsake"
+
+#: inc/customizer/class-storefront-customizer.php:140
+msgid "Background"
+msgstr "Tausta"
+
+#: inc/admin/class-storefront-admin.php:56
+msgid "Thanks for choosing Storefront! You can read hints and tips on how get the most out of your new theme on the %swelcome screen%s."
+msgstr "Kiitos kun valitsit Storefront:in! %sTervetuloa sivulla%s -sivulla voit lukea vinkkejä ja ehdotuksia kuinka saat kaiken irti uudesta teemastasi."
+
+#: inc/admin/class-storefront-admin.php:57
+msgid "Get started with Storefront"
+msgstr "Tästä pääset alkuun Storefront:in käytössä"
+
+#: inc/customizer/class-storefront-customizer-control-more.php:34
+msgid "Why not leave us a review on %sWordPress.org%s?  We'd really appreciate it!"
+msgstr "Mitä jos antaisit tuotearvion meille %sWordPress.org%s -sivustolla? Todella arvostaisimme sitä! :)"
+
+#: inc/admin/welcome-screen/component-contribute.php:22
+msgid "Found a bug? Want to contribute a patch or create a new feature? %sGitHub is the place to go!%s Or would you like to translate %s into your language? %sGet involved on WordPress.org%s."
+msgstr "Löysitkö bugin? Haluatko tehdä korjauksen tai rakentaa uuden toiminnon? %sGitHub%s on oikea osoite! Vai haluatko kääntää %s omalle kielellesi? %sOsallistu WordPress.org%s -sivustolla."
+
+#: inc/customizer/class-storefront-customizer-control-more.php:28
+msgid "There's a range of %s extensions available to put additional power in your hands. Check out the %s%s%s page in your dashboard for more information."
+msgstr "Useita tehokkaita %s laajennuksia on saatavilla joilla saat lisätehoa käyttöösi. Katso hallintapanelissa olevalta  %s%s%s page -sivulta lisätietoja."
+
+#: inc/admin/welcome-screen/component-intro.php:21
+msgid "Although %s works fine as a regular WordPress theme, it really shines when used for an online store. Install %s and start selling now."
+msgstr "Vaikka %s toimii hyvin tavallisena WordPress teemana, se todella loistaa verkkokaupassasi. Asenna %s ja aloita myyminen nyt."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Pahoittelut mutta mitään ei löytynyt hakuehdoillasi. Kokeile uudelleen joillakin toisilla hakusanoilla."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">Aloita tästä</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt."
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: comments.php:39 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: comments.php:38 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: comments.php:37 comments.php:55
+msgid "Comment navigation"
+msgstr "Kommenttien selaus"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Yksi kommentti artikkeliin &rdquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommenttia artikkeliin &rdquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hups! Etsimääsi sivua ei löytynyt."
+
+#. Theme URI of the plugin/theme
+msgid "https://woocommerce.com/storefront"
+msgstr "https://woocommerce.com/storefront"
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-17 09:43:59+0000\n"
+"PO-Revision-Date: 2017-07-18 08:20:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4140,7 +4140,7 @@ msgstr "モンゴル トゥグルグ"
 
 #: includes/wc-core-functions.php:379
 msgid "Burmese kyat"
-msgstr "ビルマ チャット"
+msgstr "ビルマ・チャット"
 
 #: includes/wc-core-functions.php:378
 msgid "Macedonian denar"
@@ -17580,7 +17580,7 @@ msgstr "スラッグ"
 #: includes/admin/class-wc-admin-attributes.php:284
 #: includes/admin/class-wc-admin-attributes.php:456
 msgid "Name for the attribute (shown on the front-end)."
-msgstr "属性(フロント・エンド上で示される)の名前。"
+msgstr "サイト上に表示される属性名です。"
 
 #: includes/admin/class-wc-admin-attributes.php:264
 msgid "Error: non-existing attribute ID."
@@ -21937,7 +21937,7 @@ msgstr "西サハラ"
 
 #: i18n/countries.php:261
 msgid "Wallis and Futuna"
-msgstr "ワリー・エ・フトゥーナ"
+msgstr "ウォリス・フツナ"
 
 #: i18n/countries.php:260
 msgid "Vietnam"

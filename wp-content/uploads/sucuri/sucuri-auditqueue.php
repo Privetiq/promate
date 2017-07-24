@@ -1,11 +1,8 @@
 <?php
 // datastore=auditqueue;
 // created_on=1492500054;
-// updated_on=1500882524;
+// updated_on=1492500054;
 exit(0);
 ?>
-1500372249_1554:"Warning: admin, 127.0.0.1; Plugins updated: (multiple entries): Category Order and Taxonomy Terms Order (v1.4.8; taxonomy-terms-order\/taxonomy-terms-order.php),Display Widgets (v2.05; display-widgets\/display-widgets.php),Imsanity (v2.3.7; imsanity\/imsanity.php),Instagram Feed (v1.4.8; instagram-feed\/instagram-feed.php),MailPoet Newsletters (v2.7.5; wysija-newsletters\/index.php),Product CSV Import Export (BASIC) (v1.3.4; product-import-export-for-woo\/product-csv-import-export.php),uLogin - \u0432\u0438\u0434\u0436\u0435\u0442 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u0447\u0435\u0440\u0435\u0437 \u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0435\u0442\u0438 (v2.4.0; ulogin\/ulogin.php),Woo AJAX Cart (v1.1; woocommerce-ajax-cart\/wooajaxcart.php),WooCommerce Stock Manager (v1.1.3; woocommerce-stock-manager\/woocommerce-stock-manager.php),YITH WooCommerce Ajax Product Filter (v3.0.11; yith-woocommerce-ajax-navigation\/init.php),YITH WooCommerce Ajax Search (v1.4.1; yith-woocommerce-ajax-search\/init.php),YITH WooCommerce Ajax Search Premium (v1.4.7; yith-woocommerce-ajax-search-premium\/init.php),YITH WooCommerce Compare (v2.1.0; yith-woocommerce-compare\/init.php),YITH WooCommerce Compare Premium-Null24.Net (v2.0.6; yith-woocommerce-compare-premium\/init.php),YITH WooCommerce Wishlist (v2.0.16; yith-woocommerce-wishlist\/init.php),Yoast SEO (v4.0.2; wordpress-seo\/wp-seo.php)"
-1500379317_074:"Warning: admin, 127.0.0.1; Plugin deactivated: WP All Import (v3.4.4; wp-all-import\/plugin.php)"
-1500379334_4454:"Warning: admin, 127.0.0.1; Plugin deactivated: Regenerate Thumbnails (v2.2.6; regenerate-thumbnails\/regenerate-thumbnails.php)"
-1500882484_8886:"Notice: 127.0.0.1; User authentication succeeded: admin"
-1500882524_6776:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 14793,Post author: 6,Post type: post,Post status: auto-draft,Post inserted: 2017-07-12 15:07:42,Post modified: 2017-07-12 15:07:42,Post guid: http:\/\/promate.ua\/?p=14793,Post title: \u0427\u0435\u0440\u043d\u043e\u0432\u0438\u043a"
+1500894806_208:"Notice: 127.0.0.1; User authentication succeeded: admin"
+1500895041_7149:"Error: admin, 127.0.0.1; General settings changed: (multiple entries): siteurl: from 'http:\/\/promatenew.loc\/' to 'http:\/\/promatenew.loc',home: from 'http:\/\/promatenew.loc\/' to 'http:\/\/promatenew.loc',timezone_string: from '' to 'UTC+2',date_format: from 'F j, Y' to '\\\\c\\\\u\\\\s\\\\t\\\\o\\\\m',time_format: from 'g:i a' to '\\\\c\\\\u\\\\s\\\\t\\\\o\\\\m'"
