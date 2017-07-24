@@ -495,7 +495,7 @@ jQuery( function( $ ) {
 			// Provide the submit button value because wc-form-handler expects it.
 			$( '<input />' ).attr( 'type', 'hidden' )
 							.attr( 'name', 'update_cart' )
-							.attr( 'value', 'Update Cart' )
+							.attr( 'value', 'Update сart' )
 							.appendTo( $form );
 
 			// Make call to actual form post URL.

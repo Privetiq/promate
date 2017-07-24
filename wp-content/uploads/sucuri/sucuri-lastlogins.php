@@ -65,3 +65,4 @@
 {"user_id":6,"user_login":"manager1","user_remoteaddr":"194.183.175.19","user_hostname":"194.183.175.19","user_lastlogin":"2017-07-18 14:01:22"}
 {"user_id":6,"user_login":"manager1","user_remoteaddr":"31.43.42.233","user_hostname":"31.43.42.233","user_lastlogin":"2017-07-20 04:56:51"}
 {"user_id":1,"user_login":"admin","user_remoteaddr":"127.0.0.1","user_hostname":"cosmolabz.loc","user_lastlogin":"2017-07-24 13:13:26"}
+{"user_id":1,"user_login":"admin","user_remoteaddr":"127.0.0.1","user_hostname":"cosmolabz.loc","user_lastlogin":"2017-07-24 13:40:57"}

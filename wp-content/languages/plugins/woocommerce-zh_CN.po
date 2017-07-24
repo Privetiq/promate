@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-19 18:09:52+0000\n"
+"PO-Revision-Date: 2017-07-20 06:46:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,15 +15,15 @@ msgstr ""
 msgid "I&rsquo;ve read and accept the <a href=\"%s\" class=\"woocommerce-terms-and-conditions-link\">terms &amp; conditions</a>"
 msgstr "我已阅读并同意<a href=\"%s\" class=\"woocommerce-terms-and-conditions-link\">服务协议</a>。"
 
+#: includes/wc-product-functions.php:751
+msgid "Search results only"
+msgstr "仅搜索结果页"
+
 #. translators: 1: rating 2: rating count
 #: includes/wc-template-functions.php:2617
 msgid "Rated %1$s out of 5 based on %2$s customer rating"
 msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
-msgstr[0] "评分 %1$s / 5 , 已有 %2$s 位客户进行评价"
-
-#: includes/wc-product-functions.php:751
-msgid "Search results only"
-msgstr "仅搜索结果页"
+msgstr[0] "评分 %1$s / 5 , 已有 %2$s 位顾客进行评价"
 
 #: includes/emails/class-wc-email-customer-invoice.php:204
 msgid "Subject (paid)"
@@ -781,11 +781,6 @@ msgstr "<strong>Storefront</strong> 是免费的 WordPress 主题，由 WooComme
 msgid "Learn more about PayPal"
 msgstr "详细了解 PayPal"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:651
-#: includes/admin/class-wc-admin-setup-wizard.php:658
-msgid "Safe and secure payments using credit cards or your customer's PayPal account."
-msgstr "使用信用卡或客户的 PayPal 帐户安全付款。"
-
 #: includes/admin/class-wc-admin-setup-wizard.php:567
 msgid "Dimension unit"
 msgstr "尺寸单位"
@@ -837,6 +832,11 @@ msgstr "要启用此更新，您需要<strong>激活</strong>此订阅。"
 #: includes/admin/helper/class-wc-helper.php:186
 msgid "Version %s is <strong>available</strong>."
 msgstr "版本 %s <strong>可用</strong>。"
+
+#: includes/admin/class-wc-admin-setup-wizard.php:651
+#: includes/admin/class-wc-admin-setup-wizard.php:658
+msgid "Safe and secure payments using credit cards or your customer's PayPal account."
+msgstr "使用信用卡或顾客的 PayPal 帐户安全付款。"
 
 #: includes/admin/class-wc-admin-addons.php:349
 #: includes/admin/class-wc-admin-setup-wizard.php:506
@@ -1216,10 +1216,6 @@ msgstr "启用插件"
 msgid "WC database version"
 msgstr "WC 数据表版本"
 
-#: includes/admin/reports/class-wc-report-customers.php:109
-msgid "Customer sales"
-msgstr "客户销售额"
-
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:407
 msgid "Customer provided note:"
 msgstr "顾客提供的备注 ："
@@ -1271,6 +1267,10 @@ msgstr "千位分隔符"
 #: includes/admin/views/html-admin-page-status-report.php:457
 msgid "Currency position"
 msgstr "币种的位置"
+
+#: includes/admin/reports/class-wc-report-customers.php:109
+msgid "Customer sales"
+msgstr "顾客销售额"
 
 #. Author of the plugin/theme
 msgid "Automattic"
@@ -1739,7 +1739,7 @@ msgstr "无效的产品"
 
 #: includes/class-wc-install.php:920
 msgid "Visit premium customer support"
-msgstr "查看优先客户支持"
+msgstr "查看优先顾客支持"
 
 #: includes/class-wc-form-handler.php:613
 msgid "%d item from your previous order is currently unavailable and could not be added to your cart."
@@ -2453,11 +2453,6 @@ msgstr "界面上可见的，关于该设置的容易被人理解的描述。"
 msgid "The date the order was paid, as GMT."
 msgstr "订单支付日期，时区是GMT。"
 
-#: includes/api/class-wc-rest-customers-controller.php:152
-#: includes/api/v1/class-wc-rest-customers-controller.php:646
-msgid "The date the customer was last modified, as GMT."
-msgstr "The date the customer was last modified, as GMT."
-
 #: includes/api/class-wc-rest-order-refunds-controller.php:356
 msgid "The date the order refund was created, as GMT."
 msgstr "The date the order refund was created, as GMT."
@@ -2466,12 +2461,6 @@ msgstr "The date the order refund was created, as GMT."
 #: includes/api/v1/class-wc-rest-orders-controller.php:969
 msgid "The date the order was last modified, as GMT."
 msgstr "The date the order was last modified, as GMT."
-
-#: includes/api/class-wc-rest-customers-controller.php:140
-#: includes/api/class-wc-rest-orders-controller.php:858
-#: includes/api/v1/class-wc-rest-orders-controller.php:963
-msgid "The date the order was created, as GMT."
-msgstr "The date the order was created, as GMT."
 
 #: includes/api/class-wc-rest-coupons-controller.php:491
 #: includes/api/class-wc-rest-customers-controller.php:338
@@ -2491,14 +2480,6 @@ msgstr "元数据。"
 #: includes/api/class-wc-rest-order-refunds-controller.php:372
 msgid "User ID of user who created the refund."
 msgstr "创建退款的用户的用户ID."
-
-#: includes/api/class-wc-rest-order-notes-controller.php:177
-msgid "Limit result to customers or internal notes."
-msgstr "限定结果为客户或内部备注"
-
-#: includes/api/class-wc-rest-customers-controller.php:314
-msgid "Is the customer a paying customer?"
-msgstr "该客户是否为支付客户?"
 
 #: includes/api/class-wc-rest-coupons-controller.php:498
 #: includes/api/class-wc-rest-customers-controller.php:345
@@ -2555,6 +2536,25 @@ msgstr "如果为true并且免费配送方法需要一个优惠券，该优惠�
 #: includes/api/v1/class-wc-rest-coupons-controller.php:488
 msgid "How many times the coupon can be used in total."
 msgstr "这个优惠券总的可用次数。"
+
+#: includes/api/class-wc-rest-customers-controller.php:152
+#: includes/api/v1/class-wc-rest-customers-controller.php:646
+msgid "The date the customer was last modified, as GMT."
+msgstr "顾客上次修改的日期，时区为GMT。"
+
+#: includes/api/class-wc-rest-customers-controller.php:140
+#: includes/api/class-wc-rest-orders-controller.php:858
+#: includes/api/v1/class-wc-rest-orders-controller.php:963
+msgid "The date the order was created, as GMT."
+msgstr "创建订单的日期，时区为GMT。"
+
+#: includes/api/class-wc-rest-order-notes-controller.php:177
+msgid "Limit result to customers or internal notes."
+msgstr "限定结果为顾客或内部备注"
+
+#: includes/api/class-wc-rest-customers-controller.php:314
+msgid "Is the customer a paying customer?"
+msgstr "该顾客是否为支付顾客?"
 
 #: includes/api/class-wc-rest-coupons-controller.php:388
 msgid "The date the coupon expires, as GMT."
@@ -2771,10 +2771,6 @@ msgid "This zone is <b>optionally</b> used for regions that are not included in 
 msgstr "该区域是<b>可选地</b>用于不包含于任何其它物流区域的区域。"
 
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:11
-msgid "WooCommerce will match a customer to a single zone using their shipping address and present the shipping methods within that zone to them."
-msgstr "WooCommerce 将会据一个客户的配送地址为其匹配一个配送区域并为其提供适用于该区域的配送方法."
-
-#: includes/admin/settings/views/html-admin-page-shipping-zones.php:11
 msgid "A shipping zone is a geographic region where a certain set of shipping methods are offered."
 msgstr "一个配送区域是一个包含了一系列配送方法的地理上的区域."
 
@@ -2783,9 +2779,13 @@ msgstr "一个配送区域是一个包含了一系列配送方法的地理上的
 msgid "%s Settings"
 msgstr "%s 设置"
 
+#: includes/admin/settings/views/html-admin-page-shipping-zones.php:11
+msgid "WooCommerce will match a customer to a single zone using their shipping address and present the shipping methods within that zone to them."
+msgstr "WooCommerce 将会据一个顾客的配送地址为其匹配一个配送区域并为其提供适用于该区域的配送方法."
+
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:29
 msgid "These are regions inside this zone. Customers will be matched against these regions."
-msgstr "包含在此区域的地区, 这些地区的客户将会匹配该区域."
+msgstr "包含在此区域的地区, 这些地区的顾客将会匹配该区域."
 
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:28
 msgid "Zone regions"
@@ -2881,15 +2881,15 @@ msgstr "页面内容: [%s]"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:71
 msgid "Enable customer registration on the \"My account\" page."
-msgstr "允许客户在“我的账户”页面注册。"
+msgstr "允许顾客在“我的账户”页面注册。"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:62
 msgid "Enable customer registration on the \"Checkout\" page."
-msgstr "允许客户在“结算”页面注册。"
+msgstr "允许顾客在“结算”页面注册。"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:61
 msgid "Customer registration"
-msgstr "客户注册"
+msgstr "顾客注册"
 
 #: includes/admin/reports/class-wc-report-sales-by-product.php:399
 msgid "Choose a product to view stats"
@@ -3005,15 +3005,6 @@ msgstr "地址:"
 msgid "View other orders &rarr;"
 msgstr "查看其它订单&rarr;"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:223
-msgid "Customer payment page &rarr;"
-msgstr "客户支付页面&rarr;"
-
-#. translators: %s: IP address
-#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:205
-msgid "Customer IP: %s"
-msgstr "客户IP: %s"
-
 #. translators: 1: date 2: time
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:196
 msgid "on %1$s @ %2$s"
@@ -3036,6 +3027,15 @@ msgstr "应用于购物车中所有符合条件的物品"
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:283
 msgid "Unlimited usage"
 msgstr "无限使用"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:223
+msgid "Customer payment page &rarr;"
+msgstr "顾客支付页面&rarr;"
+
+#. translators: %s: IP address
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:205
+msgid "Customer IP: %s"
+msgstr "顾客IP: %s"
 
 #. translators: %s: five stars
 #: includes/admin/class-wc-admin.php:234
@@ -4396,10 +4396,6 @@ msgstr "最小订单金额"
 msgid "Once disabled, this legacy method will no longer be available."
 msgstr "一旦停用，此传统方式将不再可用。"
 
-#: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:27
-msgid "Allow customers to pick up orders themselves. By default, when using local pickup store base taxes will apply regardless of customer address."
-msgstr "允许客户自提。默认设置，使用自提时基于商店的税率将会忽略客户地址以应用。"
-
 #: includes/vendor/abstract-wp-rest-controller.php:290
 msgid "Scope under which the request is made; determines fields present in response."
 msgstr "请求的范围；判定域存在于响应中。"
@@ -4582,6 +4578,10 @@ msgstr "免运费为特殊方式，可由优惠券或最小订单金额触发。
 msgid "This method is deprecated in 2.6.0 and will be removed in future versions - we recommend disabling it and instead setting up a new rate within your <a href=\"%s\">Shipping zones</a>."
 msgstr "此方法已在2.6.0版本中弃用，并会在将来的版本中移除 - 我们建议你停用并设置新的 <a href=\"%s\">配送区域</a>。"
 
+#: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:27
+msgid "Allow customers to pick up orders themselves. By default, when using local pickup store base taxes will apply regardless of customer address."
+msgstr "允许顾客自提。默认设置，使用自提时基于商店的税率将会忽略顾客地址以应用。"
+
 #: includes/api/v1/class-wc-rest-reports-controller.php:79
 msgid "List of sales reports."
 msgstr "销售报告列表。"
@@ -4698,10 +4698,6 @@ msgstr[0] "%s 和 %d 个其他区域"
 #: includes/emails/class-wc-email-customer-on-hold-order.php:29
 msgid "Order on-hold"
 msgstr "订单保留"
-
-#: includes/emails/class-wc-email-customer-on-hold-order.php:30
-msgid "This is an order notification sent to customers containing order details after an order is placed on-hold."
-msgstr "当订单状态为保留时发给客户的订单状态提醒。"
 
 #: includes/api/v1/class-wc-rest-reports-controller.php:83
 msgid "List of top sellers products."
@@ -4886,6 +4882,10 @@ msgstr "无效的webhook id."
 msgid "Postcode / ZIP."
 msgstr "邮编。"
 
+#: includes/emails/class-wc-email-customer-on-hold-order.php:30
+msgid "This is an order notification sent to customers containing order details after an order is placed on-hold."
+msgstr "当订单状态为保留时发给顾客的订单状态提醒。"
+
 #: includes/api/class-wc-rest-order-refunds-controller.php:426
 #: includes/api/class-wc-rest-orders-controller.php:1156
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:397
@@ -4969,16 +4969,6 @@ msgstr "行间税。"
 #: includes/api/v1/class-wc-rest-orders-controller.php:1505
 msgid "Tax subtotal."
 msgstr "税小计。"
-
-#: includes/api/class-wc-rest-orders-controller.php:493
-#: includes/api/legacy/class-wc-rest-legacy-orders-controller.php:248
-#: includes/api/legacy/v2/class-wc-api-orders.php:390
-#: includes/api/legacy/v2/class-wc-api-orders.php:541
-#: includes/api/legacy/v3/class-wc-api-orders.php:427
-#: includes/api/legacy/v3/class-wc-api-orders.php:581
-#: includes/api/v1/class-wc-rest-orders-controller.php:534
-msgid "Customer ID is invalid."
-msgstr "客户ID无效。"
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:905
 #: includes/api/legacy/v3/class-wc-api-orders.php:951
@@ -5203,11 +5193,6 @@ msgstr "变量体积."
 msgid "Variation weight (%s)."
 msgstr "变量重量 (%s)."
 
-#: includes/api/class-wc-rest-orders-controller.php:930
-#: includes/api/v1/class-wc-rest-orders-controller.php:1159
-msgid "Customer's IP address."
-msgstr "客户的 IP 地址。"
-
 #: includes/api/class-wc-rest-orders-controller.php:1062
 #: includes/api/v1/class-wc-rest-orders-controller.php:1138
 msgid "Payment method ID."
@@ -5291,11 +5276,6 @@ msgstr "此订单的总计折扣税的金额。"
 #: includes/api/v1/class-wc-rest-orders-controller.php:1154
 msgid "Unique transaction ID."
 msgstr "唯一的交易ID。"
-
-#: includes/api/class-wc-rest-orders-controller.php:936
-#: includes/api/v1/class-wc-rest-orders-controller.php:1165
-msgid "User agent of the customer."
-msgstr "此顾客使用的客户端。"
 
 #: includes/api/class-wc-rest-orders-controller.php:826
 #: includes/api/v1/class-wc-rest-orders-controller.php:1171
@@ -6144,6 +6124,26 @@ msgstr "如果价格含税在结算时显示。"
 msgid "The date the order was paid, in the site's timezone."
 msgstr "订单付款日期，以网站所在时区表示。"
 
+#: includes/api/class-wc-rest-orders-controller.php:930
+#: includes/api/v1/class-wc-rest-orders-controller.php:1159
+msgid "Customer's IP address."
+msgstr "顾客的 IP 地址。"
+
+#: includes/api/class-wc-rest-orders-controller.php:493
+#: includes/api/legacy/class-wc-rest-legacy-orders-controller.php:248
+#: includes/api/legacy/v2/class-wc-api-orders.php:390
+#: includes/api/legacy/v2/class-wc-api-orders.php:541
+#: includes/api/legacy/v3/class-wc-api-orders.php:427
+#: includes/api/legacy/v3/class-wc-api-orders.php:581
+#: includes/api/v1/class-wc-rest-orders-controller.php:534
+msgid "Customer ID is invalid."
+msgstr "顾客ID无效。"
+
+#: includes/api/class-wc-rest-orders-controller.php:936
+#: includes/api/v1/class-wc-rest-orders-controller.php:1165
+msgid "User agent of the customer."
+msgstr "此顾客的用户代理。"
+
 #: includes/api/class-wc-rest-coupons-controller.php:63
 #: includes/api/class-wc-rest-coupons-controller.php:337
 #: includes/api/class-wc-rest-orders-controller.php:1536
@@ -6940,10 +6940,6 @@ msgstr "地域"
 msgid "Disable shipping &amp; shipping calculations"
 msgstr "禁用 配送  &amp; 运费计算功能"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:115
-msgid "Default to customer billing address"
-msgstr "默认为客户账单地址"
-
 #: includes/admin/settings/class-wc-settings-shipping.php:114
 msgid "Default to customer shipping address"
 msgstr "默认为顾客的配送地址"
@@ -7113,6 +7109,10 @@ msgstr "我的账户 &rarr; 支付方式的端点"
 #: includes/class-wc-query.php:119 includes/wc-account-functions.php:100
 msgid "Payment methods"
 msgstr "支付方式"
+
+#: includes/admin/settings/class-wc-settings-shipping.php:115
+msgid "Default to customer billing address"
+msgstr "默认为顾客账单地址"
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:34
 msgid "Customer download link"
@@ -8346,10 +8346,6 @@ msgstr "订单跟踪"
 msgid "Note:"
 msgstr "备注："
 
-#: templates/single-product-reviews.php:111
-msgid "Only logged in customers who have purchased this product may leave a review."
-msgstr "购买过此产品并已登录的客户才可发表评论。"
-
 #: templates/single-product-reviews.php:93
 msgid "Rate&hellip;"
 msgstr "评价&hellip;"
@@ -8410,6 +8406,10 @@ msgstr "最近的订单"
 #: templates/myaccount/my-downloads.php:30
 msgid "Available downloads"
 msgstr "可用的下载"
+
+#: templates/single-product-reviews.php:111
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr "购买过此产品并已登录的顾客才可发表评论。"
 
 #: includes/shortcodes/class-wc-shortcode-checkout.php:111
 #: includes/shortcodes/class-wc-shortcode-checkout.php:175
@@ -9063,10 +9063,6 @@ msgstr "你的订单"
 msgid "Click here to enter your code"
 msgstr "点这里输入你的代码"
 
-#: templates/checkout/form-login.php:27
-msgid "Returning customer?"
-msgstr "客户详情"
-
 #: templates/checkout/form-login.php:28
 msgid "Click here to login"
 msgstr "单击这里登录"
@@ -9444,6 +9440,10 @@ msgstr "我的帐户"
 #: includes/wc-user-functions.php:53
 msgid "An account is already registered with your email address. Please log in."
 msgstr "已存在使用此电邮地址的帐号，请尝试登陆。"
+
+#: templates/checkout/form-login.php:27
+msgid "Returning customer?"
+msgstr "顾客详情"
 
 #: includes/class-wc-product-variable.php:60
 msgid "Select options"
@@ -9889,20 +9889,10 @@ msgstr "Place the payment gateway in sandbox mode using sandbox API keys (real p
 msgid "Cancelled order"
 msgstr "已取消订单"
 
-#: includes/gateways/bacs/class-wc-gateway-bacs.php:88
-#: includes/gateways/cheque/class-wc-gateway-cheque.php:69
-#: includes/gateways/cod/class-wc-gateway-cod.php:78
-msgid "Payment method description that the customer will see on your checkout."
-msgstr "客户支付的时候会看到关于该支付方式的说明"
-
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:95
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:76
 msgid "Instructions that will be added to the thank you page and emails."
 msgstr "说明将会被显示在订单确认页面和相关邮件中"
-
-#: includes/gateways/cod/class-wc-gateway-cod.php:53
-msgid "Have your customers pay with cash (or by other means) upon delivery."
-msgstr "在交付时由你的客户支付现金（或其他方式）。"
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:86
 #: includes/gateways/cod/class-wc-gateway-cod.php:93
@@ -9925,10 +9915,6 @@ msgstr "通过%s邮寄"
 #: includes/gateways/paypal/includes/settings-paypal.php:99
 msgid "Choose whether you wish to capture funds immediately or authorize payment only."
 msgstr "选择你是要马上扣款还是先预授权"
-
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:459
-msgid "Payment was declined - the customer need to try another card."
-msgstr "付款被拒绝 - 客户需要尝试另一张卡。"
 
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:96
 #: includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php:153
@@ -10021,10 +10007,6 @@ msgstr "选择发送电子邮件格式."
 msgid "Customer \"new account\" emails are sent to the customer when a customer signs up via checkout or account pages."
 msgstr "用户的“新注册账户通知”的电子邮件被发送到用户注册时所填写的电子邮箱地址"
 
-#: includes/emails/class-wc-email-customer-note.php:37
-msgid "Customer note"
-msgstr "客户备注"
-
 #: includes/emails/class-wc-email-customer-note.php:38
 msgid "Customer note emails are sent when you add a note to an order."
 msgstr "当你为订单添加备注时,发送电子邮件通知顾客."
@@ -10041,10 +10023,6 @@ msgstr "密码重置"
 #: includes/emails/class-wc-email-customer-reset-password.php:52
 msgid "Customer \"reset password\" emails are sent when customers reset their passwords."
 msgstr "当顾客重设密码时,给顾客发送密码重置电子邮件."
-
-#: includes/emails/class-wc-email-new-order.php:64
-msgid "New customer order"
-msgstr "新客户订单"
 
 #: includes/emails/class-wc-email.php:571
 msgid "Plain text"
@@ -10344,11 +10322,6 @@ msgstr "Simplify 支付通过 (ID: %1$s, 授权码: %2$s)"
 msgid "Simplify payment error: %s."
 msgstr "Simplify支付错误:  %s."
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:297
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:440
-msgid "Customer not found."
-msgstr "没有找到该客户"
-
 #: includes/gateways/paypal/includes/settings-paypal.php:145
 msgid "API signature"
 msgstr "API 签名"
@@ -10608,6 +10581,33 @@ msgstr "启用支票付款。在当今这个时代你会接受支票吗？你也
 #: includes/emails/class-wc-email-customer-refunded-order.php:43
 msgid "Order refunded emails are sent to customers when their orders are refunded."
 msgstr "在顾客的订单被退款时TA们将会收到订单已退款的邮件通知。"
+
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:459
+msgid "Payment was declined - the customer need to try another card."
+msgstr "付款被拒绝 - 顾客需要尝试另一张卡。"
+
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:297
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:440
+msgid "Customer not found."
+msgstr "没有找到该顾客"
+
+#: includes/gateways/cod/class-wc-gateway-cod.php:53
+msgid "Have your customers pay with cash (or by other means) upon delivery."
+msgstr "在交付时由你的顾客支付现金（或其他方式）。"
+
+#: includes/gateways/bacs/class-wc-gateway-bacs.php:88
+#: includes/gateways/cheque/class-wc-gateway-cheque.php:69
+#: includes/gateways/cod/class-wc-gateway-cod.php:78
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "顾客支付的时候会看到关于该支付方式的说明"
+
+#: includes/emails/class-wc-email-new-order.php:64
+msgid "New customer order"
+msgstr "新顾客订单"
+
+#: includes/emails/class-wc-email-customer-note.php:37
+msgid "Customer note"
+msgstr "顾客备注"
 
 #: includes/api/legacy/v2/class-wc-api-products.php:2252
 msgid "Invalid product SKU"
@@ -11156,19 +11156,9 @@ msgstr "无效的文件类型"
 msgid "File not found"
 msgstr "文件无法找到"
 
-#: templates/emails/email-customer-details.php:27
-#: templates/emails/plain/email-customer-details.php:25
-#: templates/order/order-details-customer.php:26
-msgid "Customer details"
-msgstr "客户详情"
-
 #: includes/class-wc-form-handler.php:518
 msgid "You can only have 1 %s in your cart."
 msgstr "你只能有 1 %s在购物车。"
-
-#: includes/class-wc-form-handler.php:651
-msgid "Order cancelled by customer."
-msgstr "订单已被客户取消。"
 
 #: includes/class-wc-form-handler.php:654
 msgid "Your order was cancelled."
@@ -11195,10 +11185,6 @@ msgstr "上级 %s"
 #: includes/class-wc-post-types.php:201
 msgid "Parent %s:"
 msgstr "上级 %s:"
-
-#: includes/class-wc-post-types.php:403
-msgid "This is where you can add new coupons that customers can use in your store."
-msgstr "在这里添加让客户使用的优惠券"
 
 #: includes/class-wc-post-types.php:517 includes/wc-order-functions.php:103
 msgctxt "Order status"
@@ -11679,6 +11665,20 @@ msgstr "无效的webhook分发ID"
 #: includes/widgets/class-wc-widget-product-tag-cloud.php:29
 msgid "Product tags"
 msgstr "产品标签"
+
+#: includes/class-wc-post-types.php:403
+msgid "This is where you can add new coupons that customers can use in your store."
+msgstr "在这里添加让顾客使用的优惠券"
+
+#: includes/class-wc-form-handler.php:651
+msgid "Order cancelled by customer."
+msgstr "订单已被顾客取消。"
+
+#: templates/emails/email-customer-details.php:27
+#: templates/emails/plain/email-customer-details.php:25
+#: templates/order/order-details-customer.php:26
+msgid "Customer details"
+msgstr "顾客详情"
 
 #: includes/admin/views/html-admin-page-status-report.php:43
 msgid "Home URL"
@@ -12411,10 +12411,6 @@ msgstr "— 没有变化 —"
 msgid "Visibility"
 msgstr "能见度"
 
-#: includes/admin/views/html-report-by-date.php:37
-msgid "Custom:"
-msgstr "客户："
-
 #: includes/api/legacy/v1/class-wc-api-coupons.php:154
 #: includes/api/legacy/v2/class-wc-api-coupons.php:163
 #: includes/api/legacy/v3/class-wc-api-coupons.php:161
@@ -12450,48 +12446,6 @@ msgstr "你没有权限创建优惠券。"
 msgid "Missing parameter %s"
 msgstr "缺少参数"
 
-#: includes/api/legacy/v1/class-wc-api-customers.php:187
-#: includes/api/legacy/v2/class-wc-api-customers.php:232
-#: includes/api/legacy/v3/class-wc-api-customers.php:233
-msgid "You do not have permission to read the customers count"
-msgstr "你无权读取客户数量"
-
-#: includes/api/legacy/v1/class-wc-api-customers.php:203
-#: includes/api/legacy/v2/class-wc-api-customers.php:357
-#: includes/api/legacy/v3/class-wc-api-customers.php:358
-msgid "You do not have permission to create this customer"
-msgstr "你无权创建客户"
-
-#: includes/api/legacy/v1/class-wc-api-customers.php:435
-#: includes/api/legacy/v2/class-wc-api-customers.php:720
-#: includes/api/legacy/v3/class-wc-api-customers.php:710
-msgid "Invalid customer ID"
-msgstr "无效客户ID"
-
-#: includes/api/legacy/v1/class-wc-api-customers.php:442
-#: includes/api/legacy/v2/class-wc-api-customers.php:727
-#: includes/api/legacy/v3/class-wc-api-customers.php:717
-msgid "Invalid customer"
-msgstr "无效客户"
-
-#: includes/api/legacy/v1/class-wc-api-customers.php:450
-#: includes/api/legacy/v2/class-wc-api-customers.php:735
-#: includes/api/legacy/v3/class-wc-api-customers.php:725
-msgid "You do not have permission to read this customer"
-msgstr "你无权获取此客户信息"
-
-#: includes/api/legacy/v1/class-wc-api-customers.php:456
-#: includes/api/legacy/v2/class-wc-api-customers.php:741
-#: includes/api/legacy/v3/class-wc-api-customers.php:731
-msgid "You do not have permission to edit this customer"
-msgstr "你无权编辑此客户信息"
-
-#: includes/api/legacy/v1/class-wc-api-customers.php:462
-#: includes/api/legacy/v2/class-wc-api-customers.php:747
-#: includes/api/legacy/v3/class-wc-api-customers.php:737
-msgid "You do not have permission to delete this customer"
-msgstr "你无权删除此客户"
-
 #: includes/api/legacy/v2/class-wc-api-orders.php:527
 #: includes/api/legacy/v2/class-wc-api-orders.php:1596
 #: includes/api/legacy/v3/class-wc-api-orders.php:567
@@ -12521,18 +12475,6 @@ msgstr "无效的产品类别 - 产品类别必须是这些类别：%s"
 #: includes/api/legacy/v3/class-wc-api-taxes.php:665
 msgid "Deleted %s"
 msgstr "删除"
-
-#: includes/api/legacy/v1/class-wc-api-resource.php:314
-#: includes/api/legacy/v2/class-wc-api-resource.php:373
-#: includes/api/legacy/v3/class-wc-api-resource.php:375
-msgid "Permanently deleted customer"
-msgstr "永久删除客户"
-
-#: includes/api/legacy/v1/class-wc-api-resource.php:316
-#: includes/api/legacy/v2/class-wc-api-resource.php:375
-#: includes/api/legacy/v3/class-wc-api-resource.php:377
-msgid "The customer cannot be deleted"
-msgstr "该客户不能删除"
 
 #: includes/api/legacy/v1/class-wc-api-server.php:169
 #: includes/api/legacy/v2/class-wc-api-server.php:165
@@ -12820,6 +12762,64 @@ msgstr "保存更改"
 #: includes/admin/views/html-admin-page-status-report.php:582
 msgid "If you are modifying WooCommerce on a parent theme that you did not build personally we recommend using a child theme. See: <a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
 msgstr "如果你正在修改WooCommerce时没有创建个性化的父主题，我们建议您使用一个子主题，请参阅：<a href=\"%s\" target=\"_blank\">如何创建一个子主题</a>"
+
+#: includes/api/legacy/v1/class-wc-api-resource.php:316
+#: includes/api/legacy/v2/class-wc-api-resource.php:375
+#: includes/api/legacy/v3/class-wc-api-resource.php:377
+msgid "The customer cannot be deleted"
+msgstr "该顾客不能删除"
+
+#: includes/api/legacy/v1/class-wc-api-resource.php:314
+#: includes/api/legacy/v2/class-wc-api-resource.php:373
+#: includes/api/legacy/v3/class-wc-api-resource.php:375
+msgid "Permanently deleted customer"
+msgstr "永久删除顾客"
+
+#: includes/api/legacy/v1/class-wc-api-customers.php:462
+#: includes/api/legacy/v2/class-wc-api-customers.php:747
+#: includes/api/legacy/v3/class-wc-api-customers.php:737
+msgid "You do not have permission to delete this customer"
+msgstr "你无权删除此顾客"
+
+#: includes/api/legacy/v1/class-wc-api-customers.php:456
+#: includes/api/legacy/v2/class-wc-api-customers.php:741
+#: includes/api/legacy/v3/class-wc-api-customers.php:731
+msgid "You do not have permission to edit this customer"
+msgstr "你无权编辑此顾客信息"
+
+#: includes/api/legacy/v1/class-wc-api-customers.php:450
+#: includes/api/legacy/v2/class-wc-api-customers.php:735
+#: includes/api/legacy/v3/class-wc-api-customers.php:725
+msgid "You do not have permission to read this customer"
+msgstr "你无权获取此顾客信息"
+
+#: includes/api/legacy/v1/class-wc-api-customers.php:442
+#: includes/api/legacy/v2/class-wc-api-customers.php:727
+#: includes/api/legacy/v3/class-wc-api-customers.php:717
+msgid "Invalid customer"
+msgstr "无效顾客"
+
+#: includes/api/legacy/v1/class-wc-api-customers.php:435
+#: includes/api/legacy/v2/class-wc-api-customers.php:720
+#: includes/api/legacy/v3/class-wc-api-customers.php:710
+msgid "Invalid customer ID"
+msgstr "无效顾客ID"
+
+#: includes/api/legacy/v1/class-wc-api-customers.php:203
+#: includes/api/legacy/v2/class-wc-api-customers.php:357
+#: includes/api/legacy/v3/class-wc-api-customers.php:358
+msgid "You do not have permission to create this customer"
+msgstr "你无权创建顾客"
+
+#: includes/api/legacy/v1/class-wc-api-customers.php:187
+#: includes/api/legacy/v2/class-wc-api-customers.php:232
+#: includes/api/legacy/v3/class-wc-api-customers.php:233
+msgid "You do not have permission to read the customers count"
+msgstr "你无权读取顾客数量"
+
+#: includes/admin/views/html-report-by-date.php:37
+msgid "Custom:"
+msgstr "自定义："
 
 #: includes/admin/settings/class-wc-settings-checkout.php:80
 msgid "Enable the use of coupons"
@@ -13164,10 +13164,6 @@ msgstr "复制该行"
 msgid "Import CSV"
 msgstr "导入附件"
 
-#: includes/admin/settings/class-wc-settings-tax.php:177
-msgid "No row(s) selected"
-msgstr "没有客户被选择"
-
 #: includes/admin/settings/views/html-webhook-log.php:13
 #: includes/wc-account-functions.php:224
 msgid "Method"
@@ -13345,10 +13341,6 @@ msgstr "这个选项很重要，因为它会影响到你如何输入价格，修
 msgid "Force HTTP when leaving the checkout"
 msgstr "离开结账页面的时候强制使用HTTP协议"
 
-#: includes/admin/settings/class-wc-settings-checkout.php:164
-msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
-msgstr "如果你定义一个\"条款\"页面，将在客户结账时要求他们接受该条款。"
-
 #: includes/admin/settings/class-wc-settings-products.php:113
 #: includes/admin/settings/class-wc-settings-products.php:129
 msgid "Show products"
@@ -13512,18 +13504,6 @@ msgstr "订单已更新"
 #: includes/admin/settings/views/html-webhooks-edit.php:62
 msgid "Order created"
 msgstr "订单已创建"
-
-#: includes/admin/settings/views/html-webhooks-edit.php:61
-msgid "Customer deleted"
-msgstr "客户已删除"
-
-#: includes/admin/settings/views/html-webhooks-edit.php:60
-msgid "Customer updated"
-msgstr "客户已更新"
-
-#: includes/admin/settings/views/html-webhooks-edit.php:59
-msgid "Customer created"
-msgstr "客户已创建"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:57
 msgid "Coupon deleted"
@@ -13810,6 +13790,26 @@ msgstr "小数点后的位数."
 #: includes/admin/settings/class-wc-settings-products.php:480
 msgid "Show \"verified owner\" label on customer reviews"
 msgstr "用户评论时显示 \"已验证的所有者\" 标签"
+
+#: includes/admin/settings/views/html-webhooks-edit.php:61
+msgid "Customer deleted"
+msgstr "顾客已删除"
+
+#: includes/admin/settings/views/html-webhooks-edit.php:60
+msgid "Customer updated"
+msgstr "顾客已更新"
+
+#: includes/admin/settings/views/html-webhooks-edit.php:59
+msgid "Customer created"
+msgstr "顾客已创建"
+
+#: includes/admin/settings/class-wc-settings-tax.php:177
+msgid "No row(s) selected"
+msgstr "没有顾客被选择"
+
+#: includes/admin/settings/class-wc-settings-checkout.php:164
+msgid "If you define a \"Terms\" page the customer will be asked if they accept them when checking out."
+msgstr "如果你定义一个\"条款\"页面，将在顾客结账时要求他们接受该条款。"
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:55
 #: includes/admin/meta-boxes/views/html-variation-admin.php:180
@@ -14329,10 +14329,6 @@ msgstr "折扣金额"
 msgid "Customer"
 msgstr "顾客"
 
-#: includes/admin/reports/class-wc-report-customer-list.php:37
-msgid "No customers found."
-msgstr "没有客户"
-
 #: includes/admin/reports/class-wc-report-customer-list.php:51
 msgid "%s previous order linked"
 msgid_plural "%s previous orders linked"
@@ -14341,10 +14337,6 @@ msgstr[0] "%s以前的订单链接"
 #: includes/admin/reports/class-wc-report-customer-list.php:61
 msgid "Refreshed stats for %s"
 msgstr "%s的最新数据"
-
-#: includes/admin/reports/class-wc-report-customer-list.php:66
-msgid "Search customers"
-msgstr "搜索客户"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:151
 msgid "Refresh stats"
@@ -14511,10 +14503,6 @@ msgstr "账户"
 #: includes/admin/settings/class-wc-settings-accounts.php:43
 msgid "These pages need to be set so that WooCommerce knows where to send users to access account related functionality."
 msgstr "这些网页需要被设定以使得WooCommerce知道当用户访问帐户相关的功能时转向到哪里。"
-
-#: includes/admin/settings/class-wc-settings-accounts.php:100
-msgid "Automatically generate customer password"
-msgstr "自动自成客户密码"
 
 #: includes/admin/settings/class-wc-settings-api.php:27
 #: includes/admin/settings/class-wc-settings-api.php:72
@@ -14777,10 +14765,6 @@ msgstr "结算选项"
 msgid "General options"
 msgstr "综合选项"
 
-#: includes/admin/settings/class-wc-settings-accounts.php:91
-msgid "Automatically generate username from customer email."
-msgstr "用客户邮箱自动生成用户名。"
-
 #: includes/admin/settings/class-wc-settings-accounts.php:90
 msgid "Account creation"
 msgstr "创建账户"
@@ -14899,18 +14883,9 @@ msgstr "总销售额"
 msgid "Guest orders"
 msgstr "访客订单"
 
-#: includes/admin/reports/class-wc-report-customers.php:119
-#: includes/admin/reports/class-wc-report-customers.php:317
-msgid "Customer orders"
-msgstr "客户订单"
-
 #: includes/admin/reports/class-wc-report-customers.php:110
 msgid "Guest sales"
 msgstr "访客消费"
-
-#: includes/api/class-wc-rest-customers-controller.php:180
-msgid "Customer role."
-msgstr "客户角色。"
 
 #: includes/admin/reports/class-wc-report-customer-list.php:211
 msgid "Money spent"
@@ -15033,6 +15008,31 @@ msgstr "Upsells 是使用您推荐的产品替换掉用户最近浏览的产品�
 #: includes/export/class-wc-product-csv-exporter.php:113
 msgid "Upsells"
 msgstr "Upsells"
+
+#: includes/admin/settings/class-wc-settings-accounts.php:100
+msgid "Automatically generate customer password"
+msgstr "自动自成顾客密码"
+
+#: includes/admin/settings/class-wc-settings-accounts.php:91
+msgid "Automatically generate username from customer email."
+msgstr "用顾客邮箱自动生成用户名。"
+
+#: includes/admin/reports/class-wc-report-customers.php:119
+#: includes/admin/reports/class-wc-report-customers.php:317
+msgid "Customer orders"
+msgstr "顾客订单"
+
+#: includes/api/class-wc-rest-customers-controller.php:180
+msgid "Customer role."
+msgstr "顾客角色。"
+
+#: includes/admin/reports/class-wc-report-customer-list.php:66
+msgid "Search customers"
+msgstr "搜索顾客"
+
+#: includes/admin/reports/class-wc-report-customer-list.php:37
+msgid "No customers found."
+msgstr "没有顾客"
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:70
 msgid "Enable cash on delivery"
@@ -15361,10 +15361,6 @@ msgstr "邮箱限制"
 msgid "No restrictions"
 msgstr "无限制"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:318
-msgid "Coupon code already exists - customers will use the latest coupon with this code."
-msgstr "优惠券已存在 - 客户将使用这个代码的最新的优惠券"
-
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:67
 msgid "Apply"
 msgstr "应用"
@@ -15395,10 +15391,6 @@ msgstr "小时"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:219
 msgid "Order status:"
 msgstr "订单状态："
-
-#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:238
-msgid "Customer:"
-msgstr "客户："
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:278
 msgid "Load billing address"
@@ -15464,10 +15456,6 @@ msgstr "删除备注"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:78
 msgid "Add note"
 msgstr "添加备注"
-
-#: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:78
-msgid "Add a note for your reference, or add a customer note (the user will be notified)."
-msgstr "加入一条注释以做参考，或者加入一条客户备注(用户即可识别)"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:84
 msgid "Private note"
@@ -15564,11 +15552,6 @@ msgstr "促销活动将会在设置的开始时间之前结束。"
 msgid "Downloadable files"
 msgstr "可下载的文件"
 
-#: includes/admin/meta-boxes/views/html-product-data-general.php:66
-#: includes/admin/meta-boxes/views/html-variation-admin.php:320
-msgid "This is the name of the download shown to the customer."
-msgstr "展示给客户的下载名称"
-
 #: includes/admin/meta-boxes/views/html-product-data-general.php:67
 #: includes/admin/meta-boxes/views/html-variation-admin.php:321
 msgid "File URL"
@@ -15643,10 +15626,6 @@ msgstr "库存数量。如果这是一个可变的产品，这个值将被用于
 #: includes/wc-product-functions.php:833
 msgid "Do not allow"
 msgstr "不允许"
-
-#: includes/wc-product-functions.php:834
-msgid "Allow, but notify customer"
-msgstr "允许，但通知客户"
 
 #. translators: %s: count
 #: includes/admin/class-wc-admin-webhooks-table-list.php:216
@@ -15854,10 +15833,6 @@ msgstr "配送详情"
 msgid "Billing details"
 msgstr "账单详情"
 
-#: includes/cli/class-wc-cli-runner.php:102
-msgid "Customer ID."
-msgstr "客户ID。"
-
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:284
 msgid "How many times this coupon can be used by an individual user. Uses billing email for guests, and user ID for logged in users."
 msgstr "每个用户最多可使用该优惠券多少次. 游客使用账单邮箱地址,注册会员使用用户ID来识别."
@@ -15932,10 +15907,6 @@ msgstr "你店铺的产品类别在这里修改。要改变前端的类别排序
 msgid "Install WooCommerce pages"
 msgstr "安装WooCommerce页面"
 
-#: includes/api/class-wc-rest-system-status-tools-controller.php:146
-msgid "Customer sessions"
-msgstr "客户 sessions"
-
 #: includes/api/class-wc-rest-system-status-tools-controller.php:126
 msgid "Expired transients"
 msgstr "清除 transients"
@@ -15978,14 +15949,6 @@ msgstr "如果优惠券不适用用于促销产品，请选中该复选框。基
 msgid "Virtual products are intangible and are not shipped."
 msgstr "虚拟物品，无需配送"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:228
-msgid "List of allowed emails to check against the customer billing email when an order is placed. Separate email addresses with commas."
-msgstr "列出客户账单地址里可使用优惠券的邮箱地址，以逗号隔开。"
-
-#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:438
-msgid "Customer notes about the order"
-msgstr "客户对订单的备注"
-
 #: includes/admin/class-wc-admin-webhooks.php:289
 msgid "You do not have permissions to edit Webhooks!"
 msgstr "你没有权限编辑webhooks！"
@@ -15997,6 +15960,43 @@ msgstr "你没有权限删除webhooks！"
 #: includes/admin/class-wc-admin-webhooks.php:204
 msgid "You do not have permissions to create Webhooks!"
 msgstr "你没有权限创建webhooks！"
+
+#: includes/wc-product-functions.php:834
+msgid "Allow, but notify customer"
+msgstr "允许，但通知顾客"
+
+#: includes/admin/meta-boxes/views/html-product-data-general.php:66
+#: includes/admin/meta-boxes/views/html-variation-admin.php:320
+msgid "This is the name of the download shown to the customer."
+msgstr "展示给顾客的下载名称"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:78
+msgid "Add a note for your reference, or add a customer note (the user will be notified)."
+msgstr "加入一条注释以做参考，或者加入一条顾客备注(用户即可识别)"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:438
+msgid "Customer notes about the order"
+msgstr "顾客对订单的备注"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:238
+msgid "Customer:"
+msgstr "顾客："
+
+#: includes/cli/class-wc-cli-runner.php:102
+msgid "Customer ID."
+msgstr "顾客ID。"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:318
+msgid "Coupon code already exists - customers will use the latest coupon with this code."
+msgstr "优惠券已存在 - 顾客将使用这个代码的最新的优惠券"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:228
+msgid "List of allowed emails to check against the customer billing email when an order is placed. Separate email addresses with commas."
+msgstr "列出顾客账单地址里可使用优惠券的邮箱地址，以逗号隔开。"
+
+#: includes/api/class-wc-rest-system-status-tools-controller.php:146
+msgid "Customer sessions"
+msgstr "顾客 sessions"
 
 #: includes/admin/class-wc-admin-pointers.php:74
 msgid "This is your products main body of content. Here you should describe your product in detail."
@@ -16957,14 +16957,6 @@ msgstr "安装页面"
 msgid "Hard crop?"
 msgstr "强制裁剪？"
 
-#: includes/admin/class-wc-admin-reports.php:83
-msgid "Customer list"
-msgstr "客户列表"
-
-#: includes/admin/class-wc-admin-reports.php:77
-msgid "Customers vs. guests"
-msgstr "客户VS访客"
-
 #: includes/admin/class-wc-admin-profile.php:80
 #: includes/admin/class-wc-admin-profile.php:140
 msgid "State / County or state code"
@@ -16981,10 +16973,6 @@ msgstr "永久删除"
 #: includes/class-wc-checkout.php:202
 msgid "Order notes"
 msgstr "订单备注"
-
-#: includes/admin/class-wc-admin-post-types.php:312
-msgid "Customer message"
-msgstr "客户留言"
 
 #. translators: %s: product url
 #: includes/admin/class-wc-admin-post-types.php:154
@@ -17063,6 +17051,18 @@ msgstr "按类别分类销售额"
 #: includes/admin/class-wc-admin-reports.php:66
 msgid "Coupons by date"
 msgstr "按日期分类优惠卷"
+
+#: includes/admin/class-wc-admin-reports.php:83
+msgid "Customer list"
+msgstr "顾客列表"
+
+#: includes/admin/class-wc-admin-reports.php:77
+msgid "Customers vs. guests"
+msgstr "顾客VS访客"
+
+#: includes/admin/class-wc-admin-post-types.php:312
+msgid "Customer message"
+msgstr "顾客留言"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:40
 #: includes/admin/class-wc-admin-post-types.php:292
@@ -17245,10 +17245,6 @@ msgstr "%qty% 变量"
 msgid "Select an option&hellip;"
 msgstr "选择一个选项&hellip;"
 
-#: includes/admin/class-wc-admin-assets.php:255
-msgid "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this order was submitted by a customer, you will need to manually restore the item's stock."
-msgstr "你确定要删除所选项目吗? 如果您以前已经降低了该项目的库存, 或者提交订单的客户, 您将需要手动恢复该项目的库存."
-
 #: includes/admin/class-wc-admin-assets.php:256
 msgid "Please select some items."
 msgstr "请选择一些物品。"
@@ -17332,14 +17328,6 @@ msgstr "输入一个新的属性项的名称："
 msgid "Copy billing information to shipping information? This will remove any currently entered shipping information."
 msgstr "复制账单信息，收货地址？这将删除任何当前输入送货信息。"
 
-#: includes/admin/class-wc-admin-assets.php:272
-msgid "Load the customer's billing information? This will remove any currently entered billing information."
-msgstr "加载客户的账单信息？这将删除任何当前输入账单信息。"
-
-#: includes/admin/class-wc-admin-assets.php:273
-msgid "Load the customer's shipping information? This will remove any currently entered shipping information."
-msgstr "加载客户的收货地址？这将删除任何当前输入送货信息。"
-
 #: includes/admin/class-wc-admin-assets.php:274
 #: includes/admin/class-wc-admin-post-types.php:273
 #: includes/admin/class-wc-admin-post-types.php:1821
@@ -17347,10 +17335,6 @@ msgstr "加载客户的收货地址？这将删除任何当前输入送货信息
 #: includes/admin/views/html-quick-edit-product.php:158
 msgid "Featured"
 msgstr "精选"
-
-#: includes/admin/class-wc-admin-assets.php:278
-msgid "No customer selected"
-msgstr "没有客户被选择"
 
 #: includes/admin/class-wc-admin-assets.php:302
 msgid "Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the order has been saved."
@@ -18261,6 +18245,22 @@ msgstr "%1$s 库存从 %2$s 减少到%3$s."
 #: templates/checkout/thankyou.php:63
 msgid "Payment method:"
 msgstr "付款方式："
+
+#: includes/admin/class-wc-admin-assets.php:278
+msgid "No customer selected"
+msgstr "没有顾客被选择"
+
+#: includes/admin/class-wc-admin-assets.php:273
+msgid "Load the customer's shipping information? This will remove any currently entered shipping information."
+msgstr "加载顾客的收货地址？这将删除任何当前输入送货信息。"
+
+#: includes/admin/class-wc-admin-assets.php:272
+msgid "Load the customer's billing information? This will remove any currently entered billing information."
+msgstr "加载顾客的账单信息？这将删除任何当前输入账单信息。"
+
+#: includes/admin/class-wc-admin-assets.php:255
+msgid "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this order was submitted by a customer, you will need to manually restore the item's stock."
+msgstr "你确定要删除所选项目吗? 如果您以前已经降低了该项目的库存, 或者提交订单的顾客, 您将需要手动恢复该项目的库存."
 
 #: i18n/states/TH.php:17
 msgid "Amnat Charoen (&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;&#3636;&#3597;)"

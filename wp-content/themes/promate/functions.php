@@ -379,13 +379,13 @@ function bartag_func( $atts ) {
 	
    $output .= '<div role="tabpanel">';
 
-   if($cat){
+   if(@$cat){
 	 
 	   $output .= '<ul class="nav nav-tabs">';
 	   
 		$cats = explode(',', $cat);
 
-        $output .= var_dump($cats);
+//        $output .= var_dump($cats);
 
 			foreach($cats as $key => $term_slug){
 				$term = get_term_by('slug', $term_slug, 'product_cat');				
@@ -1208,12 +1208,13 @@ add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 
 function custom_override_checkout_fields( $fields ) {
     unset($fields['billing']['billing_company']);
+//    unset($fields['billing']['billing_address_1']);
     unset($fields['billing']['billing_address_2']);
     unset($fields['billing']['billing_state']);
     unset($fields['billing']['billing_country']);
     unset($fields['billing']['billing_postcode']);
     unset($fields['billing']['billing_city']);
-	
+
     $fields['billing']['billing_address_1']['required'] = false;
 
     $fields['billing']['billing_last_name']['required'] = false;
@@ -1221,10 +1222,10 @@ function custom_override_checkout_fields( $fields ) {
 	$fields['billing']['billing_phone']['input_class'] = array('billing_phone');
 	$fields['billing']['billing_phone']['placeholder'] = '(___) ___ __ __';
 	
-	$fields['billing']['department']['type'] = 'text';
-	$fields['billing']['department']['clear'] = true;
-	$fields['billing']['department']['placeholder'] = __('Укажите номер отделения');
-	$fields['billing']['department']['label'] = __('Отделение "Новая Почта"');
+//	$fields['billing']['department']['type'] = 'text';
+//	$fields['billing']['department']['clear'] = true;
+//	$fields['billing']['department']['placeholder'] = __('Укажите номер отделения');
+//	$fields['billing']['department']['label'] = __('Отделение "Новая Почта"');
 
     
     return $fields;

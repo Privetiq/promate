@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - YITH WooCommerce Ajax Search - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-05-12 10:46:23+0000\n"
+"PO-Revision-Date: 2017-07-20 19:39:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -227,7 +227,7 @@ msgstr "デフォルトに戻す"
 
 #: plugin-fw/templates/metaboxes/types/typography.php:100
 msgid "Italic bold"
-msgstr "太斜体"
+msgstr "太字斜体"
 
 #: plugin-fw/templates/metaboxes/types/typography.php:99
 msgid "Italic"
@@ -493,7 +493,7 @@ msgstr "フィールドタイプ"
 #: plugin-fw/templates/metaboxes/types/contactform.php:90
 #: plugin-fw/templates/metaboxes/types/contactform.php:282
 msgid "REQUIRED: Field identification name to be entered into email body. <strong>Note:</strong>Use only lowercase characters and underscores."
-msgstr "必須: フィールド識別名は、電子メール本文に入力されます。<strong>注意: </strong>英語半角小文字とアンダースコアのみ利用可能です。"
+msgstr "必須: メール本文に入力されるフィールド識別名。<strong>注: </strong>半角英字の小文字とアンダースコアのみをお使いください。"
 
 #: plugin-fw/templates/metaboxes/types/contactform.php:86
 #: plugin-fw/templates/metaboxes/types/contactform.php:278
@@ -573,7 +573,7 @@ msgstr "追加"
 
 #: plugin-fw/templates/metaboxes/types/categories.php:42
 msgid "+ Add New Category"
-msgstr "+ 新しいカテゴリーの追加"
+msgstr "+ 新規カテゴリーの追加"
 
 #: plugin-fw/templates/metaboxes/types/categories.php:36
 msgid "No categories."
@@ -752,7 +752,7 @@ msgstr "%1$s の新しいバージョンが利用できます。<a href=\"%2$s\"
 
 #: plugin-fw/lib/yit-upgrade.php:446
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>."
-msgstr "%1$s の新しいバージョンが利用できます. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">バージョン %4$s の詳細を表示</a>。"
+msgstr "%1$s の新しいバージョンが利用できます。 <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">バージョン %4$s の詳細を表示</a>。"
 
 #: plugin-fw/lib/yit-upgrade.php:287
 msgid "Could not create Temporary file."
@@ -785,6 +785,17 @@ msgstr "バージョン %latest% の詳細を表示する。"
 #: plugin-fw/lib/yit-upgrade.php:135
 msgid "There is a new version of %plugin_name% available."
 msgstr "新しいバージョンの %plugin_name% が利用可能です。"
+
+#: plugin-fw/lib/yit-pointers.php:85
+msgid ""
+"From now on, you can find the option panel of YITH plugins in YITH Plugins menu.\n"
+"                                    Every time one of our plugins is added, a new entry will be added to this menu.\n"
+"                                    For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be moved from previous location to YITH Plugins tab."
+msgstr ""
+"今後は「YITH プラグイン」メニュー内に YITH プラグインのオプション画面を見つけることができます。\n"
+"                                    YITH プラグインが追加されるたびに、このメニューに新しい項目が追加されます。\n"
+"                                    たとえば、更新後、プラグインオプション (YITH WooCommerce Wishlist、YITH WooCommerce Ajax Search など) は、以前の場所から「YITH プラグイン」タブに移動します。"
 
 #: plugin-fw/lib/yit-pointers.php:84
 msgid "Plugins Upgraded"
@@ -1055,7 +1066,7 @@ msgstr "新規 %s"
 #: plugin-fw/lib/yit-cpt-unlimited.php:1267
 #: plugin-fw/lib/yit-cpt-unlimited.php:1304
 msgid "Edit %s"
-msgstr "編集 %s"
+msgstr "%sの編集"
 
 #: plugin-fw/lib/yit-cpt-unlimited.php:461
 #: plugin-fw/lib/yit-cpt-unlimited.php:575

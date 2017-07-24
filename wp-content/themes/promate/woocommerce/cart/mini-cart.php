@@ -15,16 +15,10 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 2.5.0
+ * @version 3.1.0
  */
-
-if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly
-}
-
-?>
-<?php do_action( 'woocommerce_before_mini_cart' ); ?>
-<div class="menu-jvajaxcart">
+do_action( 'woocommerce_before_mini_cart' ); ?>
+    <div class="menu-jvajaxcart">
     <div class="jv-module module module--cart-ajax">
         <div class="contentmod clearfix">
             <div class="jv-ajax-cart vmCartModule  module--cart-ajax" id="vmCartModule">
@@ -109,4 +103,4 @@ if ( ! defined( 'ABSPATH' ) ) {
             </div>
         </div>
     </div>
-    <?php do_action( 'woocommerce_after_mini_cart' ); ?>
+<?php do_action( 'woocommerce_after_mini_cart' ); ?>

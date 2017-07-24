@@ -22689,7 +22689,7 @@ msgstr ""
 
 #: templates/cart/cart-totals.php:28
 msgid "Cart totals"
-msgstr ""
+msgstr "Итого"
 
 #: templates/cart/cart-totals.php:33 templates/cart/cart-totals.php:34
 #: templates/cart/mini-cart.php:71 templates/checkout/review-order.php:59

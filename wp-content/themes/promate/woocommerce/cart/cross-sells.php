@@ -13,51 +13,36 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     1.6.4
+ * @version     3.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+    exit;
 }
 
-global $product, $woocommerce_loop;
+if ( $cross_sells ) : ?>
 
-if ( ! $crosssells = WC()->cart->get_cross_sells() ) {
-	return;
-}
+    <div class="cross-sells">
 
-$args = array(
-	'post_type'           => 'product',
-	'ignore_sticky_posts' => 1,
-	'no_found_rows'       => 1,
-	'posts_per_page'      => apply_filters( 'woocommerce_cross_sells_total', $posts_per_page ),
-	'orderby'             => $orderby,
-	'post__in'            => $crosssells,
-	'meta_query'          => WC()->query->get_meta_query()
-);
+        <h2><?php _e( 'You may be interested in&hellip;', 'woocommerce' ) ?></h2>
 
-$products                    = new WP_Query( $args );
-$woocommerce_loop['name']    = 'cross-sells';
-$woocommerce_loop['columns'] = apply_filters( 'woocommerce_cross_sells_columns', $columns );
+        <?php woocommerce_product_loop_start(); ?>
 
-if ( $products->have_posts() ) : ?>
+        <?php foreach ( $cross_sells as $cross_sell ) : ?>
 
-	<div class="cross-sells">
+            <?php
+            $post_object = get_post( $cross_sell->get_id() );
 
-		<h2><?php _e( 'You may be interested in&hellip;', 'woocommerce' ) ?></h2>
+            setup_postdata( $GLOBALS['post'] =& $post_object );
 
-		<?php woocommerce_product_loop_start(); ?>
+            wc_get_template_part( 'content', 'product' ); ?>
 
-			<?php while ( $products->have_posts() ) : $products->the_post(); ?>
+        <?php endforeach; ?>
 
-				<?php wc_get_template_part( 'content', 'product' ); ?>
+        <?php woocommerce_product_loop_end(); ?>
 
-			<?php endwhile; // end of the loop. ?>
-
-		<?php woocommerce_product_loop_end(); ?>
-
-	</div>
+    </div>
 
 <?php endif;
 
-wp_reset_query();
+wp_reset_postdata();

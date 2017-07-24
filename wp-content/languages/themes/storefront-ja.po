@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Storefront package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-08 09:57:31+0000\n"
+"PO-Revision-Date: 2017-07-22 21:31:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,6 +14,30 @@ msgstr ""
 #. Theme Name of the plugin/theme
 msgid "Storefront"
 msgstr "Storefront"
+
+#. Description of the plugin/theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront は WooCommerce サイト作成にぴったりのテーマです。WooThemes がデザインし開発しています。販売されている WooCommerce プラグインと統合しやすくなっています。レイアウトや色合いなどでお店の個性をだすことが可能です。レスポンシブデザインや数多くのウィジェットが利用可能です。開発者は拡張コードベースでカスタマイズして機能拡張することができます。WooCommerce テーマを探しますか？もう探す必要はありません！"
+
+#: inc/class-storefront.php:316
+msgid "Post Navigation"
+msgstr "投稿ナビゲーション"
+
+#: comments.php:54
+msgid "Comment Navigation Below"
+msgstr "コメントナビゲーション下"
+
+#: comments.php:36
+msgid "Comment Navigation Above"
+msgstr "コメントナビゲーション上"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "投稿コメント"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "プロモーション商品"
 
 #: inc/admin/class-storefront-admin.php:221
 #: inc/admin/class-storefront-plugin-install.php:56
@@ -556,6 +580,14 @@ msgstr "一般的なレイアウト"
 #: inc/customizer/class-storefront-customizer.php:450
 msgid "More"
 msgstr "続き"
+
+#: inc/customizer/class-storefront-customizer.php:289
+msgid "Customize the look & feel of your website footer."
+msgstr "サイトのフッターの外観をカスタマイズする。"
+
+#: inc/customizer/class-storefront-customizer.php:358
+msgid "Customize the look & feel of your website buttons."
+msgstr "サイトのボタンの外観をカスタマイズする。"
 
 #: inc/customizer/class-storefront-customizer.php:356
 msgid "Buttons"
