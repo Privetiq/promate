@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Storefront package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-07-31 20:24:09+0000\n"
+"PO-Revision-Date: 2017-07-31 19:51:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.0-alpha\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: nl\n"
 "Project-Id-Version: Themes - Storefront\n"
 
@@ -16,211 +16,402 @@ msgid "Storefront"
 msgstr "Storefront"
 
 #. Description of the plugin/theme
-msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customise and extend. Looking for a WooCommerce theme? Look no further!"
-msgstr "Storefront is het perfecte thema voor je volgende WooCommerce project. Ontworpen en gemaakt door WooCommerce ontwikkelaars, brengt het een diepe integratie met WooCommerce zelf plus veel van de populaire WooCommerce extensies. Er zijn verschillende layout en kleurenopties om je winkel te personaliseren, meerdere widget-gebieden, een responsive ontwerp en nog veel meer. Ontwikkelaars zullen de lichte en uitbreidbare codebase waarderen die het uitstekend aanpasbaar en uitbreidbaar maakt. Op zoek naar een WooCommerce thema? Zoek niet verder."
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront is het perfecte thema voor je volgende WooCommerce project. Ontworpen en gemaakt door WooCommerce Core ontwikkelaars, brengt het een diepe integratie met WooCommerce zelf plus veel van de populaire WooCommerce extensies. Er zijn verschillende layout en kleurenopties om je winkel te personaliseren, meerdere widget-gebieden, een responsive ontwerp en nog veel meer. Ontwikkelaars zullen de lichte en uitbreidbare codebase waarderen die het uitstekend aanpasbaar en uitbreidbaar maakt. Op zoek naar een WooCommerce thema? Zoek niet verder."
 
-#: inc/admin/welcome-screen/component-contribute.php:15
-msgid "Download Theme Customisations"
-msgstr "Download aanpassingen voor Storefront"
+#: inc/class-storefront.php:316
+msgid "Post Navigation"
+msgstr "Reactienavigatie"
 
-#: inc/admin/welcome-screen/component-contribute.php:11
-msgid "We highly encourage you to make %s all yours. If you need to make a CSS tweak or add some custom JS or PHP, please use our Theme Customisations Plugin. Simply Click the button below, install as normal, and start Customizing today!"
-msgstr "We raden je aan om %s helemaal van jou te maken. Als je een CSS-aanpassing nodig hebt of wat eigen JS of PHP, kijk eens naar onze Theme Customisations Plugin. Klik op de knop hieronder, installeer zoals je gewoonlijk doet en begin met het aanpassen vandaag nog."
+#: comments.php:54
+msgid "Comment Navigation Below"
+msgstr "Reactienavigatie onder"
 
-#: inc/admin/welcome-screen/component-contribute.php:10
-msgid "Customise Storefront"
-msgstr "Storefront aanpassen"
+#: comments.php:36
+msgid "Comment Navigation Above"
+msgstr "Reactienavigatie boven"
 
-#: inc/woocommerce/storefront-woocommerce-template-functions.php:327
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Berichtreacties"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Promotieproducten"
+
+#: inc/admin/class-storefront-admin.php:221
+#: inc/admin/class-storefront-plugin-install.php:56
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: inc/storefront-template-functions.php:817
+msgid "Best Selling Products"
+msgstr "Bestverkopende producten"
+
+#: inc/storefront-template-functions.php:770
+msgid "On Sale Products"
+msgstr "Producten in de uitverkoop"
+
+#: inc/storefront-template-functions.php:301
+msgid "Edit this section"
+msgstr "Bewerk deze sectie"
+
+#: inc/nux/class-storefront-nux-starter-content.php:857
+msgid "Vneck Tshirt"
+msgstr "T-shirt met v-hals"
+
+#: inc/nux/class-storefront-nux-starter-content.php:836
+msgid "Tshirt"
+msgstr "T-shirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:815
+msgid "Polo"
+msgstr "Polo-shirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:794
+msgid "Long Sleeve Tee"
+msgstr "T-shirt met lange mouwen"
+
+#: inc/nux/class-storefront-nux-starter-content.php:772
+msgid "Hoodie"
+msgstr "Hoodie"
+
+#: inc/nux/class-storefront-nux-starter-content.php:751
+msgid "Hoodie with Zipper"
+msgstr "Hoodie met rits"
+
+#: inc/nux/class-storefront-nux-starter-content.php:729
+msgid "Hoodie with Pocket"
+msgstr "Hoodie met zak"
+
+#: inc/nux/class-storefront-nux-starter-content.php:708
+msgid "Hoodie with Logo"
+msgstr "Hoodie met logo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:687
+msgid "Sunglasses"
+msgstr "Zonnebril"
+
+#: inc/nux/class-storefront-nux-starter-content.php:665
+msgid "Cap"
+msgstr "Pet"
+
+#: inc/nux/class-storefront-nux-starter-content.php:643
+msgid "Belt"
+msgstr "Riem"
+
+#: inc/nux/class-storefront-nux-starter-content.php:620
+msgid "Beanie"
+msgstr "Beanie"
+
+#: inc/nux/class-storefront-nux-starter-content.php:614
+msgid "Tshirts"
+msgstr "T-shirts"
+
+#: inc/nux/class-storefront-nux-starter-content.php:611
+msgid "Hoodies"
+msgstr "Hoodies"
+
+#: inc/nux/class-storefront-nux-starter-content.php:609
+#: inc/nux/class-storefront-nux-starter-content.php:612
+#: inc/nux/class-storefront-nux-starter-content.php:615
+msgid "A short category description"
+msgstr "Een korte categoriebeschrijving"
+
+#: inc/nux/class-storefront-nux-starter-content.php:608
+msgid "Accessories"
+msgstr "Accessoires"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "Contact"
+msgstr "Contact"
+
+#: inc/nux/class-storefront-nux-starter-content.php:67
+msgid "About"
+msgstr "Over"
+
+#: inc/nux/class-storefront-nux-starter-content.php:60
+msgid "Welcome"
+msgstr "Welkom"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:129
+msgid "Done"
+msgstr "Voltooid"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:127
+msgid "All set! Remember to %ssave & publish%s your changes when you're done.%sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr "Alles klaar. Vergeet niet je wijzigingen %sop te slaan en te publiceren%s wanneer je klaar bent.%sJe kunt terug gaan naar je Dashboard door de X in de linkerbovenhoek aan te klikken."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:121
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Kies kleuren voor je achtergrond en tekst van de knoppen. Nogmaals, huiskleuren zijn altijd een goede keuze."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:120
+msgid "Color your buttons"
+msgstr "Geef kleur aan je knoppen"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:115
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "In het typografiepaneel kun je een accentkleur opgeven voor dingen als links en sterwaarderingen. We adviseren je huiskleur hiervoor te gebruiken."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:114
+msgid "Choose your accent color"
+msgstr "Kies je accentkleur"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Open het Site Identity paneel en klik op de 'Selecteer logo'-knop om je logo te uploaden."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:102
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Hier kun je de algemene weergave van je winkel bepalen. %sOm te beginnen, laten we een logo toevoegen."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:101
+msgid "Welcome to the Customizer"
+msgstr "Welkom bij de Customizer"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Skip this step"
+msgstr "Deze stap overslaan"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:81
+msgid "No thanks, skip the tour"
+msgstr "Nee bedankt, sla de tour over"
+
+#: inc/nux/class-storefront-nux-admin.php:123
+#: inc/nux/class-storefront-nux-guided-tour.php:103
+msgid "Let's go!"
+msgstr "Aan de slag."
+
+#: inc/nux/class-storefront-nux-admin.php:118
+msgid "Add example products"
+msgstr "Voeg voorbeeldproducten toe"
+
+#: inc/nux/class-storefront-nux-admin.php:110
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Maak een homepagina aan met Storefront's homepagina-template"
+
+#: inc/nux/class-storefront-nux-admin.php:108
+msgid "Apply the Storefront homepage template"
+msgstr "Pas het Storefront homepagina-template toe"
+
+#: inc/nux/class-storefront-nux-admin.php:88
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Je hebt WooCommerce ingesteld, nu is het tijd wat stijl toe te voegen. Laten we beginnen in de Customizer door je logo toe te voegen."
+
+#: inc/nux/class-storefront-nux-admin.php:86
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Voordat je het eerste product toevoegt, laten we je winkel ontwerpen. We voegen wat voorbeeldproducten voor je toe. Wanneer je er klaar voor bent kunnen we beginnen met het plaatsen van je logo."
+
+#: inc/nux/class-storefront-nux-admin.php:82
+msgid "Design your store 🎨"
+msgstr "Ontwerp je winkel 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:78
+msgid "Activate WooCommerce"
+msgstr "Activeer WooCommerce"
+
+#: inc/nux/class-storefront-nux-admin.php:78
+msgid "WooCommerce activated"
+msgstr "WooCommerce geactiveerd"
+
+#: inc/nux/class-storefront-nux-admin.php:77
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "Om eCommerce functies te gebruiken moet je de WooCommerce plugin installeren."
+
+#: inc/nux/class-storefront-nux-admin.php:76
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Bedankt voor het installeren van Storefront, je bent geweldig."
+
+#: inc/class-storefront.php:161
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Widgets die hier toegevoegd worden verschijnen in kolom %1$d van de footer in rij %2$d."
+
+#: inc/class-storefront.php:160
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Footer rij %1$d - kolom %2$d"
+
+#: inc/class-storefront.php:158
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Widgets die hier toegevoegd worden verschijnen in kolom %1$d van de footer."
+
+#: inc/class-storefront.php:157
+msgid "Footer Column %1$d"
+msgstr "Footer kolom %1$d"
+
+#: inc/admin/class-storefront-admin.php:250
+#: inc/admin/class-storefront-plugin-install.php:102
+msgid "Learn more"
+msgstr "Leer meer"
+
+#: inc/admin/class-storefront-admin.php:243
+#: inc/admin/class-storefront-plugin-install.php:82
+msgid "Install now"
+msgstr "Nu installeren"
+
+#: inc/admin/class-storefront-admin.php:184
+msgid "Check 'em out"
+msgstr "Probeer ze uit"
+
+#: inc/admin/class-storefront-admin.php:180
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "Natuurlijk zijn ze volledig compatibel met iedere Storefront extensie."
+
+#: inc/admin/class-storefront-admin.php:176
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Ieder is ontworpen voor een verschillendende doelgroep, van fashion tot voeding."
+
+#: inc/admin/class-storefront-admin.php:172
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Snel en makkelijk je shopweergave transformeren met Storefront cheld-thema's."
+
+#: inc/admin/class-storefront-admin.php:168
+msgid "Alternate designs"
+msgstr "Alternatieve designs"
+
+#: inc/admin/class-storefront-admin.php:164
+msgid "Read more and purchase"
+msgstr "Lees verder en schaf aan"
+
+#: inc/admin/class-storefront-admin.php:155
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Alle hulpmiddelen die je nodig hebt om Storefront aan te passen aan je stijl."
+
+#: inc/admin/class-storefront-admin.php:149
+msgid "Storefront Extensions Bundle"
+msgstr "Storefront extensiebundel"
+
+#: inc/admin/class-storefront-admin.php:137
+msgid "Increase conversions by adding a sticky add-to-cart button to all your product pages so that folks can always add to cart, regardless of how far they scroll down the page."
+msgstr "Verhoog conversie door het toevoegen van een sticky toevoegen-aan-winkelmand-knop aan al je producten, zodat mensen het altijd aan de winkelmand kunnen toevoegen, onafhankelijk van hoe ver ze naar beneden scrollen op de pagina."
+
+#: inc/admin/class-storefront-admin.php:135
+msgid "Sticky add to cart"
+msgstr "Vaste \"toevoegen aan winkelmand\""
+
+#: inc/admin/class-storefront-admin.php:122
+msgid "Product Sharing"
+msgstr "Producten delen"
+
+#: inc/admin/class-storefront-admin.php:104
+msgid "Cart Tab"
+msgstr "Winkelmand-tab"
+
+#: inc/admin/class-storefront-admin.php:101
+msgid "Install-and-go enhancements"
+msgstr "Installeren-en-gaan uitbreidingen"
+
+#: inc/admin/class-storefront-admin.php:94
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Je hebt wellicht interesse in de volgende Storefront extensies en ontwerpen. "
+
+#: inc/admin/class-storefront-admin.php:92
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "Nog iets... Je hebt wellicht interesse in de volgende Storefront extensies en ontwerpen."
+
+#: inc/admin/class-storefront-admin.php:91
+msgid "Setup complete %sYour Storefront adventure begins now 🚀%s "
+msgstr "Instellen voltooid. %sJe Storefront avontuur begint nu  🚀%s"
+
+#: inc/admin/class-storefront-admin.php:75
+msgid "Development blog"
+msgstr "Ontwikkelaarsblog"
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: inc/admin/class-storefront-admin.php:73
+msgid "Support"
+msgstr "Support"
+
+#: inc/class-storefront.php:145
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Widgets die aan dit gedeelte worden toegevoegd, verschijnen onder de header en boven de hoofdinhoud."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:365
 msgid "My Account"
 msgstr "Mijn account"
 
-#: inc/woocommerce/storefront-woocommerce-template-functions.php:300
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:338
 msgid "Search"
 msgstr "Zoeken"
 
-#: inc/storefront-template-functions.php:738
+#: inc/storefront-template-functions.php:804
 msgid "Best Sellers"
 msgstr "Bestsellers"
 
-#: inc/storefront-template-functions.php:662
+#: inc/storefront-template-functions.php:709
 msgid "Fan Favorites"
 msgstr "Fan favorieten"
 
-#: inc/storefront-template-functions.php:621
+#: inc/storefront-template-functions.php:659
 msgid "We Recommend"
 msgstr "We raden aan"
 
-#: inc/storefront-template-functions.php:580
+#: inc/storefront-template-functions.php:609
 msgid "New In"
 msgstr "Nieuw binnen"
 
-#: inc/storefront-template-functions.php:539
+#: inc/storefront-template-functions.php:559
 msgid "Shop by Category"
 msgstr "Winkelen op categorie"
 
-#: inc/storefront-template-functions.php:443
+#: inc/storefront-template-functions.php:463
 msgid "Comments"
 msgstr "Reacties"
 
-#: inc/storefront-template-functions.php:433
+#: inc/storefront-template-functions.php:453
 msgid "Tagged"
 msgstr "Getagd"
 
-#: inc/storefront-template-functions.php:420
+#: inc/storefront-template-functions.php:440
 msgid "Posted in"
 msgstr "Geplaatst in"
 
-#: inc/storefront-template-functions.php:409
+#: inc/storefront-template-functions.php:429
 msgid "Written by"
 msgstr "Geschreven door"
 
-#: inc/storefront-template-functions.php:231
+#: inc/storefront-template-functions.php:233
 msgid "Menu"
 msgstr "Menu"
-
-#: inc/admin/welcome-screen/component-intro.php:66
-msgid "Stay up to date with Storefront developments on the %sdev blog%s."
-msgstr "Blijf op de hoogte met Storefront ontwikkeling op het %sontwikkelblog%s."
-
-#: inc/admin/welcome-screen/component-enhance.php:39
-#: inc/admin/welcome-screen/component-enhance.php:81
-#: inc/admin/welcome-screen/component-enhance.php:111
-msgid "We're currently unable to retrieve these products. Please double check your internet connection or try back later."
-msgstr "Het is op dit moment niet mogelijk deze producten te tonen. Controleer je internetverbinding of probeer het later nogmaals."
-
-#: inc/admin/welcome-screen/component-contribute.php:32
-msgid "You can find a wide range of information on how to use and customise %s in our %sdocumentation%s. If you're a customer you can get support in our %sHelpdesk%3$s. Otherwise you can try posting on the WordPress.org %ssupport forums%3$s."
-msgstr "Je kunt een uitgebreide verzameling informatie vinden over het gebruik en het aanpassen van %s in onze %sdocumentatie%s. Als je een klant bent dan kun je support ontvangen in onze %sHelpdesk%3$s. Anders kun je een bericht plaatsen op de WordPress.org %ssupport forums%3$s."
-
-#: inc/admin/welcome-screen/component-contribute.php:31
-msgid "Get support"
-msgstr "Support verkrijgen"
 
 #: inc/class-storefront.php:143
 msgid "Below Header"
 msgstr "Onder header"
 
-#: inc/admin/welcome-screen/component-intro.php:58
-msgid "Customizer settings"
-msgstr "Customizer instellingen"
-
 #: inc/customizer/class-storefront-customizer-control-more.php:31
 msgid "Enjoying %s?"
 msgstr "Heb je plezier van %s?"
 
-#: inc/admin/welcome-screen/component-intro.php:57
-msgid "FAQ"
-msgstr "FAQ"
-
-#: inc/admin/welcome-screen/component-intro.php:56
-msgid "Installation &amp; configuration"
-msgstr "Installatie &amp; configuratie"
-
-#: inc/admin/welcome-screen/component-intro.php:54
-msgid "Featured Docs"
-msgstr "Aanbevolen Documentatie"
-
-#: inc/admin/welcome-screen/component-intro.php:34
-msgid "Recent News"
-msgstr "Recent Nieuws"
-
-#: inc/admin/welcome-screen/component-intro.php:31
-msgid "Latest %s news"
-msgstr "Laatste %s nieuws"
-
-#: inc/admin/welcome-screen/component-intro.php:26
-msgid "Install %s"
-msgstr "Installeer %"
-
-#: inc/admin/welcome-screen/component-intro.php:19
-msgid "Built to enrich your %s store"
-msgstr "Gemaakt om je %s webshop te verbeteren"
-
-#: inc/admin/welcome-screen/component-intro.php:14
-msgid "%sEnjoying %s?%s Why not %sleave a review%s on WordPress.org? We'd really appreciate it!"
-msgstr "%sPlezier van %s?%s Waarom zou je geen %sreview achterlaten%s op WordPress.org? We zullen het zeker waarderen."
-
-#: inc/admin/welcome-screen/component-enhance.php:86
-msgid "View all %s child themes &rarr;"
-msgstr "Bekijk alle %s subthema's &rarr;"
-
-#: inc/admin/welcome-screen/component-enhance.php:53
-msgid "Take a look at our range of child themes for %s that allow you to easily change the look of your store to suit a specific industry."
-msgstr "Kijk eens rond bij onze selectie van child-thema's voor %s. Deze maken het eenvoudig om het uiterlijk van je webshop aan te passen aan een bepaalde doelgroep."
-
-#: inc/admin/welcome-screen/component-enhance.php:52
-msgid "Child themes"
-msgstr "Subthema's"
-
-#: inc/admin/welcome-screen/component-enhance.php:94
-msgid "There are a number of free plugins available for %s on the WordPress.org %splugin repository%s. Here's a few we made earlier:"
-msgstr "Er is een aantal gratis/vrije plugins beschikbaar voor %s op de WordPress.org %splugin-pagina%s. Hier zijn er een paar:"
-
-#: inc/admin/welcome-screen/component-enhance.php:46
-msgid "View all %s extensions &rarr;"
-msgstr "Bekijk alle %s extensies &rarr;"
-
-#: inc/admin/welcome-screen/component-enhance.php:22
-msgid "Take a look at our range of extensions that extend and enhance %s functionality."
-msgstr "Kijk eens rond bij onze selectie van extensies die de %s functionaliteit uitbreiden en verbeteren."
-
-#: inc/admin/welcome-screen/component-enhance.php:20
-msgid "Enhance %s"
-msgstr "Verbeter %s"
-
-#: inc/admin/welcome-screen/component-contribute.php:38
+#: inc/admin/class-storefront-admin.php:191
 msgid "An %s project"
 msgstr "Een project van %s"
 
-#: inc/admin/welcome-screen/component-contribute.php:27
-msgid "Please suggest and vote on ideas at the %s%s Ideas board%s. The most popular ideas will see prioritised development."
-msgstr "Stel nieuwe mogelijkheden voor, en stem op voorstellen van anderen op het %s%s Ideeënforum%s. De populairste ideeën worden met voorrang ontwikkeld."
-
-#: inc/admin/welcome-screen/component-contribute.php:26
-msgid "Suggest a feature"
-msgstr "Vraag om een feature"
-
-#: inc/admin/welcome-screen/component-contribute.php:21
-msgid "Contribute to Storefront"
-msgstr "Bijdragen aan Storefront"
-
-#: inc/admin/welcome-screen/component-intro.php:24
-msgid "%s is activated"
-msgstr "%s is geactiveerd"
-
-#: inc/woocommerce/storefront-woocommerce-template-functions.php:225
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:263
 msgid "On Sale Now"
 msgstr "Nu in de Aanbieding"
 
-#: inc/woocommerce/storefront-woocommerce-template-functions.php:233
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:271
 msgid "New In Store"
 msgstr "Nieuw in de Webshop"
-
-#: inc/admin/welcome-screen/component-enhance.php:62
-#: inc/admin/welcome-screen/component-enhance.php:106
-msgid "Free!"
-msgstr "Gratis!"
-
-#: inc/admin/welcome-screen/component-enhance.php:92
-msgid "Install free plugins"
-msgstr "Installeer vrije/gratis plugins"
 
 #: inc/customizer/class-storefront-customizer.php:234
 msgid "Header background image"
 msgstr "Koptekst achtergrondafbeelding"
 
-#: inc/storefront-template-functions.php:461
+#: inc/storefront-template-functions.php:481
 msgctxt "Next post"
 msgid "Next"
 msgstr "Volgende"
 
-#: inc/storefront-template-functions.php:462
+#: inc/storefront-template-functions.php:482
 msgctxt "Previous post"
 msgid "Previous"
 msgstr "Vorige"
 
-#: 404.php:58
+#: 404.php:57 404.php:59 inc/storefront-template-functions.php:722
 msgid "Popular Products"
 msgstr "Populaire producten"
 
@@ -246,72 +437,81 @@ msgstr[1] "%d artikelen"
 msgid "Search Results for: %s"
 msgstr "Zoekresultaten voor: %s"
 
-#: 404.php:47
+#: inc/storefront-template-functions.php:622
+msgid "Recent Products"
+msgstr "Recente producten"
+
+#: 404.php:45 404.php:47 inc/storefront-template-functions.php:574
 msgid "Product Categories"
 msgstr "Productcategorieën"
 
-#: inc/woocommerce/storefront-woocommerce-template-functions.php:217
+#: inc/storefront-template-functions.php:674
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:255
 msgid "Featured Products"
 msgstr "Aanbevolen producten"
 
 #: inc/woocommerce/storefront-woocommerce-template-functions.php:74
-#: inc/woocommerce/storefront-woocommerce-template-functions.php:313
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:351
 msgid "View your shopping cart"
 msgstr "Bekijk winkelmand"
 
-#: inc/storefront-template-functions.php:701
+#: inc/storefront-template-functions.php:757
 msgid "On Sale"
 msgstr "Aanbieding"
 
-#: inc/storefront-template-functions.php:500
+#: inc/storefront-template-functions.php:520
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Gepost op %s"
 
-#: inc/storefront-template-functions.php:444
+#: inc/nux/class-storefront-nux-guided-tour.php:75
+msgid "Next"
+msgstr "Volgende"
+
+#: inc/storefront-template-functions.php:464
 msgid "% Comments"
 msgstr "% Reacties"
 
-#: inc/storefront-template-functions.php:444
+#: inc/storefront-template-functions.php:464
 msgid "1 Comment"
 msgstr "1 Reactie"
 
-#: inc/storefront-template-functions.php:444
+#: inc/storefront-template-functions.php:464
 msgid "Leave a comment"
 msgstr "Geef een reactie"
 
 #. translators: used between list items, there is a space after the comma
-#: inc/storefront-template-functions.php:415
-#: inc/storefront-template-functions.php:428
+#: inc/storefront-template-functions.php:435
+#: inc/storefront-template-functions.php:448
 msgid ", "
 msgstr ", "
 
-#: inc/storefront-template-functions.php:377
+#: inc/storefront-template-functions.php:397
 msgid "Continue reading %s"
 msgstr "Verder lezen %s"
 
-#: inc/storefront-template-functions.php:322
-#: inc/storefront-template-functions.php:385
+#: inc/storefront-template-functions.php:342
+#: inc/storefront-template-functions.php:405
 msgid "Pages:"
 msgstr "Pagina's:"
 
-#: inc/storefront-template-functions.php:286
+#: inc/storefront-template-functions.php:288
 msgid "Skip to navigation"
 msgstr "Ga door naar navigatie"
 
-#: inc/storefront-template-functions.php:262
+#: inc/storefront-template-functions.php:264
 msgid "Secondary Navigation"
 msgstr "Secondaire Navigatie"
 
-#: inc/storefront-template-functions.php:287
+#: inc/storefront-template-functions.php:289
 msgid "Skip to content"
 msgstr "Ga direct naar de inhoud"
 
-#: inc/storefront-template-functions.php:128
+#: inc/storefront-template-functions.php:130
 msgid "%1$s designed by %2$s."
 msgstr "%1$s ontworpen door %2$s."
 
-#: inc/storefront-template-functions.php:230
+#: inc/storefront-template-functions.php:232
 msgid "Primary Navigation"
 msgstr "Hoofdmenu"
 
@@ -319,19 +519,12 @@ msgstr "Hoofdmenu"
 msgid "Edit"
 msgstr "Bewerken"
 
-#: inc/class-storefront.php:154
-msgid "Footer %d"
-msgstr "Voet %d"
-
-#: inc/class-storefront.php:156
-msgid "Widgetized Footer Region %d."
-msgstr "Widgetized Voetzone %d."
-
 #: inc/storefront-template-functions.php:48
 msgid "Your comment is awaiting moderation."
 msgstr "Je reactie wacht op moderatie."
 
 #: inc/class-storefront.php:88
+#: inc/nux/class-storefront-nux-starter-content.php:188
 msgid "Handheld Menu"
 msgstr "Menu voor mobiele apparaten"
 
@@ -340,6 +533,7 @@ msgid "Sidebar"
 msgstr "Zijbalk"
 
 #: inc/class-storefront.php:87
+#: inc/nux/class-storefront-nux-starter-content.php:178
 msgid "Secondary Menu"
 msgstr "Secondair Menu"
 
@@ -348,6 +542,7 @@ msgid "Looking for more options?"
 msgstr "Op zoek naar meer opties?"
 
 #: inc/class-storefront.php:86
+#: inc/nux/class-storefront-nux-starter-content.php:158
 msgid "Primary Menu"
 msgstr "Primair Menu"
 
@@ -360,11 +555,11 @@ msgid "More"
 msgstr "Meer"
 
 #: inc/customizer/class-storefront-customizer.php:289
-msgid "Customise the look & feel of your web site footer."
-msgstr "Pas de look & feel van je website-voettekst aan."
+msgid "Customize the look & feel of your website footer."
+msgstr "Pas de look & feel van je website footer aan."
 
 #: inc/customizer/class-storefront-customizer.php:358
-msgid "Customise the look & feel of your web site buttons."
+msgid "Customize the look & feel of your website buttons."
 msgstr "Pas de look & feel van je website-knoppen aan."
 
 #: inc/customizer/class-storefront-customizer.php:356
@@ -422,18 +617,6 @@ msgstr "Typografie"
 msgid "Header"
 msgstr "Kop"
 
-#: inc/admin/welcome-screen/component-contribute.php:22
-msgid "Found a bug? Want to contribute a patch or create a new feature? %sGitHub is the place to go!%s Or would you like to translate %s into your language? %sGet involved on WordPress.org%s."
-msgstr "Bug gevonden? Bijdragen aan een patch of een nieuwe functie creëren? %sGitHub is de juiste plaats!%s Of wil je %s in jouw taal vertalen? %sRaak betrokken op WordPress.org%s."
-
-#: inc/admin/class-storefront-admin.php:57
-msgid "Get started with Storefront"
-msgstr "Starten met Storefront"
-
-#: inc/admin/class-storefront-admin.php:56
-msgid "Thanks for choosing Storefront! You can read hints and tips on how get the most out of your new theme on the %swelcome screen%s."
-msgstr "Bedankt om te kiezen voor Storefront! Je vindt aanwijzingen en tips over hoe je het meeste uit je nieuwe thema haalt op het %swelkomstscherm%s."
-
 #: inc/customizer/class-storefront-customizer-control-more.php:28
 msgid "There's a range of %s extensions available to put additional power in your hands. Check out the %s%s%s page in your dashboard for more information."
 msgstr "Er is een verzameling %s-uitbreidingen beschikbaar om nog meer mogelijk te maken. Check de %s%s%s-pagina in je dashboard voor meer informatie."
@@ -446,9 +629,18 @@ msgstr "Waarom zou je geen review achterlaten op %sWordPress.org%s? We zullen he
 msgid "Background"
 msgstr "Achtergrond"
 
-#: inc/admin/welcome-screen/component-intro.php:21
-msgid "Although %s works fine as a regular WordPress theme, it really shines when used for an online store. Install %s and start selling now."
-msgstr "Hoewel %s het prima doet als standaard WordPress thema, komt het pas echt tot zijn recht in een online winkel. Installeer %s en start met verkopen."
+#: inc/nux/class-storefront-nux-admin.php:78
+msgid "Install WooCommerce"
+msgstr "Installeer WooCommerce"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:108
+msgid "Add your logo"
+msgstr "Voeg logo toe"
+
+#: inc/admin/class-storefront-admin.php:230
+#: inc/admin/class-storefront-plugin-install.php:67
+msgid "Activate"
+msgstr "Activeren"
 
 #: content-none.php:29
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
