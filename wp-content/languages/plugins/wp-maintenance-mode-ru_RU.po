@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Maintenance Mode - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-16 14:39:37+0000\n"
+"PO-Revision-Date: 2017-06-10 02:09:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,7 +46,7 @@ msgstr "Другие продукты"
 
 #: views/settings.php:301
 msgid "Empty subscribers list"
-msgstr "Список подписчиков пуст"
+msgstr "Очистить список подписчиков"
 
 #: views/settings.php:86
 msgid "If you want to redirect a user (with no access to Dashboard/Backend) to a URL (different from WordPress Dashboard URL) after login, then define a URL (incl. http://)"
@@ -145,7 +145,7 @@ msgstr "Информация о плагине"
 
 #: views/settings.php:422
 msgid "Tracking code"
-msgstr "Код слежения"
+msgstr "Код отслеживания"
 
 #: views/settings.php:413
 msgid "Use Google Analytics?"
@@ -189,7 +189,7 @@ msgstr "Как будут открываться ссылки?"
 
 #: views/settings.php:326
 msgid "Same page"
-msgstr "Такая же страница"
+msgstr "Эта же страница"
 
 #: views/settings.php:325
 msgid "New page"
@@ -265,11 +265,11 @@ msgstr "Выберите фон"
 
 #: views/settings.php:194
 msgid "Backgrounds should have 1920x1280 px size."
-msgstr "Фоновое изображение должно быть размера 1920x1080."
+msgstr "Фоновое изображение должно быть размером 1920x1280 px."
 
 #: views/settings.php:190
 msgid "Upload background"
-msgstr "Загрузить фон"
+msgstr "Загрузить фоновое изображение"
 
 #: views/settings.php:184
 msgid "Choose color"
@@ -281,11 +281,11 @@ msgstr "Предустановленный фон"
 
 #: views/settings.php:178
 msgid "Uploaded background"
-msgstr "Загруженный фон"
+msgstr "Загруженное фоновое изображение"
 
 #: views/settings.php:177
 msgid "Custom color"
-msgstr "Другой цвет"
+msgstr "Произвольный цвет"
 
 #: views/settings.php:174
 msgid "Choose type"
@@ -503,4 +503,4 @@ msgstr "Настройки"
 #. Plugin Name of the plugin/theme
 #: includes/classes/wp-maintenance-mode-admin.php:222
 msgid "WP Maintenance Mode"
-msgstr "Техническое обслуживание"
+msgstr "WP Maintenance Mode"

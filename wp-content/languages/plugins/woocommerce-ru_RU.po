@@ -8737,6 +8737,10 @@ msgid "Calculate shipping"
 msgstr "Рассчитать стоимость доставки"
 
 #: templates/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to Checkout"
+msgstr "Оформить заказ"
+
+#: templates/cart/proceed-to-checkout-button.php:27
 msgid "Proceed to checkout"
 msgstr "Оформить заказ"
 
@@ -8755,6 +8759,10 @@ msgstr "Вас также может заинтересовать&hellip;"
 #: templates/cart/cart.php:142
 msgid "Update cart"
 msgstr "Обновить корзину"
+
+#: гдето есть
+msgid "Update Cart"
+msgstr "Обновить Корзину"
 
 #: templates/cart/cart.php:137 templates/checkout/form-coupon.php:40
 msgid "Apply coupon"
@@ -8776,6 +8784,10 @@ msgstr "Подытог"
 
 #: templates/cart/cart-totals.php:28
 msgid "Cart totals"
+msgstr "Сумма заказов"
+
+#: templates/cart/cart-totals.php:28
+msgid "Cart Totals"
 msgstr "Сумма заказов"
 
 #: templates/cart/cart-shipping.php:50

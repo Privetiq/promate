@@ -12,6 +12,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $product;
+
+
 ?>
 <div class="woocommerce-variation-add-to-cart variations_button">
 	<?php

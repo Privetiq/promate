@@ -136,10 +136,14 @@ class Stock_Manager_Admin {
 	 */
 	public function add_plugin_admin_menu() {
 
+		$value = 'manage_woocommerce';
+
+		$manage = apply_filters( 'stock_manager_manage', $value );
+
 		add_menu_page(
 			__( 'WooCommerce Stock Manager', $this->plugin_slug ),
 			__( 'WooCommerce Stock Manager', $this->plugin_slug ),
-			'manage_woocommerce',
+			$manage,
 			'stock-manager',
 			array( $this, 'display_plugin_admin_page' )
 		);
@@ -148,7 +152,7 @@ class Stock_Manager_Admin {
 			'stock-manager',
       		__( 'Import/Export', $this->plugin_slug ),
 			__( 'Import/Export', $this->plugin_slug ),
-			'manage_woocommerce',
+			$manage,
 			'stock-manager-import-export',
 			array( $this, 'display_import_export_page' ),
 			'dashicons-book-alt'

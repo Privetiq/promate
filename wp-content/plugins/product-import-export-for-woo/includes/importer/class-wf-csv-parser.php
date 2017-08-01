@@ -104,7 +104,8 @@ class WF_CSV_Parser {
 
 	            	// Add the heading to the parsed data
 					$row[$s_heading] = ( isset( $postmeta[$key] ) ) ? $this->format_data_from_csv( $postmeta[$key], $enc ) : '';
-
+                                        
+                                        if(!empty($eval_field[strtolower( $heading )]))
 					$row[$s_heading] = $this->evaluate_field($row[$s_heading], $eval_field[strtolower( $heading )]);
 					
 	               	// Raw Headers stores the actual column name in the CSV
@@ -233,11 +234,11 @@ class WF_CSV_Parser {
 			$WF_CSV_Product_Import->hf_log_data_change( 'csv-import', sprintf( __('> Row %s - preparing for import.', 'wf_csv_import_export'), $this->row ) );
 
 			// Required fields
-			if ( $item['post_parent']=== '' &&  $item['post_title']=== '') {
+			if ( isset($item['post_parent']) && $item['post_parent']=== '' &&  $item['post_title']=== '') {
 				$WF_CSV_Product_Import->hf_log_data_change( 'csv-import', __( '> > Skipped. No post_title set for new product.', 'wf_csv_import_export') );
 				return new WP_Error( 'parse-error', __( 'No post_title set for new product.', 'wf_csv_import_export' ) );
 			}
-                        if ( $item['post_parent']!== '' && $item['post_parent']!== null &&  $item['parent_sku'] === '' ) {
+                        if ( !empty($item['post_parent']) && $item['post_parent']!== '' && $item['post_parent']!== null &&  $item['parent_sku'] === '' ) {
 				$WF_CSV_Product_Import->hf_log_data_change( 'csv-import', __( '> > Skipped. No parent set for new variation product.', 'wf_csv_import_export') );
 				//return new WP_Error( 'parse-error', __( 'No post_title set for new product.', 'wf_csv_import_export' ) );
                                 return new WP_Error( 'parse-error', __( 'No parent set for new variation product.', 'wf_csv_import_export' ) );

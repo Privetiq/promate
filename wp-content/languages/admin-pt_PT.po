@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-20 11:31:00+0000\n"
+"PO-Revision-Date: 2017-07-14 09:57:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -9716,7 +9716,7 @@ msgstr "Pode inserir ficheiros multimédia clicando nos ícones por cima do edit
 
 #: wp-admin/edit-form-advanced.php:367
 msgid "The Text mode allows you to enter HTML along with your post text. Note that &lt;p&gt; and &lt;br&gt; tags are converted to line breaks when switching to the Text editor to make it less cluttered. When you type, a single line break can be used instead of typing &lt;br&gt;, and two line breaks instead of paragraph tags. The line breaks are converted back to tags automatically."
-msgstr "O modo de texto permite utilizar HTML no conteúdo do texto. Atenção que os elementos &lt;p&gt; e &lt;br&gt; são convertidos em quebras de linha quando se muda para o editor de texto, para que fique menos confuso. Ao escrever, pode ser usada uma quebra de texto simples em vez de &lt;br&gt;, e duas quebras de texto em vez do elemento de parágrafo. As quebras de linha são convertidas em elementos de HTML de forma automática."
+msgstr "O modo texto permite utilizar HTML no conteúdo do texto. Atenção que as <em>tags</em> &lt;p&gt; e &lt;br&gt; são convertidas em quebras de linha quando se muda para o editor de texto, para que fique menos confuso. Ao escrever, pode ser usada uma quebra de texto simples em vez de &lt;br&gt;, e duas quebras de texto em vez de <em>tags</em> de parágrafo. As quebras de linha são convertidas em <em>tags</em> de forma automática."
 
 #: wp-admin/edit-form-advanced.php:366
 msgid "Visual mode gives you an editor that is similar to a word processor. Click the Toolbar Toggle button to get a second row of controls."

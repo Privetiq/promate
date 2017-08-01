@@ -1,68 +1,44 @@
 <?php
-/**
- * The template for displaying pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages and that
- * other "pages" on your WordPress site will use a different template.
- *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
- */
+/*
+    Template Name: Novosti
+*/
+?>
+<?php get_header(); ?>
 
-get_header(); ?>
-<section id="block-main">
-    
-		<div class="container">
-			<div class="row">
-				<div id="articles-content" class="col-md-9">
-					<div id="content">	
-						<div class="blog-page" itemscope itemtype="http://schema.org/Blog">
-							<?php the_archive_title( '<h1 class="titlePage"><span>', '</span></h1>' ); ?>
-						</div>
-						<div class="category-desc clearfix">
-							<div class="row">
-								<?php the_archive_description( '<div class="category-desc-content">', '</div>' );?>								
-							</div>
-						</div>
-						<?php if ( have_posts() ) : ?>
-							<?php
-							$index = 0;
-							
-							while ( have_posts() ) : the_post();
-								echo '<div class="items-row cols-1 row-'.$index.' row ">';
-								
-									echo '<div class="col-md-12">';
-									
-									get_template_part( 'content', get_post_format() );
-									
-									echo '</div>';
-									
-								echo '</div>';
-								
-								$index++;
-							// End the loop.
-							endwhile;
+    <div class="container">
+        <div class="row">
+            <article>
 
-							// Previous/next page navigation.
-							the_posts_pagination( array(
-								'prev_text'          => __( '&lt;', 'twentyfifteen' ),
-								'next_text'          => __( '&gt;', 'twentyfifteen' ),
-								'before_page_number' => ''
-							) );?>
+                <?php // Display blog posts on any page @ http://m0n.co/l
+                $temp = $wp_query;
+                $wp_query= null;
+                $wp_query = new WP_Query(); $wp_query->query('showposts=5' . '&paged='.$paged);
+                while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
-						<?php else :
-									get_template_part( 'content', 'none' );
-							endif;
-						?>
-					</div>
-				</div>
-				<aside id="sidebar-b" class="sidebar-right col-md-3">
-					<?php get_sidebar(); ?>
-				</aside>
-			</div>
-		</div>
-</section><!-- .content-area -->
+                    <h2><a href="<?php the_permalink(); ?>" title="Читать продолжение"><?php the_title(); ?></a></h2>
+                    <?php the_excerpt(); ?>
+
+                <?php endwhile; ?>
+
+                <?php if ($paged > 1) { ?>
+
+                    <nav id="nav-posts">
+                        <div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+                        <div class="next"><?php previous_posts_link('Newer Posts &raquo;'); ?></div>
+                    </nav>
+
+                <?php } else { ?>
+
+                    <nav id="nav-posts">
+                        <div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+                    </nav>
+
+                <?php } ?>
+
+                <?php wp_reset_postdata(); ?>
+
+            </article>
+        </div>
+    </div>
 
 <?php get_footer(); ?>

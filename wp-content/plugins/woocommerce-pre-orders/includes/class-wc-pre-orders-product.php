@@ -211,7 +211,7 @@ class WC_Pre_Orders_Product {
 				item_meta.meta_value = '%s' AND
 				post_meta.meta_key = '_wc_pre_orders_status' AND
 				post_meta.meta_value = 'active'
-			", $product->id
+			", $product->git_id()
 			)
 		);
 

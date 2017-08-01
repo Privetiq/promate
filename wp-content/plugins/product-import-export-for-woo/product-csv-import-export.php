@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Product CSV Import Export (BASIC)
-Plugin URI: http://www.xadapter.com/product/product-import-export-plugin-for-woocommerce/
+Plugin URI: https://www.xadapter.com/product/product-import-export-plugin-for-woocommerce/
 Description: Import and Export Products From and To your WooCommerce Store.
 Author: XAdapter
-Author URI: http://www.xadapter.com/
-Version: 1.3.5
+Author URI: https://www.xadapter.com/
+Version: 1.3.6
 Text Domain: wf_csv_import_export
 */
 
@@ -52,8 +52,8 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 		public function wf_plugin_action_links( $links ) {
 			$plugin_links = array(
 				'<a href="' . admin_url( 'admin.php?page=wf_woocommerce_csv_im_ex' ) . '">' . __( 'Import Export', 'wf_csv_import_export' ) . '</a>',
-				'<a href="http://www.xadapter.com/product/product-import-export-plugin-for-woocommerce/" target="_blank">' . __( 'Premium Upgrade', 'wf_csv_import_export' ) . '</a>',
-                                '<a href="http://www.xadapter.com/support/forum/product-import-export-plugin-for-woocommerce/">' . __( 'Support', 'wf_csv_import_export' ) . '</a>',
+				'<a href="https://www.xadapter.com/product/product-import-export-plugin-for-woocommerce/" target="_blank">' . __( 'Premium Upgrade', 'wf_csv_import_export' ) . '</a>',
+                                '<a href="https://www.xadapter.com/support/forum/product-import-export-plugin-for-woocommerce/">' . __( 'Support', 'wf_csv_import_export' ) . '</a>',
 			);
 			return array_merge( $plugin_links, $links );
 		}

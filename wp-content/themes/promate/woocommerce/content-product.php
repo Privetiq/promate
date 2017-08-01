@@ -20,12 +20,23 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 
-global $product;
+global $product, $post;
+
+$is_in_stock = 'not-stock';
+
+$myprod_id = $product->get_id();
+
+$productVariation = new WC_Product_Variable( $myprod_id );
+$available_variations = $productVariation->get_available_variations();
+
 
 // Ensure visibility
-if ( empty( $product ) || ! $product->is_visible() ) {
+if ( empty( $product ) || ! $product->is_visible() || $product->is_type( 'simple' )) {
     return;
 }
+
+$max = $product->get_variation_price( 'max', true );
+$min = $product->get_variation_price( 'min', true );
 ?>
 <li <?php post_class(); ?>>
     <?php

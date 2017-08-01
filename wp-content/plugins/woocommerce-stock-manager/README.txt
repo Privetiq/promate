@@ -95,6 +95,9 @@ A: Be sure, that you have active stock manage.
 
 == Changelog ==
 
+= 1.1.6 =
+* New filter stock_manager_manage for edit user capabitily to display manager - in class-stock-manager-admin.php file
+
 = 1.1.5 =
 * WooCommerce 3.0+ compatibility
 * Sku edit is now via onclick function

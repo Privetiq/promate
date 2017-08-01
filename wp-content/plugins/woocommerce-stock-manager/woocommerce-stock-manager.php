@@ -3,7 +3,7 @@
  * Plugin Name:       WooCommerce Stock Manager
  * Plugin URI:        http:/toret.cz
  * Description:       WooCommerce Stock Manager
- * Version:           1.1.5
+ * Version:           1.1.6
  * Author:            Vladislav Musílek
  * Author URI:        http://toret.cz
  * Text Domain:       stock-manager
@@ -99,7 +99,9 @@ if ( is_admin() && ( ! defined( 'DOING_AJAX' ) || ! DOING_AJAX ) ) {
                 }
             }   
 
-        update_post_meta($product_id, '_weight', $weight);
+        update_post_meta( $product_id, '_weight', $weight );
+
+        wc_delete_product_transients( $product_id );
      
     }
 
@@ -186,16 +188,16 @@ add_action( 'wp_ajax_wsm_save_sku', 'stock_manager_wsm_save_sku' );
      */
     function wsm_save_price( $product_id, $regular_price, $sale_price = null ){
 
-        //$sale_price =  get_post_meta( $product_id, '_sale_price', true );
-        $date_from = get_post_meta( $product_id, '_sale_price_dates_from', true );
-        $date_from = ( '' === $date_from ) ? '' : date( 'Y-m-d', $date_from );
-        $date_to =  get_post_meta( $product_id, '_sale_price_dates_to', true );
-        $date_to = ( '' === $date_to ) ? '' : date( 'Y-m-d', $date_to );
+        if( !empty( $regular_price ) ){
+                $price        = sanitize_text_field($regular_price);
+                update_post_meta( $product_id, '_price', $price );
+                update_post_meta( $product_id, '_regular_price', $price );                            
+            }         
 
-        if( $sale_price === null ){
-            $sale_price =  get_post_meta( $product_id, '_sale_price', true );
-        }
-            _wc_save_product_price( $product_id, $regular_price, $sale_price, $date_from, $date_to );
+            if( !empty( $sale_price ) ){
+                $sale_price   = sanitize_text_field($sale_price);
+                update_post_meta( $product_id, '_sale_price', $sale_price ); 
+            }
     
     }
 

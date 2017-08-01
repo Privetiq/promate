@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-10 15:10:19+0000\n"
+"PO-Revision-Date: 2017-07-24 12:17:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,27 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: de\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#: includes/api/class-wc-rest-shipping-zone-locations-controller.php:90
+#: includes/api/class-wc-rest-shipping-zones-controller.php:170
+msgid "The \"locations not covered by your other zones\" zone cannot be updated."
+msgstr "Die \"Orte, die nicht von deinen anderen Zonen abgedeckt sind\", können nicht aktualisiert werden."
+
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:218
+msgid "Product categories that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Produktkategorien auf die der Rabatt nicht angewendet wird oder die nicht im Einkaufswagen sein können um den generellen Rabatt anzuwenden."
+
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:201
+msgid "Product categories that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Produktkategorien für die der Rabatt angewendet wird, oder die im Einkaufswagen sein müssen um den generellen Rabatt anzuwenden."
+
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:182
+msgid "Products that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Produkte auf die der Rabatt nicht angewendet wird, oder die nicht im Einkaufswagen sein können um den generellen Rabatt anzuwenden."
+
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:165
+msgid "Products that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Produkte für die der Rabatt angewendet wird, oder die im Einkaufswagen sein müssen um den generellen Rabatt anzuwenden."
 
 #: includes/wc-product-functions.php:751
 msgid "Search results only"
@@ -630,6 +651,10 @@ msgstr "Abonnements"
 msgid "Product Title"
 msgstr "Produkt Titel"
 
+#: includes/admin/helper/views/html-helper-compat.php:5
+msgid "We've made things simpler and easier to manage moving forward. From now on you can manage all your WooCommerce purchases directly from the Extensions menu within the WooCommerce plugin itself. <a href=\"%s\">View and manage</a> your extensions now."
+msgstr "Wir haben die Abläufe und deren Verwaltung noch weiter vereinfacht. Ab sofort kannst du alle Einkäufe auf WooCommerce direkt aus dem Erweiterungsmenü im WooCommerce-Plugin verwalten. <a href=\"%s\">Zeige deine Erweiterungen jetzt an und verwalte sie</a>."
+
 #: includes/admin/helper/class-wc-helper.php:286
 msgid "To receive updates and support for this extension, you need to <strong>purchase</strong> a new subscription or <a href=\"%1$s\" target=\"_blank\">be added as a collaborator</a>."
 msgstr "Um Aktualisierungen und Hilfe für diese Erweiterung zu erhalten, musst du ein neues Abonnement <strong>kaufen</strong> oder <a href=\"%1$s\" target=\"_blank\">als Mitarbeiter</a> hinzufügt werden."
@@ -836,6 +861,10 @@ msgstr "Version %s ist <strong>verfügbar</strong>. Um dieses Update zu aktivier
 msgid "Looking for the WooCommerce Helper?"
 msgstr "Auf der Suche nach dem WooCommerce Helper?"
 
+#: includes/admin/class-wc-admin-setup-wizard.php:499
+msgid "Print labels and get discounted USPS shipping rates, right from your WooCommerce dashboard. Powered by WooCommerce Services."
+msgstr "Drucke Etiketten und profitiere von rabattierten USPS-Portokosten – direkt von deinem WooCommerce-Dashboard. Bereitgestellt durch WooCommerce Dienste."
+
 #: includes/admin/class-wc-admin-addons.php:348
 msgid "Show Canada Post shipping rates"
 msgstr "Zeige die Post Versandkosten von Kanada"
@@ -892,6 +921,19 @@ msgstr "Bist du sicher, dass du dieses Protokoll löschen möchtest?"
 #: includes/admin/class-wc-admin-api-keys.php:83
 msgid "The WooCommerce REST API allows external apps to view and manage store data. Access is granted only to those with valid API keys."
 msgstr "Die WooCommerce REST API ermöglicht es externen Apps, Speicherdaten anzuzeigen und zu verwalten. Der Zugriff wird nur diejenigen mit gültigen API-Schlüsseln gewährt."
+
+#: includes/admin/class-wc-admin-addons.php:337
+msgid "Buy discounted shipping labels — then print them from your dashboard."
+msgstr "Kaufe ermäßigte Versandetiketten — dann drucke Sie von deinen Dashboard."
+
+#: includes/admin/class-wc-admin-addons.php:349
+#: includes/admin/class-wc-admin-setup-wizard.php:506
+msgid "Display live rates from Canada Post at checkout to make shipping a breeze. Powered by WooCommerce Services."
+msgstr "Zeige die Preise von Canada Post an der Kasse in Echtzeit an, um den Versand kinderleicht zu gestalten. Bereitgestellt durch WooCommerce Dienste."
+
+#: includes/admin/class-wc-admin-addons.php:338
+msgid "Integrate your store with USPS to buy discounted shipping labels, and print them directly from your WooCommerce dashboard. Powered by WooCommerce Services."
+msgstr "Integriere deinen Shop mit USPS, um rabattierte Versandetiketten zu kaufen und sie direkt von deinem WooCommerce-Dashboard zu drucken. Bereitgestellt durch WooCommerce Dienste."
 
 #: i18n/states/RO.php:17
 msgid "Alba"

@@ -387,29 +387,31 @@ class WCM_Stock {
             if( !empty( $data['regular_price'] ) ){
                 $price        = sanitize_text_field($data['regular_price'][$item]);
                 update_post_meta( $item, '_price', $price );
-                update_post_meta( $item, '_regular_price', $price );
-                $sale_price   = sanitize_text_field($data['sales_price'][$item]);
-                update_post_meta( $item, '_sale_price', $sale_price );                
+                update_post_meta( $item, '_regular_price', $price );                            
             }         
 
+            if( !empty( $data['sales_price'][$item] ) ){
+                $sale_price   = sanitize_text_field($data['sales_price'][$item]);
+                update_post_meta( $item, '_sale_price', $sale_price ); 
+            }
+
+            //_wc_save_product_price( $_product, $price );
+
             $product_type = $_product->get_type();
-            if($product_type == 'product_variation'){
+
+            if($product_type == 'variation'){
 
                 $parent_id = wp_get_post_parent_id( $item );
                 $parent_product = wc_get_product( $parent_id );
 
-                $data_store = WC_Data_Store::load( 'product-' . $parent_product->get_type() );
-                $data_store->sync_price( $parent_product );
-
-
+                //$parent_product->variable_product_sync();
+                //$parent_product->sync();
+ 
             }
       
-                        
-
-            
-
-            
-     
+            wc_delete_product_transients( $item );
+            delete_transient( 'wc_var_prices_'.$item );            
+    
         }   
     }
 

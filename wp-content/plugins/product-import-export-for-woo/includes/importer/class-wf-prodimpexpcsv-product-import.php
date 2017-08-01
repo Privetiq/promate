@@ -561,7 +561,6 @@ class WF_ProdImpExpCsv_Product_Import extends WP_Importer {
 				$this->add_import_result( 'failed', $product->get_error_message(), 'Not parsed', json_encode( $item ), '-' );
 
 			unset( $item, $product );
-                        $i++;
 		}
 		$this->hf_log_data_change( 'csv-import', __( 'Finished processing products.', 'wf_csv_import_export' ) );
 		wp_suspend_cache_invalidation( false );
