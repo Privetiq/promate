@@ -106,6 +106,13 @@
         ?>
     </nav>
     <div class="super_main-header">
+        <?php
+        if ( is_admin_bar_showing() ) {
+            ?>
+            <div style="height:32px"></div>
+            <?php
+        }
+        ?>
 
         <!--Block top-->
         <section id="block-panel">
