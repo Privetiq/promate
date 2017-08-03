@@ -79,6 +79,7 @@ function promate_init(){
 		'after_title'   => '',
 	) );
 
+
 	add_theme_support('post-thumbnails');
 
 	add_image_size( 'mobile-thumb', 110, 110 );
@@ -241,230 +242,241 @@ add_action('customize_register', function($customizer) {
 	);
 });
 
-//function change_wc_variation_image_size( $child_id, $instance, $variation ) {
-//  $attachment_id = get_post_thumbnail_id( $variation->get_variation_id() );
-//  $attachment    = wp_get_attachment_image_src( $attachment_id, 'shop_catalog' );
-//  $image_src     = $attachment ? current( $attachment ) : '';
-//  $child_id['image_src'] = $image_src;
+//НОВАЯ ГАЛЕРЕЯ ВУКОМЕРСА!
+add_action( 'after_setup_theme', 'artabr_theme_setup' );
+function artabr_theme_setup() {
+    add_theme_support( 'wc-product-gallery-zoom' );
+    add_theme_support( 'wc-product-gallery-lightbox' );
+    add_theme_support( 'wc-product-gallery-slider' );
+}
+function change_wc_variation_image_size( $child_id, $instance, $variation ) {
+  $attachment_id = get_post_thumbnail_id( $variation->get_id());
+  $attachment    = wp_get_attachment_image_src( $attachment_id, 'shop_catalog' );
+  $image_src     = $attachment ? current( $attachment ) : '';
+  $child_id['image_src'] = $image_src;
+
+  return $child_id;
+}
 //
-//  return $child_id;
-//}
-//
-//add_filter( 'woocommerce_available_variation', 'change_wc_variation_image_size', 10, 3 );
-//
-//function pippin_get_image_id($image_url) {
-//	global $wpdb;
-//	$attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url ));
-//
-//	if(isset($attachment[0])){
-//		return $attachment[0];
-//	}
-//
-//	return false;
-//}
-//
-//if ( ! function_exists( 'woocommerce_template_loop_product_thumbnail' ) ) {
-//
-//	function woocommerce_template_loop_product_thumbnail() {
-//		global $post, $product;
-//
-//		$variations = new WC_Product_Variable( $product->id );
-//
-//		$available_variations = $variations->get_available_variations();
-//
-//		$taxonomy = 'pa_color';
-//
-//		$default = $product->get_variation_default_attribute( $taxonomy );
-//
-//		foreach($available_variations as $variation){
-//
-////		    var_dump($available_variations);
-//
-//			$get = true;
-//			if(isset($_GET['filter_color'])){
-//				$array = explode(',', $_GET['filter_color']);
-//
-//				end($array);
-//
-//				$get = key($array);
-//
-//			}
-//
-//			if($variation['attributes']['attribute_'. $taxonomy] == $default && !isset($array[$get])){
-//				$image_id = pippin_get_image_id($variation['image_link']);
-//				echo '<a href="' . esc_url( get_permalink($post) ).'" class="vm-product-media-image" data-src="'. get_the_post_thumbnail_url($post->ID, 'shop_catalog').'">';
-//
-//						echo woocommerce_get_product_thumbnail();
-//						echo wp_get_attachment_image( $image_id, apply_filters( 'single_product_small_thumbnail_size', 'shop_catalog' ));
-//				echo '</a>';
-//			}else if(isset($array[$get]) && $array[$get] == $variation['attributes']['attribute_'. $taxonomy]){
-//				$image_id = pippin_get_image_id($variation['image_link']);
-//				echo '<a href="' . esc_url( get_permalink($post) ).'" class="vm-product-media-image" data-src="'.get_the_post_thumbnail_url($post->ID, 'shop_catalog').'">';
-//
-//					echo woocommerce_get_product_thumbnail();
-//					echo wp_get_attachment_image( $image_id, apply_filters( 'single_product_small_thumbnail_size', 'shop_catalog' ));
-//				echo '</a>';
-//			}
-//		}
-//	}
-//}
-//
-//
-//
-//if (  ! function_exists( 'woocommerce_template_loop_product_title' ) ) {
-//
-//	/**
-//	 * Show the product title in the product loop. By default this is an H3.
-//	 */
-//	function woocommerce_template_loop_product_title() {
-//		global $post;
-//
-//		echo '<h3 class="vm-product-name"><a href="' . esc_url( get_permalink($post) ) . '">'. get_the_title() .'</a></h3>';
-//	}
-//}
-//remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
-//remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_product_link_close', 5 );
-//
-//vc_map( array(
-//   "name" => __("Product tabs"),
-//   "base" => "bartag",
-//   "category" => __('Content'),
-//   "params" => array(
-//      array(
-//         "type" => "textfield",
-//         "holder" => "div",
-//         "class" => "",
-//         "heading" => __("Title"),
-//         "param_name" => "title"
-//      ),
-//	  array(
-//         "type" => "textfield",
-//         "holder" => "div",
-//         "class" => "",
-//         "heading" => __("Description"),
-//         "param_name" => "description"
-//      ),
-//	   array(
-//         "type" => "textfield",
-//         "holder" => "div",
-//         "class" => "",
-//         "heading" => __("Categories ID"),
-//         "param_name" => "cat",
-//		"description" => __("This input for categories ID. Example: 12,22,56")
-//      )
-//   )
-//) );
-//
-//add_shortcode( 'bartag', 'bartag_func' );
-//
-//function bartag_func( $atts ) {
-//
-//   extract( shortcode_atts( array(
-//      'title' => 'Header product tabs',
-//      'description' => 'Description product tabs',
-//      'cat' => false,
-//
-//   ), $atts ) );
-//
-//   $output  = '<div class="jv-module module our-product woocommerce">';
-//
-//   if(!empty($title)){
-//		$output .= '<h3 class="title-module"><span>'.$title.'</span></h3>';
-//   }
+add_filter( 'woocommerce_available_variation', 'change_wc_variation_image_size', 10, 3 );
+
+function pippin_get_image_id($image_url) {
+	global $wpdb;
+	$attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url ));
+
+	if(isset($attachment[0])){
+		return $attachment[0];
+	}
+
+	return false;
+}
+
+if ( ! function_exists( 'woocommerce_template_loop_product_thumbnail' ) ) {
+
+	function woocommerce_template_loop_product_thumbnail() {
+		global $post, $product;
+
+		$variations = new WC_Product_Variable( $product->get_id() );
+
+		$available_variations = $variations->get_available_variations();
+
+		$taxonomy = 'pa_color';
+
+		$default = $product->get_variation_default_attribute( $taxonomy );
+
+		foreach($available_variations as $variation){
+
+//		    var_dump($variation);
+
+			$get = true;
+			if(isset($_GET['filter_color'])){
+				$array = explode(',', $_GET['filter_color']);
+
+				end($array);
+
+				$get = key($array);
+
+			}
+
+			if($variation['attributes']['attribute_'. $taxonomy] == $default && !isset($array[$get])){
+				$image_id = pippin_get_image_id($variation['image_src']);
+				echo '<a href="' . esc_url( get_permalink($post) ).'" class="vm-product-media-image" data-src="'. get_the_post_thumbnail_url($post->ID, 'shop_catalog').'">';
+
+						echo woocommerce_get_product_thumbnail();
+						echo wp_get_attachment_image( $image_id, apply_filters( 'single_product_small_thumbnail_size', 'shop_catalog' ));
+				echo '</a>';
+			}else if(isset($array[$get]) && $array[$get] == $variation['attributes']['attribute_'. $taxonomy]){
+				$image_id = pippin_get_image_id($variation['image_link']);
+				echo '<a href="' . esc_url( get_permalink($post) ).'" class="vm-product-media-image" data-src="'.get_the_post_thumbnail_url($post->ID, 'shop_catalog').'">';
+
+					echo woocommerce_get_product_thumbnail();
+					echo wp_get_attachment_image( $image_id, apply_filters( 'single_product_small_thumbnail_size', 'shop_catalog' ));
+				echo '</a>';
+			}
+		}
+	}
+}
 //
 //
-//   $output .= '<div class="contentmod clearfix">';
-//   $output .= '<div class="custom">';
 //
-//   if(!empty($description)){
-//		$output .= '<p class="module-description">'.$description.'</p>';
-//   }
-//
-//   $output .= '<div role="tabpanel">';
-//
-//   if(@$cat){
-//
-//	   $output .= '<ul class="nav nav-tabs">';
-//
-//		$cats = explode(',', $cat);
-//
-////        $output .= var_dump($cats);
-//
-//			foreach($cats as $key => $term_slug){
-//				$term = get_term_by('slug', $term_slug, 'product_cat');
-//
-//				$li = '<li role="presentation">';
-//
-//				if($key == 0){
-//					$li = '<li role="presentation" class="active">';
-//				}
-//
-//				$output .= $li;
-//
-//				$output .= '<a href="#'.esc_attr( $term->slug ) .'" aria-controls="'.esc_attr( $term->slug ) .'" role="tab" data-toggle="tab">'.esc_attr( $term->name ).'</a>';
-//				$output .= '</li>';
-//			}
-//
-//		$output .= '</ul>';
-//		$output .= '<div class="tab-content">';
-//
-//		foreach($cats as $key => $slug){
-//			$term = get_term_by('slug', $slug, 'product_cat');
-//
-//			$li = '<div role="tabpanel" class="tab-pane fade" id="'.esc_attr( $term->slug ).'"';
-//
-//			if($key == 0){
-//				$li = '<div role="tabpanel" class="tab-pane fade in active" id="'.esc_attr( $term->slug ).'"';
-//			}
-//			$style = ' style="position: relative; height: 878px;"';
-//			$output .= $li . $style .'>';
-//
-//			$output .= '<div class="row">';
-//			$output .= '<ul class="clearfix vm-product-grid vmproduct productdetails products">';
-//
-//			$query = new WP_Query(array(
-//				'post_type' => 'product',
-//				'posts_per_page' => 8,
-//				'tax_query' => array(
-//					'relation' => 'AND',
-//					array(
-//						'taxonomy' => 'product_cat',
-//						'field'    => 'term_id',
-//						'terms'    => array( $term->term_id ),
-//					),
-//					array(
-//						'taxonomy' => 'product_tag',
-//						'field'    => 'slug',
-//						'terms'    => array('top-prodazh')
-//					)
-//				)
-//			));
-//			$vc = 'col-md-3';
-//			while ( $query->have_posts() ) : $query->the_post();
-//				ob_start();
-//
-//				include(locate_template('woocommerce/content-product.php'));
-//
-//				$output .= ob_get_clean();
-//
-//			endwhile;
-//			wp_reset_postdata();
-//
-//			$output .= '</ul>';
-//			$output .= '</div>';
-//			$output .= '</div>';
-//
-//		}
-//		$output .= '</div>';
-//
-//   }
-//   $output .= '</div>';
-//   $output .= '</div>';
-//   $output .= '</div>';
-//   $output .= '</div>';
-//
-//   return $output;
-//}
+if (  ! function_exists( 'woocommerce_template_loop_product_title' ) ) {
+
+	/**
+	 * Show the product title in the product loop. By default this is an H3.
+	 */
+	function woocommerce_template_loop_product_title() {
+		global $post;
+
+		echo '<h3 class="vm-product-name"><a href="' . esc_url( get_permalink($post) ) . '">'. get_the_title() .'</a></h3>';
+	}
+}
+remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_product_link_close', 5 );
+
+vc_map( array(
+   "name" => __("Product tabs"),
+   "base" => "bartag",
+   "category" => __('Content'),
+   "params" => array(
+      array(
+         "type" => "textfield",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Title"),
+         "param_name" => "title"
+      ),
+	  array(
+         "type" => "textfield",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Description"),
+         "param_name" => "description"
+      ),
+	   array(
+         "type" => "textfield",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Categories ID"),
+         "param_name" => "cat",
+		"description" => __("This input for categories ID. Example: 12,22,56")
+      )
+   )
+) );
+
+add_shortcode( 'bartag', 'bartag_func' );
+
+function bartag_func( $atts ) {
+
+    if ($atts == false) {
+        $atts = array("Categories ID" => "zvuk, powerbank, derzhateli-dlya-avto, zaryadnye-ustrojstva, iphone-7, sumki-i-ryukzaki");
+    }
+
+   extract( shortcode_atts( array(
+      'title' => 'табики',
+      'description' => 'пока тестим',
+      'cat' => false,
+
+   ), $atts ) );
+
+   $output  = '<div class="jv-module module our-product woocommerce">';
+
+   if(!empty($title)){
+		$output .= '<h3 class="title-module"><span>'.$title.'</span></h3>';
+   }
+
+
+   $output .= '<div class="contentmod clearfix">';
+   $output .= '<div class="custom">';
+
+   if(!empty($description)){
+		$output .= '<p class="module-description">'.$description.'</p>';
+   }
+
+   $output .= '<div role="tabpanel">';
+
+   if($cat){
+
+	   $output .= '<ul class="nav nav-tabs">';
+
+		$cats = explode(',', $cat);
+
+        $output .= var_dump($cat);
+
+			foreach($cats as $key => $term_slug){
+				$term = get_term_by('slug', $term_slug, 'product_cat');
+
+				$li = '<li role="presentation">';
+
+				if($key == 0){
+					$li = '<li role="presentation" class="active">';
+				}
+
+				$output .= $li;
+
+				$output .= '<a href="#'.esc_attr( $term->slug ) .'" aria-controls="'.esc_attr( $term->slug ) .'" role="tab" data-toggle="tab">'.esc_attr( $term->name ).'</a>';
+				$output .= '</li>';
+			}
+
+		$output .= '</ul>';
+		$output .= '<div class="tab-content">';
+
+		foreach($cats as $key => $slug){
+			$term = get_term_by('slug', $slug, 'product_cat');
+
+			$li = '<div role="tabpanel" class="tab-pane fade" id="'.esc_attr( $term->slug ).'"';
+
+			if($key == 0){
+				$li = '<div role="tabpanel" class="tab-pane fade in active" id="'.esc_attr( $term->slug ).'"';
+			}
+			$style = ' style="position: relative; height: 878px;"';
+			$output .= $li . $style .'>';
+
+			$output .= '<div class="row">';
+			$output .= '<ul class="clearfix vm-product-grid vmproduct productdetails products">';
+
+			$query = new WP_Query(array(
+				'post_type' => 'product',
+				'posts_per_page' => 8,
+				'tax_query' => array(
+					'relation' => 'AND',
+					array(
+						'taxonomy' => 'product_cat',
+						'field'    => 'term_id',
+						'terms'    => array( $term->term_id ),
+					),
+					array(
+						'taxonomy' => 'product_tag',
+						'field'    => 'slug',
+						'terms'    => array('top-prodazh')
+					)
+				)
+			));
+			$vc = 'col-md-3';
+			while ( $query->have_posts() ) : $query->the_post();
+				ob_start();
+
+				include(locate_template('woocommerce/content-product.php'));
+
+				$output .= ob_get_clean();
+
+			endwhile;
+			wp_reset_postdata();
+
+			$output .= '</ul>';
+			$output .= '</div>';
+			$output .= '</div>';
+
+		}
+		$output .= '</div>';
+
+   }
+   $output .= '</div>';
+   $output .= '</div>';
+   $output .= '</div>';
+   $output .= '</div>';
+
+   return $output;
+}
 //
 //vc_map( array(
 //   "name" => __("Product Slider"),
