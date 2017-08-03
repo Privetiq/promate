@@ -1197,16 +1197,16 @@ msgstr "Διεγραμμένα"
 msgid "The ssh2 PHP extension is available, however, we require the PHP5 function %s"
 msgstr "Η επέκταση ssh2 PHP είναι διαθέσιμη, παρόλο, που χρειαζόμαστε τη συνάρτηση %s της PHP5."
 
-#: wp-admin/includes/class-wp-comments-list-table.php:588
+#: wp-admin/includes/class-wp-comments-list-table.php:593
 msgid "Quick edit this comment inline"
 msgstr "Επιτόπου ταχυεπεξεργασία αυτού του σχολίου"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:584
+#: wp-admin/includes/class-wp-comments-list-table.php:589
 #: wp-admin/includes/dashboard.php:634
 msgid "Edit this comment"
 msgstr "Επεξεργαστείτε το σχόλιο"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:570
+#: wp-admin/includes/class-wp-comments-list-table.php:575
 msgid "Restore this comment from the spam"
 msgstr "Επαναφορά σχολίου από τα ανεπιθύμητα"
 
@@ -1716,7 +1716,7 @@ msgstr "Κανένα σχόλιο σε αναμονή"
 msgid "Failed to initialize a SFTP subsystem session with the SSH2 Server %s"
 msgstr "Απέτυχε η έναρξη μιας συνεδρίας υποσυστήματος SFTP με τον SSH2 Server %s"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:405
+#: wp-admin/includes/class-wp-comments-list-table.php:410
 msgctxt "column name"
 msgid "Submitted On"
 msgstr "Υποβλήθηκε στις"
@@ -1872,7 +1872,7 @@ msgstr "Το τρέχον θέμα δεν υποστηρίζει ανέβασμ�
 
 #. translators: %s: comment link
 #: wp-admin/comment.php:187
-#: wp-admin/includes/class-wp-comments-list-table.php:648
+#: wp-admin/includes/class-wp-comments-list-table.php:653
 msgid "In reply to %s."
 msgstr "Σε απάντηση στο %s."
 
@@ -1967,7 +1967,7 @@ msgstr "Επικύρωση συνθηματικού"
 msgid "While you are editing your %1$s file, take a moment to make sure you have all 8 keys and that they are unique. You can generate these using the <a href=\"%2$s\">WordPress.org secret key service</a>."
 msgstr "Κατά την διορθώση του αρχείου %1$s σας, αφιερώστε μια στιγμή να επιβεβαιωθείτε οτι έχετε όλα τα 8 κλειδιά και είναι μοναδικά. Μπορείτε να δημιουργήσετε χρησιμοποιώντας <a href=\"%2$s\">την υπηρεσία ασφάλειας WordPress.org</a>."
 
-#: wp-admin/includes/class-wp-comments-list-table.php:616
+#: wp-admin/includes/class-wp-comments-list-table.php:621
 #: wp-admin/includes/class-wp-list-table.php:523
 #: wp-admin/includes/class-wp-list-table.php:1324
 #: wp-admin/includes/update.php:687
@@ -2754,7 +2754,7 @@ msgstr "Y/m/d g:i:s a"
 
 #. translators: column name or table row header
 #: wp-admin/comment.php:169
-#: wp-admin/includes/class-wp-comments-list-table.php:402
+#: wp-admin/includes/class-wp-comments-list-table.php:407
 msgid "In Response To"
 msgstr "Σε απάντηση στο"
 
@@ -2882,7 +2882,7 @@ msgstr "%s έχει αποσυνδεθεί."
 msgid "You are now logged out everywhere else."
 msgstr "Έχετε αποσυνδεθεί από παντού."
 
-#: wp-admin/includes/class-wp-comments-list-table.php:327
+#: wp-admin/includes/class-wp-comments-list-table.php:332
 msgid "Filter by comment type"
 msgstr "Φιλτράρισμα ανα είδος σχολίου"
 
@@ -3164,7 +3164,7 @@ msgstr "Μπορείτε αναλογικά να αλλάξετε την κλί�
 msgid "To crop the image, click on it and drag to make your selection."
 msgstr "Για περικοπή εικόνων, πατήστε πάνω της και σύρετε για να κάνετε την επιλογή. "
 
-#: wp-admin/includes/class-wp-comments-list-table.php:329
+#: wp-admin/includes/class-wp-comments-list-table.php:334
 msgid "All comment types"
 msgstr "Όλοι οι τύποι σχολίων"
 
@@ -4702,7 +4702,7 @@ msgstr "Μπορείτε να μετατρέψετε επιλεκτικά ετι
 msgid "Select %s"
 msgstr "Επιλογή %s"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:627
+#: wp-admin/includes/class-wp-comments-list-table.php:632
 msgid "Select comment"
 msgstr "Επιλογή σχολίου"
 
@@ -4924,7 +4924,7 @@ msgid "%s ago"
 msgstr "%s πριν"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:300
-#: wp-admin/includes/class-wp-comments-list-table.php:574
+#: wp-admin/includes/class-wp-comments-list-table.php:579
 #: wp-admin/includes/class-wp-media-list-table.php:144
 #: wp-admin/includes/class-wp-media-list-table.php:715
 #: wp-admin/includes/class-wp-posts-list-table.php:397
@@ -7113,12 +7113,12 @@ msgstr "Αποκοπή εικόνας κεφαλίδας"
 msgid "Default Images"
 msgstr "Προεπιλεγμένες εικόνες"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:578
+#: wp-admin/includes/class-wp-comments-list-table.php:583
 #: wp-admin/includes/dashboard.php:639
 msgid "Delete this comment permanently"
 msgstr "Διαγραφή του σχολίου οριστικά"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:574
+#: wp-admin/includes/class-wp-comments-list-table.php:579
 msgid "Restore this comment from the Trash"
 msgstr "Επαναφορά σχολίου από τα διαγραμμένα"
 
@@ -7229,7 +7229,7 @@ msgid "You have version %1$s installed. Update to %2$s."
 msgstr "Έχετε την έκδοση %1$s. Αναβαθμίστε στην %2$s."
 
 #: wp-admin/includes/class-wp-comments-list-table.php:302
-#: wp-admin/includes/class-wp-comments-list-table.php:570
+#: wp-admin/includes/class-wp-comments-list-table.php:575
 msgctxt "comment"
 msgid "Not Spam"
 msgstr "Όχι σπαμ"
@@ -9117,7 +9117,7 @@ msgstr "Ορατό"
 msgid "Relationship"
 msgstr "Σχέση"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:398
+#: wp-admin/includes/class-wp-comments-list-table.php:403
 #: wp-admin/includes/class-wp-post-comments-list-table.php:28
 msgctxt "column name"
 msgid "Comment"
@@ -9141,7 +9141,7 @@ msgctxt "column name"
 msgid "Title"
 msgstr "Τίτλος"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:588
+#: wp-admin/includes/class-wp-comments-list-table.php:593
 #: wp-admin/includes/class-wp-posts-list-table.php:1253
 #: wp-admin/includes/class-wp-terms-list-table.php:449
 msgid "Quick&nbsp;Edit"
@@ -10069,36 +10069,36 @@ msgstr "[Εκκρεμούν]"
 msgid "From %1$s on %2$s %3$s"
 msgstr "Από %1$s στο %2$s%3$s"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:580
+#: wp-admin/includes/class-wp-comments-list-table.php:585
 #: wp-admin/includes/dashboard.php:641
 msgid "Move this comment to the Trash"
 msgstr "Μετέφερε το σχόλιο στα διεγραμμένα"
 
 #. translators: mark as spam link
-#: wp-admin/includes/class-wp-comments-list-table.php:568
+#: wp-admin/includes/class-wp-comments-list-table.php:573
 #: wp-admin/includes/dashboard.php:636
 msgctxt "verb"
 msgid "Spam"
 msgstr "Ανεπιθύμητο"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:568
+#: wp-admin/includes/class-wp-comments-list-table.php:573
 #: wp-admin/includes/dashboard.php:636
 msgid "Mark this comment as spam"
 msgstr "Σημάνετε το σχόλιο ως ανεπιθύμητο"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:590
+#: wp-admin/includes/class-wp-comments-list-table.php:595
 #: wp-admin/includes/dashboard.php:635
 msgid "Reply to this comment"
 msgstr "Απάντηση στο σχόλιο"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:558
-#: wp-admin/includes/class-wp-comments-list-table.php:564
+#: wp-admin/includes/class-wp-comments-list-table.php:563
+#: wp-admin/includes/class-wp-comments-list-table.php:569
 #: wp-admin/includes/dashboard.php:633
 msgid "Unapprove this comment"
 msgstr "Αποέγκριση σχολίου"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:560
-#: wp-admin/includes/class-wp-comments-list-table.php:563
+#: wp-admin/includes/class-wp-comments-list-table.php:565
+#: wp-admin/includes/class-wp-comments-list-table.php:568
 #: wp-admin/includes/dashboard.php:632
 msgid "Approve this comment"
 msgstr "Εγκριση σχολίου"
@@ -10652,24 +10652,24 @@ msgstr "Το ειδικό πεδίο ενημερώθηκε."
 msgid "No comments found."
 msgstr "Δεν βρέθηκαν σχόλια."
 
-#: wp-admin/includes/class-wp-comments-list-table.php:359
+#: wp-admin/includes/class-wp-comments-list-table.php:364
 #: wp-admin/includes/class-wp-media-list-table.php:181
 #: wp-admin/includes/class-wp-posts-list-table.php:493
 msgid "Empty Trash"
 msgstr "Άδειασμα διεγραμμένων"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:359
+#: wp-admin/includes/class-wp-comments-list-table.php:364
 msgid "Empty Spam"
 msgstr "Άδειασμα ανεπιθύμητων"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:354
+#: wp-admin/includes/class-wp-comments-list-table.php:359
 #: wp-admin/includes/class-wp-links-list-table.php:115
 #: wp-admin/includes/class-wp-media-list-table.php:177
 #: wp-admin/includes/class-wp-posts-list-table.php:488
 msgid "Filter"
 msgstr "Φιλτράρισμα"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:340
+#: wp-admin/includes/class-wp-comments-list-table.php:345
 #: wp-admin/includes/class-wp-posts-list-table.php:1612
 msgid "Pings"
 msgstr "Pings"
@@ -10682,15 +10682,15 @@ msgid "Move to Trash"
 msgstr "Διαγραφή"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:295
-#: wp-admin/includes/class-wp-comments-list-table.php:560
-#: wp-admin/includes/class-wp-comments-list-table.php:563
+#: wp-admin/includes/class-wp-comments-list-table.php:565
+#: wp-admin/includes/class-wp-comments-list-table.php:568
 #: wp-admin/includes/dashboard.php:632
 msgid "Approve"
 msgstr "Έγκριση"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:293
-#: wp-admin/includes/class-wp-comments-list-table.php:558
-#: wp-admin/includes/class-wp-comments-list-table.php:564
+#: wp-admin/includes/class-wp-comments-list-table.php:563
+#: wp-admin/includes/class-wp-comments-list-table.php:569
 #: wp-admin/includes/dashboard.php:633
 msgid "Unapprove"
 msgstr "Αποέγκριση"

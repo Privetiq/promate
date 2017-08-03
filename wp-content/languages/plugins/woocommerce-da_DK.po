@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-28 23:59:55+0000\n"
+"PO-Revision-Date: 2017-07-18 09:40:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -432,6 +432,18 @@ msgstr "Upload CSV fil"
 msgid "Browse Extensions"
 msgstr "Find udvidelser"
 
+#: includes/admin/helper/views/html-section-account.php:12
+msgid "Disconnect"
+msgstr "Afbryd forbindelse"
+
+#: includes/admin/helper/views/html-section-account.php:6
+msgid "Connected to WooCommerce.com"
+msgstr "Forbundet til WooCommerce.com"
+
+#: includes/admin/helper/views/html-oauth-start.php:18
+msgid "Connect"
+msgstr "Forbind"
+
 #: includes/admin/helper/views/html-main.php:85
 #: includes/admin/helper/views/html-main.php:88
 #: includes/admin/helper/views/html-main.php:95
@@ -444,6 +456,10 @@ msgstr "Inaktiv"
 #: includes/admin/helper/views/html-main.php:70
 msgid "Upgrade"
 msgstr "Opgrader"
+
+#: includes/admin/helper/views/html-main.php:62
+msgid "Shared by %s"
+msgstr "Delt af %s"
 
 #: includes/admin/helper/views/html-main.php:44
 msgid "Expires on:"

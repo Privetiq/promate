@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - wp-super-cache - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-26 15:11:26+0000\n"
+"PO-Revision-Date: 2017-07-29 21:13:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,6 +14,10 @@ msgstr ""
 #: wp-cache.php:1161
 msgid "Note: if you use Cloudflare or other transparent front-end proxy service this test may fail.<ol><li> If you have Cloudflare minification enabled this plugin may detect differences in the pages and report an error.</li><li> Try using the development mode of Cloudflare to perform the test. You can disable development mode afterwards if the test succeeds.</li></ol>"
 msgstr "Заметка: Если вы используете Cloudflare или иной прозрачный проксирующий сервис, то этот тест может не пройти. <ol><li> Если у вас включена минификация на Cloudflare, то страницы будут разными и будет сообщено об ошибке.</li><li> Вы можете временно использовать режим разработчика на Cloudflare чтобы посмотреть успешен ли тест, затем режим разработчика можно отключить.</li></ol>"
+
+#: ossdl-cdn.php:168
+msgid "<strong style=\"color: red\">WARNING:</strong> Your siteurl and homeurl are different. The plugin is using %s as the homepage URL of your site but if that is wrong please use the filter \"ossdl_off_blog_url\" to fix it."
+msgstr "<strong style=\"color: red\">ПРЕДУПРЕЖДЕНИЕ:</strong>Ваши siteurl и homeurl не совпадают. Плагин использует %s как заглавный URL для вашего сайта, если это не верно - используйте фильтр \"ossdl_off_blog_url\" для исправления."
 
 #: wp-cache.php:2794
 msgid "Preload mode is enabled. Supercache files will never be expired."
@@ -70,6 +74,10 @@ msgstr "Текущие правила"
 #: wp-cache.php:1404
 msgid "Rewrite Rules"
 msgstr "Правила перезаписи URL"
+
+#: wp-cache.php:1389
+msgid "The plugin could not update %1$s.htaccess file: %2$s.<br /> The new rules go above the regular WordPress rules as shown in the code below:"
+msgstr "Плагин не может обновить файл %1$s.htaccess: %2$s.<br /> Новые правила должны быть написаны перед правилами WordPress как показано ниже:"
 
 #: wp-cache.php:1366
 msgid "When Expert cache delivery is enabled a file called <em>.htaccess</em> is modified. It should probably be in the same directory as your wp-config.php. This file has special rules that serve the cached files very quickly to visitors without ever executing PHP. The .htaccess file can be updated automatically, but if that fails, the rules will be displayed here and it can be edited by you. You will not need to update the rules unless a warning shows here."

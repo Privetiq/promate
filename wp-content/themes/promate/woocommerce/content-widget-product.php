@@ -39,7 +39,7 @@ if($product->is_type( 'simple' )){
             <div class="col-md-6 col-sm-7">
                 <div class="vm-product-wrapper-desc">
                     <h3 class="vm-product-name">
-                        <a href="<?php echo esc_url( get_permalink( $product->id ) ); ?>" title="<?php echo esc_attr( $product->get_title() ); ?>"><?php echo $product->get_title(); ?></a>
+                        <a href="<?php echo esc_url( get_permalink( $product->get_id() ) ); ?>" title="<?php echo esc_attr( $product->get_title() ); ?>"><?php echo $product->get_title(); ?></a>
                     </h3>					 
 					<div class="vm-product-media-price-widget">
 						<?php echo $product->get_price_html(); ?>

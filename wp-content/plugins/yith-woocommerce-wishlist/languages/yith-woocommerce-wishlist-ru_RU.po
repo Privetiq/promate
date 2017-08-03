@@ -208,7 +208,7 @@ msgstr "\"Добавить в корзину\" text"
 
 #: includes/class.yith-wcwl-admin-init.php:941
 msgid "Add to Cart"
-msgstr "Добавить в корзину"
+msgstr "Купить"
 
 #: includes/class.yith-wcwl-admin-init.php:946
 #, fuzzy
@@ -222,12 +222,12 @@ msgstr ""
 #: includes/class.yith-wcwl-admin-init.php:954
 #, fuzzy
 msgid "Show \"Add to Cart\" button"
-msgstr "\"Добавить в корзину\" button text"
+msgstr "\"Купить\" button text"
 
 #: includes/class.yith-wcwl-admin-init.php:955
 #, fuzzy
 msgid "Show \"Add to Cart\" button for each product in wishlist"
-msgstr "\"Добавить в корзину\" button background"
+msgstr "\"Купить\" button background"
 
 #: includes/class.yith-wcwl-admin-init.php:962
 #, fuzzy

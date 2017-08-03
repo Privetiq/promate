@@ -97,7 +97,7 @@ class WC_Pre_Orders_Manager {
 				continue;
 			}
 
-			$availability_timestamp_in_utc = (int) get_post_meta( $product->id, '_wc_pre_orders_availability_datetime', true );
+			$availability_timestamp_in_utc = (int) get_post_meta( $product->get_id(), '_wc_pre_orders_availability_datetime', true );
 
 			if ( ! $availability_timestamp_in_utc ) {
 				return;
@@ -112,7 +112,7 @@ class WC_Pre_Orders_Manager {
 				$orders_to_complete[] = $order;
 
 				// keep track of pre-order products to disable pre-orders on after completion
-				$products_to_disable[] = $product->id;
+				$products_to_disable[] = $product->get_id();
 			}
 		}
 
@@ -270,7 +270,7 @@ class WC_Pre_Orders_Manager {
 				item_meta.meta_value = '%s' AND
 				post_meta.meta_key = '_wc_pre_orders_is_pre_order' AND
 				post_meta.meta_value = '1'
-			", $product->id
+			", $product->get_id()
 			)
 		);
 
@@ -373,8 +373,8 @@ class WC_Pre_Orders_Manager {
 	 */
 	public static function get_users_change_status_link( $new_status, $order ) {
 
-		$action_link = add_query_arg( array( 'order_id' => $order->id, 'status' => $new_status ) );
-		$action_link = wp_nonce_url( $action_link, $order->id );
+		$action_link = add_query_arg( array( 'order_id' => $order->get_id(), 'status' => $new_status ) );
+		$action_link = wp_nonce_url( $action_link, $order->get_id() );
 
 		return apply_filters( 'wc_pre_orders_users_action_link', $action_link, $order, $new_status );
 	}
@@ -434,7 +434,7 @@ class WC_Pre_Orders_Manager {
 
 		// set email args
 		$args = array(
-			'order_id'      => $order->id,
+			'order_id'      => $order->get_id(),
 			'customer_note' => $message,
 		);
 
@@ -511,7 +511,7 @@ class WC_Pre_Orders_Manager {
 		}
 
 		// set new availability date for product
-		update_post_meta( $product->id, '_wc_pre_orders_availability_datetime', $timestamp );
+		update_post_meta( $product->get_id(), '_wc_pre_orders_availability_datetime', $timestamp );
 
 		// get associated orders
 		$orders = self::get_all_pre_orders_by_product( $product );
@@ -584,7 +584,7 @@ class WC_Pre_Orders_Manager {
 			$product = WC_Pre_Orders_Order::get_pre_order_product( $order );
 
 			// update order status to completed or processing - based on same process from WC_Order::payment_complete()
-			if ( ( $product->is_downloadable() && $product->is_virtual() ) || ! apply_filters( 'woocommerce_order_item_needs_processing', true, $product, $order->id ) ) {
+			if ( ( $product->is_downloadable() && $product->is_virtual() ) || ! apply_filters( 'woocommerce_order_item_needs_processing', true, $product, $order->get_id() ) ) {
 				$order->update_status( 'completed' );
 			} else {
 				$order->update_status( 'processing' );

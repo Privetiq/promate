@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-19 17:26:22+0000\n"
+"PO-Revision-Date: 2017-08-02 12:37:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8141,7 +8141,7 @@ msgstr "Αν χρειάζεται να αποκτήσετε πρόσβαση σ�
 #: includes/admin/class-wc-admin-help.php:230
 #: includes/admin/class-wc-admin-help.php:232
 msgid "Setup wizard"
-msgstr "Μάγος εγκατάστασης"
+msgstr "Βοηθός εγκατάστασης"
 
 #: includes/admin/class-wc-admin-addons.php:132
 msgid "View more Storefront child themes"
@@ -12360,7 +12360,7 @@ msgstr "Παράλειψη Εγκατάστασης"
 
 #: includes/admin/views/html-notice-install.php:13
 msgid "Run the Setup Wizard"
-msgstr "Εκτέλεση του Μάγου Εγκατάστασης"
+msgstr "Τρέξτε τον βοηθό εγκατάστασης"
 
 #: includes/admin/views/html-notice-install.php:12
 msgid "<strong>Welcome to WooCommerce</strong> &#8211; You&lsquo;re almost ready to start selling :)"

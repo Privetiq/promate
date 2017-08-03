@@ -48,7 +48,7 @@ if ( !function_exists( 'yit_get_prop' ) ) {
                 $getter = 'get_user_meta';
                 !$object instanceof WC_Customer && $getter = 'get_post_meta';
 
-                $object_id = is_callable( array( $object, 'get_id' ) ) ? $object->get_id() : $object->id;
+                $object_id = is_callable( array( $object, 'get_id' ) ) ? $object->get_id() : $object->get_id();
 
                 return $getter( $object_id, $key, true );
             }

@@ -190,7 +190,7 @@ body.showmenu .flexMenuToggle {
   height: 100%;
   -moz-transform: none;
   -webkit-transform: none;
-  -o-transform: none);
+  -o-transform: none;
   -ms-transform: none;
   transform: none;
 }

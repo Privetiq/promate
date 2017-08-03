@@ -116,7 +116,7 @@ msgstr "Цена"
 
 #: includes/class.yith-woocompare-helper.php:48
 msgid "Add to cart"
-msgstr "Добавить в корзину"
+msgstr "Купить"
 
 #: includes/class.yith-woocompare-helper.php:49
 msgid "Description"
